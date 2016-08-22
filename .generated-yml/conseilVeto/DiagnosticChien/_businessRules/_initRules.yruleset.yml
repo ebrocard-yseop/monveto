@@ -1,0 +1,180 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 2, "fc19e915-d609-46ac-8ab6-bce8e7eb552e")
+conseilVeto:DiagnosticChien:_businessRules:_initRules()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 5, "fc19e915-d609-46ac-8ab6-bce8e7eb552e")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 1, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,1]")
+--> action {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 2, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,2]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 3, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,3]")
+	//Permet de positionner la langue par défaut
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 4, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,4]")
+	positionneLangueParDefaut();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 5, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,5]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 6, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,6]")
+	//Positionne les guillemets par défaut
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 7, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,7]")
+	TAGS_PARAM_CONTEXT.defaultQuote = _DOUBLE_QUOTE_EN;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 8, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,8]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 9, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,9]")
+	uiSuivant.textualContent.title = "Suivant >";
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 10, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,10]")
+	if(getDonneesGenerales().language == LANG_en){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 11, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,11]")
+		//menusEN();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 12, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,12]")
+		uiSuivant.textualContent.title = "Next >";
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 13, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,13]")
+	}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 14, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,14]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 15, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,15]")
+	//Remplissage de la liste des questions
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 16, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,16]")
+	//remplirListeQR();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 17, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,17]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 18, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,18]")
+	//Maj auto du champ gatheringStore
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 19, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,19]")
+	majGatheringStore();	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 20, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,20]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 21, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,21]")
+	//Maj de l'identifiant de la consultation
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 22, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,22]")
+	if(cu.idConsultation == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 23, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,23]")
+		cu.idConsultation = getDonneesGenerales().idConsultation;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 24, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,24]")
+	}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 25, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,25]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 26, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,26]")
+	//Maj de la 1ère question avec celle de Vet-Online
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 27, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,27]")
+    if (cu.questionUnDeterminationSA == null) {   
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 28, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,28]")
+        cu.questionUnDeterminationSA = getDonneesGenerales().premiereQuestionVetOnline;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 29, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,29]")
+    }	 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 30, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,30]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 31, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,31]")
+	//associerDiagnosticsAuxGranules();	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 32, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,32]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 33, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,33]")
+	//Permet d'éviter les 3 premières questions
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 34, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,34]")
+	/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 35, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,35]")
+	cu.questionUnDeterminationSA =UN_SYNONYM_44_3;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 36, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,36]")
+	cu.questionDeuxDeterminationSA =D_UN_PROBL_54_5;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 37, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,37]")
+	cu.questionTroisDeterminationSA = VotreChienBoudeSaGamelle;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 38, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,38]")
+	*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 39, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,39]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 40, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,40]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 41, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,41]")
+	//Passage des noms des chiens et chats en Xxxxxxxxxx
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 42, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,42]")
+	if(getAnimal().nomAnimal != null){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 43, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,43]")
+		getAnimal().nomAnimal = premiereLettreEnMajuscule(getAnimal().nomAnimal.toString());
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 44, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,44]")
+	}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 45, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,45]")
+	if(cu.nomDuChat != null){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 46, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,46]")
+		cu.nomDuChat = premiereLettreEnMajuscule(cu.nomDuChat);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 47, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,47]")
+	}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 48, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,48]")
+	if(cu.nomDuChienQueVousAvez != null){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 49, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,49]")
+		cu.nomDuChienQueVousAvez = premiereLettreEnMajuscule(cu.nomDuChienQueVousAvez);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 50, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,50]")
+	}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 51, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,51]")
+	if(cu.nomDuChienQueVousAllezAccueillir != null){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 52, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,52]")
+		cu.nomDuChienQueVousAllezAccueillir = premiereLettreEnMajuscule(cu.nomDuChienQueVousAllezAccueillir);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 53, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,53]")
+	}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 54, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,54]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 55, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,55]")
+	//majTextesItemsReponseUnique()
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 56, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,56]")
+	majTextesItemsReponseUnique();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 57, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,57]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 58, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,58]")
+	if(cu.classeDAge == null){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 59, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,59]")
+		cu.classeDAge = getAnimal().classeAgeChien;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 60, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,60]")
+	}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 61, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,61]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 62, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,62]")
+	//rajout de la phrase d'introduction, seulement pour la 1ère questions		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 63, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,63]")
+	if(cu.questionTroisDeterminationSA != null && getDonneesGenerales().afficheIntroQuestions != false){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 64, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,64]")
+		getDonneesGenerales().afficheIntroQuestions = false;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 65, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,65]")
+		cu.affichageIntroductionQuestions = true;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 66, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,66]")
+	}else{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 67, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,67]")
+		cu.affichageIntroductionQuestions = false;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 68, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,68]")
+	}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 69, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,69]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 70, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,70]")
+	fireRuleset();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 71, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,71]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules.yruleset", 72, "fc19e915-d609-46ac-8ab6-bce8e7eb552e[relative-line-number,72]")
+}ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\reinitialiserReponses.yrule", 2, "24bda8b8-feaf-4300-911d-5ecf3505342a")
+      Rule conseilVeto:DiagnosticChien:_businessRules:_initRules:reinitialiserReponses
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\reinitialiserReponses.yrule", 1, "24bda8b8-feaf-4300-911d-5ecf3505342a[relative-line-number,1]")
+currentUsecase.valideReponses == VR_RECOMMENCER) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\reinitialiserReponses.yrule", 1, "24bda8b8-feaf-4300-911d-5ecf3505342a[relative-line-number,1]")
+//Réinitilisation des Réponses
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\reinitialiserReponses.yrule", 2, "24bda8b8-feaf-4300-911d-5ecf3505342a[relative-line-number,2]")
+reinitilisationReponses();
+         --> ifDsl "la validation des réponses = Je préfère recommencer le questionnaire pour modifier mes réponses"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\reinitialiserReponses.yrule", 55, "4c1bdf8a-8a53-49f4-ae87-9c3936ef8cb4[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\ficheConseilAppelDevientPossible.yrule", 2, "2da2d562-d8ac-4976-abe5-f5f1b4281ae4")
+      Rule conseilVeto:DiagnosticChien:_businessRules:_initRules:ficheConseilAppelDevientPossible
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\ficheConseilAppelDevientPossible.yrule", 1, "2da2d562-d8ac-4976-abe5-f5f1b4281ae4[relative-line-number,1]")
+?fc.estUneFicheConseil == ?x,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\ficheConseilAppelDevientPossible.yrule", 2, "2da2d562-d8ac-4976-abe5-f5f1b4281ae4[relative-line-number,2]")
+?fc == cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\ficheConseilAppelDevientPossible.yrule", 1, "2da2d562-d8ac-4976-abe5-f5f1b4281ae4[relative-line-number,1]")
+?fc.estPossible = true
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\_initRules\\ficheConseilAppelDevientPossible.yrule", 25, "95ecd4ea-9df7-4c3e-bb15-17edac481131[property-field,active,property-type,YML_PROPERTY]")
+         --> active false
+         ;
+     }
+   ;
+@pragma usecase()
+

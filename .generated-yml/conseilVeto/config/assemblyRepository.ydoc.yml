@@ -1,0 +1,109 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+TextSequence conseilVeto:config:assemblyRepository
+   --> assembly -> TextListAssembly
+      --> mode _COMPOSE_SENTENCES
+      --> sentenceAssembly -> TextListSentenceAssembly
+         --> separator PARAGRAPH_BREAK
+         ;
+      --> stringAssembly -> TextListStringAssembly
+         ;
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      ;
+   --> components  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\assemblyRepository.ydoc", 127, "ebda531f-cd0b-45dd-a36c-a085a8389829")
+      // puces
+      -> TextSequence conseilVeto:config:assemblyRepository:puces
+         --> assembly -> TextListAssembly
+            --> mode _COMPOSE_BULLETS
+            --> bulletAssembly -> TextListBulletAssembly
+               --> startNewSentenceAfterBullet _ALWAYS
+               --> lineDefaultSuffix \(;
+\)
+               --> lastLineSuffix \(.
+\)
+               --> listStart  {
+                  _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+                 }
+               
+               --> listEnd  {
+                  _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+                 }
+               
+               --> usingThreshold 1
+               ;
+            ;
+         --> components  {
+            @pragma source("", 0, "e2172e82-5d42-498b-b8e0-6273b46b5cf6[component-id,textGranule]")
+            -> MultilingualText conseilVeto:config:assemblyRepository:puces:_
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\assemblyRepository.ydoc", 185, "dec0eeaa-dcce-4f89-944d-de3197e89f94[property-field,style,property-type,YML_PROPERTY]")
+               --> style stylePuces
+               ;
+           }
+         
+         ;,@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\assemblyRepository.ydoc", 192, "7bfce49d-4c02-47cf-9e33-d78e3042a266")
+      // AssemblyVide
+      -> TextSequence conseilVeto:config:assemblyRepository:AssemblyVide
+         --> assembly -> TextListAssembly
+            --> mode _COMPOSE_SENTENCES
+            --> sentenceAssembly -> TextListSentenceAssembly
+               ;
+            --> stringAssembly -> TextListStringAssembly
+               ;
+            --> listStart  {
+               _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+              }
+            
+            --> listEnd  {
+               _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+              }
+            
+            ;
+         --> components  {
+            @pragma source("", 0, "bf225fd9-0d67-43f5-8af7-fd45d393b76e[component-id,textGranule]")
+            -> MultilingualText conseilVeto:config:assemblyRepository:AssemblyVide:_
+               ;
+           }
+         
+         ;,@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\assemblyRepository.ydoc", 343, "2e9dbddf-ee0d-4249-8961-d637d59df570")
+      // AssemblySansMajuscules
+      -> TextSequence conseilVeto:config:assemblyRepository:AssemblySansMajuscules
+         --> assembly -> TextListAssembly
+            --> mode _COMPOSE_WORDS
+            --> stringAssembly -> TextListStringAssembly
+               --> separator  {
+                  \(\),_LAST,\(\)
+                 }
+               
+               ;
+            --> listStart  {
+               _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+              }
+            
+            --> listEnd  {
+               _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+              }
+            
+            ;
+         --> components  {
+            @pragma source("", 0, "bc9f645a-e13f-4d1f-ae74-5fb6deeab07b[component-id,textGranule]")
+            -> MultilingualText conseilVeto:config:assemblyRepository:AssemblySansMajuscules:_
+               ;
+           }
+         
+         ;
+     }
+   
+   --> dsl ""
+   ;
+@pragma usecase()
+

@@ -1,0 +1,144 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes.yruleset", 2, "babc7c5a-5346-4936-bea5-29943ed41064")
+conseilVeto:DiagnosticChien:_businessRules:60_reglesMajRelationsEtSymptomes()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 2, "6e35546d-1c74-431b-8db6-3656622dae02")
+      Rule conseilVeto:DiagnosticChien:_businessRules:60_reglesMajRelationsEtSymptomes:majScoreRelationsOui
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 1, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,1]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 2, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,2]")
+?r._linkedObject == ?objet,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 3, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,3]")
+?r._linkedAttribute == ?attribut,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 4, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,4]")
+?monObject.?attribut == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 1, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 2, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,2]")
+?r.score = ?r.scoreOui
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 3, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,3]")
+?r.symptome.constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 4, "6e35546d-1c74-431b-8db6-3656622dae02[relative-line-number,4]")
+}
+         --> ifDsl "soit une relation liée à un diagnostic and soit une relation qui a objet lié non nul and soit une relation qui a attribut lié non nul and l'attribut est à Oui"
+         --> thenDsl "le score de la relation devient le Score Oui then le symptome de la relation devient constaté chez l'animal"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 74, "1264de84-e6c1-41b2-a893-17a50deb6a30[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce false
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsOui.yrule", 75, "1264de84-e6c1-41b2-a893-17a50deb6a30[property-field,active,property-type,YML_PROPERTY]")
+         --> active false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 2, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9")
+      Rule conseilVeto:DiagnosticChien:_businessRules:60_reglesMajRelationsEtSymptomes:majScoreRelationsNon
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 1, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,1]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 2, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,2]")
+?r._linkedObject == ?objet,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 3, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,3]")
+?r._linkedAttribute == ?attribut,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 4, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,4]")
+?monObject.?attribut == NON) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 1, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 2, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,2]")
+?r.score = ?r.scoreNon
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 3, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,3]")
+?r.symptome.constateChezLAnimal = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 4, "65556a81-f47f-41cc-a3c7-a5ffc62ff6a9[relative-line-number,4]")
+}
+         --> ifDsl "soit une relation liée à un diagnostic and soit une relation qui a objet lié non nul and soit une relation qui a attribut lié non nul and l'attribut est à Non"
+         --> thenDsl "le score de la relation devient le Score Non then le symptome de la relation devient non constaté chez l'animal"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 74, "d7d91af5-fc09-40e8-9788-50ce6d5dcc55[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNon.yrule", 75, "d7d91af5-fc09-40e8-9788-50ce6d5dcc55[property-field,active,property-type,YML_PROPERTY]")
+         --> active false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 2, "b3f977f6-194b-448b-b4ff-6528440ca037")
+      Rule conseilVeto:DiagnosticChien:_businessRules:60_reglesMajRelationsEtSymptomes:majScoreRelationsNSP
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 1, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,1]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 2, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,2]")
+?r._linkedObject == ?objet,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 3, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,3]")
+?r._linkedAttribute == ?attribut,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 4, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,4]")
+?monObject.?attribut == NSP) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 1, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 2, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,2]")
+?r.score = ?r.scoreNSP
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 3, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,3]")
+?r.symptome.constateChezLAnimal = unknown
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 4, "b3f977f6-194b-448b-b4ff-6528440ca037[relative-line-number,4]")
+}
+         --> ifDsl "soit une relation liée à un diagnostic and soit une relation qui a objet lié non nul and soit une relation qui a attribut lié non nul and l'attribut est à NSP"
+         --> thenDsl "le score de la relation devient le Score NSP then le champ \"constaté chez l'animal\" du symptome de la relation devient Unknown"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 74, "7fd33ae7-2e2b-4f21-a6e8-1cc755a6434c[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsNSP.yrule", 75, "7fd33ae7-2e2b-4f21-a6e8-1cc755a6434c[property-field,active,property-type,YML_PROPERTY]")
+         --> active false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 2, "7d98c496-2d9d-48f4-ae60-b0155dc2ddd0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:60_reglesMajRelationsEtSymptomes:reglesMajReponseUnique
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 1, "7d98c496-2d9d-48f4-ae60-b0155dc2ddd0[relative-line-number,1]")
+?r.diagnosticPossibleNonElimine == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 2, "7d98c496-2d9d-48f4-ae60-b0155dc2ddd0[relative-line-number,2]")
+?r.scoreOui == null) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 1, "7d98c496-2d9d-48f4-ae60-b0155dc2ddd0[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 2, "7d98c496-2d9d-48f4-ae60-b0155dc2ddd0[relative-line-number,2]")
+?r.score = ?r.getScoreRUP()
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 3, "7d98c496-2d9d-48f4-ae60-b0155dc2ddd0[relative-line-number,3]")
+}
+         --> thenDsl "le score de la relation est mis à jour avec la réponse unique"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\reglesMajReponseUnique.yrule", 43, "7d23b049-4c03-4203-ab66-18d78eeb93ef[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 2, "6e35546d-1c74-431b-8db6-3656622dae88")
+      Rule conseilVeto:DiagnosticChien:_businessRules:60_reglesMajRelationsEtSymptomes:majScoreRelationsAll
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 1, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,1]")
+?r.diagnosticPossibleNonElimine == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 2, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,2]")
+?r._linkedAttribute == ?attribut) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 1, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,1]")
+switch(currentUsecase.?attribut){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 2, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,2]")
+	case OUI :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 3, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,3]")
+		{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 4, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,4]")
+			?r.score = ?r.scoreOui;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 5, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,5]")
+			?r.symptome.constateChezLAnimal = true;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 6, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,6]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 7, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,7]")
+	case NON :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 8, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,8]")
+		{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 9, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,9]")
+			?r.score = ?r.scoreNon;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 10, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,10]")
+			?r.symptome.constateChezLAnimal = false;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 11, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,11]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 12, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,12]")
+	case NSP :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 13, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,13]")
+		?r.score = ?r.scoreNSP;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 14, "6e35546d-1c74-431b-8db6-3656622dae88[relative-line-number,14]")
+}
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\60_reglesMajRelationsEtSymptomes\\majScoreRelationsAll.yrule", 38, "1264de84-e6c1-41b2-a893-17a50deb6a30[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce false
+         ;
+     }
+   ;
+@pragma usecase()
+

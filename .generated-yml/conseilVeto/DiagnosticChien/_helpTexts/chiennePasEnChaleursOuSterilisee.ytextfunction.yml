@@ -1,0 +1,54 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 2, "69adabfd-1659-487e-831d-7bae14697000")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:chiennePasEnChaleursOuSterilisee(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 114, "69adabfd-1659-487e-831d-7bae14697000[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 1, "69adabfd-1659-487e-831d-7bae14697000[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "45c22500-77a4-4769-8ba3-b081082d8b59[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:chiennePasEnChaleursOuSterilisee_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:chiennePasEnChaleursOuSterilisee_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 55, "45c22500-77a4-4769-8ba3-b081082d8b59|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 1, "45c22500-77a4-4769-8ba3-b081082d8b59|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "45c22500-77a4-4769-8ba3-b081082d8b59[relative-line-number,1]")
+__dsl( currentUsecase.sterilisationChien == OUI, "le chien est stérilisé = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 2, "45c22500-77a4-4769-8ba3-b081082d8b59|fr[relative-line-number,2,component-id,textGranule]")
+	est stérilisée
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 3, "45c22500-77a4-4769-8ba3-b081082d8b59|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 4, "45c22500-77a4-4769-8ba3-b081082d8b59|fr[relative-line-number,4,component-id,textGranule]")
+	n'est pas en chaleurs
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 5, "45c22500-77a4-4769-8ba3-b081082d8b59|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:chiennePasEnChaleursOuSterilisee_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 107, "45c22500-77a4-4769-8ba3-b081082d8b59|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 1, "45c22500-77a4-4769-8ba3-b081082d8b59|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "45c22500-77a4-4769-8ba3-b081082d8b59[relative-line-number,1]")
+__dsl( currentUsecase.sterilisationChien == OUI, "le chien est stérilisé = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 2, "45c22500-77a4-4769-8ba3-b081082d8b59|en[relative-line-number,2,component-id,textGranule]")
+	has been spayed
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 3, "45c22500-77a4-4769-8ba3-b081082d8b59|en[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 4, "45c22500-77a4-4769-8ba3-b081082d8b59|en[relative-line-number,4,component-id,textGranule]")
+	is not in heat
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 5, "45c22500-77a4-4769-8ba3-b081082d8b59|en[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiennePasEnChaleursOuSterilisee.ytextfunction", 6, "45c22500-77a4-4769-8ba3-b081082d8b59|en[relative-line-number,6,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

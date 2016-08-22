@@ -1,0 +1,77 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 2, "dcb9afda-363f-498d-82ea-209c0498f1e3")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Puberte(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 50, "dcb9afda-363f-498d-82ea-209c0498f1e3[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 1, "dcb9afda-363f-498d-82ea-209c0498f1e3[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "cc872498-1619-49bb-a21b-d28d54a5a947[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Puberte_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Puberte_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 24, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 1, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 2, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,2,component-id,textGranule]")
+la puberté des chiens de petites races a lieu vers l'âge de 6 mois. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 3, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,3,component-id,textGranule]")
+on considère que celle des chiens de grande race
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 4, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,4,component-id,textGranule]")
+est généralement plus tardive (vers l'âge de 8 à 12 mois,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 5, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,5,component-id,textGranule]")
+voire 18 mois pour les races géantes)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 6, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,6,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 7, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,7,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 8, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,8,component-id,textGranule]")
+la puberté se caractérise principalement
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 9, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,9,component-id,textGranule]")
+chez la femelle par l'arrivée des premières chaleurs
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 10, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,10,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 11, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,11,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 12, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,12,component-id,textGranule]")
+chez le mâle, l'un des principaux signes facilement détectable
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 13, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,13,component-id,textGranule]")
+est que le chien commence à lever la patte
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 14, "cc872498-1619-49bb-a21b-d28d54a5a947|fr[relative-line-number,14,component-id,textGranule]")
+.
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Puberte_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 43, "cc872498-1619-49bb-a21b-d28d54a5a947|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 1, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 2, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,2,component-id,textGranule]")
+puberty in small breed dogs takes place 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 3, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,3,component-id,textGranule]")
+when they are around 6 months old.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 4, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,4,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 5, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,5,component-id,textGranule]")
+it is generally later in large breeds (around the age of 8 to 12 months, sometimes even
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 6, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,6,component-id,textGranule]")
+18 months for giant breeds)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 7, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,7,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 8, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,8,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 9, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,9,component-id,textGranule]")
+puberty in females starts with their first estrus (heat) cycle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 10, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,10,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 11, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,11,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 12, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,12,component-id,textGranule]")
+in males, one of the main signs of reaching puberty is that they start cocking their legs
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Puberte.ytextfunction", 13, "cc872498-1619-49bb-a21b-d28d54a5a947|en[relative-line-number,13,component-id,textGranule]")
+.'
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,58 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 2, "ee0f56a2-f465-4282-afd8-b0e62b3d0355")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:lesHypothesesLesPlusProbablesConcernantVotreChien(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 40, "ee0f56a2-f465-4282-afd8-b0e62b3d0355[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 1, "ee0f56a2-f465-4282-afd8-b0e62b3d0355[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "511e647f-1591-4ac1-b3ad-1cc39855a17a[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:lesHypothesesLesPlusProbablesConcernantVotreChien_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lesHypothesesLesPlusProbablesConcernantVotreChien_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 18, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 1, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,1,component-id,textGranule]")
+\beginSynonym(_RANDOM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 2, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 3, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,3,component-id,textGranule]")
+		\simpleXmlTag("div" , \( Les hypothèses les plus probables concernant \value(getAnimal().nomAnimal): \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 4, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,4,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 5, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,5,component-id,textGranule]")
+		\simpleXmlTag("div" , \( Les hypothèses les plus vraisemblables concernant \value(getAnimal().nomAnimal): \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 6, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,6,component-id,textGranule]")
+\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 7, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 8, "511e647f-1591-4ac1-b3ad-1cc39855a17a|fr[relative-line-number,8,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lesHypothesesLesPlusProbablesConcernantVotreChien_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 33, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 1, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,1,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 2, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,2,component-id,textGranule]")
+\beginSynonym(_RANDOM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 3, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,3,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 4, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,4,component-id,textGranule]")
+		\simpleXmlTag("div" , \( The most likely explanations for \xxx(getAnimal().nomAnimal, "problem") \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 5, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,5,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 6, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,6,component-id,textGranule]")
+		\simpleXmlTag("div" , \( The most likely explanations for \xxx(getAnimal().nomAnimal, "condition") \), [ "class" , "titre_monveto2"] )	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 7, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,7,component-id,textGranule]")
+\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 8, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,8,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesHypothesesLesPlusProbablesConcernantVotreChien.ytextfunction", 9, "511e647f-1591-4ac1-b3ad-1cc39855a17a|en[relative-line-number,9,component-id,textGranule]")
+\simpleXmlTag("div" , \( The most likely explanations for \value("problem", _OWNER: getAnimal().nomAnimal ) \), [ "class" , "titre_monveto2"] )	
+\);
+      ;
+   ;
+@pragma usecase()
+

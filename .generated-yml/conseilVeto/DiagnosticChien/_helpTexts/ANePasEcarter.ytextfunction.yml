@@ -1,0 +1,126 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 2, "8f09744b-9528-489c-aaa7-8be29edb1f4e")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:ANePasEcarter(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 234, "8f09744b-9528-489c-aaa7-8be29edb1f4e[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 1, "8f09744b-9528-489c-aaa7-8be29edb1f4e[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "6965ec93-b04e-4656-aa4f-fa7a988261a5[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:ANePasEcarter_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:ANePasEcarter_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 117, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 1, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "6965ec93-b04e-4656-aa4f-fa7a988261a5[relative-line-number,1]")
+__dsl( findDiagnostic("Grossesse").estPossible == true && findDiagnostic("Grossesse").diagnosticElimine != true, "le diagnostic \"Grossesse\" est un diagnostic possible et non éliminé" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 2, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,2,component-id,textGranule]")
+	Les éléments dont nous disposons ne nous permettent pas d'avoir la certitude
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 3, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,3,component-id,textGranule]")
+	 que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 4, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,4,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 5, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,5,component-id,textGranule]")
+	ne soit pas bel et bien gestante
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 6, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,6,component-id,textGranule]")
+	. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 7, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,7,component-id,textGranule]")
+	peut\-être a\-t\-elle été récemment en contact avec un mâle non castré 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 8, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,8,component-id,textGranule]")
+	(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 9, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,9,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "6965ec93-b04e-4656-aa4f-fa7a988261a5[relative-line-number,1]")
+__dsl( (cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("se comporte comme si elle était gestante (ou allaitante), alors qu'elle n'a pas eu de contact avec un mâle")) || (cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("ses mamelles produisent du lait, alors qu'elle n'est pas gestante")), "la réponse à la question 3 est  \"se comporte comme si elle était gestante (ou allaitante), alors qu'elle n'a pas eu de contact avec un mâle\" or la réponse à la question 3 est  \"ses mamelles produisent du lait, alors qu'elle n'est pas gestante\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 10, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,10,component-id,textGranule]")
+	saillie involontaire au cours d'une promenade, d'une fugue\...
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 11, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,11,component-id,textGranule]")
+	\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 12, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,12,component-id,textGranule]")
+		au cours d'une fugue par exemple, ou qui se serait introduit dans votre jardin\...
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 13, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,13,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 14, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,14,component-id,textGranule]")
+	) ?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 15, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,15,component-id,textGranule]")
+	pour plus de détails sur la gestation chez la chienne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 16, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,16,component-id,textGranule]")
+	(déroulement, diagnostic, soins\...),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 17, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,17,component-id,textGranule]")
+	n'hésitez pas à consulter à nouveau Vet Online 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 18, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,18,component-id,textGranule]")
+	. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 19, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,19,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 20, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,20,component-id,textGranule]")
+	Bien que cela soit moins probable, nous ne pouvons pas écarter à coup sûr
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 21, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,21,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 22, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,22,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 23, "6965ec93-b04e-4656-aa4f-fa7a988261a5|fr[relative-line-number,23,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:ANePasEcarter_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 227, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 1, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "6965ec93-b04e-4656-aa4f-fa7a988261a5[relative-line-number,1]")
+__dsl( findDiagnostic("Grossesse").estPossible == true && findDiagnostic("Grossesse").diagnosticElimine != true, "le diagnostic \"Grossesse\" est un diagnostic possible et non éliminé" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 2, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,2,component-id,textGranule]")
+	we cannot be sure, from the information we have,  that
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 3, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,3,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 4, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,4,component-id,textGranule]")
+	is not pregnant
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 5, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,5,component-id,textGranule]")
+	. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 6, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,6,component-id,textGranule]")
+	she has perhaps recently been in contact with a male dog
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 7, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,7,component-id,textGranule]")
+	(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 8, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,8,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "6965ec93-b04e-4656-aa4f-fa7a988261a5[relative-line-number,1]")
+__dsl( (cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("se comporte comme si elle était gestante (ou allaitante), alors qu'elle n'a pas eu de contact avec un mâle")) || (cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("ses mamelles produisent du lait, alors qu'elle n'est pas gestante")), "la réponse à la question 3 est  \"se comporte comme si elle était gestante (ou allaitante), alors qu'elle n'a pas eu de contact avec un mâle\" or la réponse à la question 3 est  \"ses mamelles produisent du lait, alors qu'elle n'est pas gestante\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 9, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,9,component-id,textGranule]")
+	unintended mating while out on a walk or if she ran away, etc\.)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 10, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,10,component-id,textGranule]")
+	\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 11, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,11,component-id,textGranule]")
+		while out of your sight
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 12, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,12,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 13, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,13,component-id,textGranule]")
+	) ?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 14, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,14,component-id,textGranule]")
+	for more information on pregnancy in dogs (diagnosis, care, etc\.), do not hesitate to consult Vet Online again.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 15, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,15,component-id,textGranule]")
+	. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 16, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,16,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 17, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,17,component-id,textGranule]")
+	Although less likely, this may also be a case of
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 18, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,18,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 19, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,19,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ANePasEcarter.ytextfunction", 20, "6965ec93-b04e-4656-aa4f-fa7a988261a5|en[relative-line-number,20,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

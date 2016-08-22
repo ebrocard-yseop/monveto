@@ -1,0 +1,177 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 2, "1c92e107-b39f-4ee5-8e1e-5a9c15a747c2")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Activite(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 151, "1c92e107-b39f-4ee5-8e1e-5a9c15a747c2[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 1, "1c92e107-b39f-4ee5-8e1e-5a9c15a747c2[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "7261ee32-b89a-429f-85ef-66dc1ab9a924[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Activite_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Activite_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 76, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 1, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,1,component-id,textGranule]")
+on considérera 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 2, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,2,component-id,textGranule]")
+\value(getAnimal().nomAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 3, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,3,component-id,textGranule]")
+comme : 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 4, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,4,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 5, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,5,component-id,textGranule]")
+- \adjective("actif", _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 6, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,6,component-id,textGranule]")
+ si 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 7, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,7,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 8, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,8,component-id,textGranule]")
+fait plus de 2 heures d'activité par jour
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 9, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,9,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 10, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,10,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 11, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,11,component-id,textGranule]")
+- sédentaire
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 12, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,12,component-id,textGranule]")
+ si 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 13, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,13,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 14, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,14,component-id,textGranule]")
+fait moins de 30 minutes d'activité par jour
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 15, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,15,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 16, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,16,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 17, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,17,component-id,textGranule]")
+\beginList(
+// SrcGenerator : 22/08/16 14:32
+-> TextListAssembly
+   --> mode _COMPOSE_BULLETS
+   --> bulletAssembly -> TextListBulletAssembly
+      --> startNewSentenceAfterBullet _NEVER
+      --> lineDefaultSuffix \(\)
+      --> lastLineSuffix \(\)
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> usingThreshold 1
+      ;
+   ;
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 18, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,18,component-id,textGranule]")
+	\nextItem 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 19, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,19,component-id,textGranule]")
+		\adjective("actif", _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 20, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,20,component-id,textGranule]")
+	 si 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 21, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,21,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 22, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,22,component-id,textGranule]")
+	fait plus de 2 heures d'activité par jour
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 23, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,23,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 24, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,24,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 25, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,25,component-id,textGranule]")
+		sédentaire
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 26, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,26,component-id,textGranule]")
+		 si 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 27, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,27,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 28, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,28,component-id,textGranule]")
+		fait moins de 30 minutes d'activité par jour
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 29, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,29,component-id,textGranule]")
+		.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 30, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,30,component-id,textGranule]")
+\endList
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 31, "7261ee32-b89a-429f-85ef-66dc1ab9a924|fr[relative-line-number,31,component-id,textGranule]")
+*/
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Activite_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 144, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 1, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,1,component-id,textGranule]")
+ 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 2, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,2,component-id,textGranule]")
+\value(getAnimal().nomAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 3, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,3,component-id,textGranule]")
+would be considered 'active'  	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 4, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,4,component-id,textGranule]")
+if
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 5, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,5,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 6, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,6,component-id,textGranule]")
+does more than 2 hours of daily physical activity
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 7, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,7,component-id,textGranule]")
+and
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 8, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,8,component-id,textGranule]")
+'sedentary'  
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 9, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,9,component-id,textGranule]")
+if
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 10, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,10,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 11, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,11,component-id,textGranule]")
+does less than 30 minutes of daily physical activity
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 12, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,12,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 13, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,13,component-id,textGranule]")
+/*\beginList(
+// SrcGenerator : 22/08/16 14:32
+-> TextListAssembly
+   --> mode _COMPOSE_BULLETS
+   --> bulletAssembly -> TextListBulletAssembly
+      --> startNewSentenceAfterBullet _NEVER
+      --> lineDefaultSuffix \(\)
+      --> lastLineSuffix \(\)
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> usingThreshold 1
+      ;
+   ;
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 14, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,14,component-id,textGranule]")
+	\nextItem 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 15, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,15,component-id,textGranule]")
+		'active'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 16, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,16,component-id,textGranule]")
+	if
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 17, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,17,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 18, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,18,component-id,textGranule]")
+	does more than 2 hours of daily physical activity
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 19, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,19,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 20, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,20,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 21, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,21,component-id,textGranule]")
+		'sedentary', 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 22, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,22,component-id,textGranule]")
+		if
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 23, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,23,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 24, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,24,component-id,textGranule]")
+		does less than 30 minutes of daily physical activity
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 25, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,25,component-id,textGranule]")
+		.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 26, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,26,component-id,textGranule]")
+\endList
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Activite.ytextfunction", 27, "7261ee32-b89a-429f-85ef-66dc1ab9a924|en[relative-line-number,27,component-id,textGranule]")
+*/
+\);
+      ;
+   ;
+@pragma usecase()
+

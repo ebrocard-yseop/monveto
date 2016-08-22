@@ -1,0 +1,284 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 2, "b368ae88-9038-4692-900f-30cd02f33120")
+conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 5, "b368ae88-9038-4692-900f-30cd02f33120")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 1, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,1]")
+--> action {	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 2, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,2]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 3, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,3]")
+	//Race du chien : Mise à jour des réponses aux questions avec les Valeurs d'input	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 4, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,4]")
+	if(getAnimal().raceChien.estRustique == true){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 5, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,5]")
+		cu.estRaceRustique = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 6, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,6]")
+	}else{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 7, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,7]")
+		if(getAnimal().raceChien.estRustique == false){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 8, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,8]")
+			cu.estRaceRustique = NON;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 9, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,9]")
+		}else{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 10, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,10]")
+			cu.estRaceRustique = NSP;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 11, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,11]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 12, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,12]")
+	}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 13, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,13]")
+	cu.estRaceDeChasse = getAnimal().raceChien.estChienChasse;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 14, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,14]")
+	cu.estRaceBrachycephale = getAnimal().raceChien.estBrachycephale;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 15, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,15]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 16, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,16]")
+	/*** Prédispositions ***/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 17, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,17]")
+	cu.racePredisposeeALaDysplasie = getAnimal().raceChien.racePredisposeeALaDysplasie;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 18, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,18]")
+	cu.racePredisposeeALaDysplasieDuCoude = getAnimal().raceChien.racePredisposeeALaDysplasieDuCoude;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 19, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,19]")
+	cu.racePredisposeeALaLuxationDeRotule = getAnimal().raceChien.racePredisposeeALaLuxationDeRotule;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 20, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,20]")
+	cu.racePredisposeeALEpilsepsie = getAnimal().raceChien.racePredisposeeALEpilsepsie;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 21, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,21]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 22, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,22]")
+	cu.racePredisposeeAuxFistulesAnales = getAnimal().raceChien.racePredisposeeAuxFistulesAnales;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 23, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,23]")
+	cu.racePredisposeeAuxHerniesDiscales = getAnimal().raceChien.racePredisposeeAuxHerniesDiscales;		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 24, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,24]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 25, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,25]")
+	cu.racePredisposeeALaSurdite = getAnimal().raceChien.racePredisposeeALaSurdite;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 26, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,26]")
+	cu.racePredisposeeALInsuffisanceCardiaque = getAnimal().raceChien.racePredisposeeALInsuffisanceCardiaque;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 27, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,27]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 28, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,28]")
+	cu.estRacePredisposeeAuxColites = getAnimal().raceChien.estRacePredisposeeAuxColites;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 29, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,29]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 30, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,30]")
+	logInfo("getAnimal().nom", getAnimal().nomAnimal);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 31, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,31]")
+	logInfo("getAnimal().raceChien", getAnimal().raceChien.extendedIdentifier);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 32, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,32]")
+	logInfo("getAnimal().raceChien.estRacePredisposeeAuxColites =", getAnimal().raceChien.estRacePredisposeeAuxColites);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 33, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,33]")
+	logInfo("getAnimal().raceChien.estRacePredisposeeALaSurdite =", getAnimal().raceChien.racePredisposeeALaSurdite);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 34, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,34]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 35, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,35]")
+	cu.tailleDeLaRace = getAnimal().raceChien.tailleChien
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 36, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,36]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 37, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,37]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 38, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,38]")
+	//********************** Debug ******************************
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 39, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,39]")
+	/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 40, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,40]")
+	if(cu.questionTroisDeterminationSA != null){	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 41, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,41]")
+		//logInfo("40_questionTroisDeterminationSA  ==>", cu.questionTroisDeterminationSA);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 42, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,42]")
+		//logInfo("40_VotreChienSeGratteLesOreilles ==>", VotreChienSeGratteLesOreilles.identifier);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 43, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,43]")
+		if(cu.questionTroisDeterminationSA == VotreChienSeGratteLesOreilles){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 44, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,44]")
+			//logInfo("40_c'est pareil");
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 45, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,45]")
+		}else{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 46, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,46]")
+			//logInfo("40_c'est PAS pareil");		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 47, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,47]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 48, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,48]")
+	}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 49, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,49]")
+	*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 50, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,50]")
+	fireRuleset();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 51, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,51]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput.yruleset", 52, "b368ae88-9038-4692-900f-30cd02f33120[relative-line-number,52]")
+}ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Inf8Mois.yrule", 2, "90a1782a-ebdf-435e-8a95-961d61737509")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienPhaseOrale_Inf8Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Inf8Mois.yrule", 1, "90a1782a-ebdf-435e-8a95-961d61737509[relative-line-number,1]")
+getAnimal().moisAnimal <= 8) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Inf8Mois.yrule", 1, "90a1782a-ebdf-435e-8a95-961d61737509[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Inf8Mois.yrule", 2, "90a1782a-ebdf-435e-8a95-961d61737509[relative-line-number,2]")
+findRelation("Age", "Phase orale chez le chiot").score = 100
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Inf8Mois.yrule", 3, "90a1782a-ebdf-435e-8a95-961d61737509[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois ? 8"
+         --> thenDsl "le score de la relation \"Age\" - \"Phase orale chez le chiot\" est mis à jour avec le score \"100\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Inf8Mois.yrule", 97, "3bf62915-2006-441d-9ca0-409c94233038[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Sup8Mois.yrule", 2, "30c3167e-d6c5-46a3-8b5c-db628fa755d4")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienPhaseOrale_Sup8Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Sup8Mois.yrule", 1, "30c3167e-d6c5-46a3-8b5c-db628fa755d4[relative-line-number,1]")
+getAnimal().moisAnimal > 8) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Sup8Mois.yrule", 1, "30c3167e-d6c5-46a3-8b5c-db628fa755d4[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Sup8Mois.yrule", 2, "30c3167e-d6c5-46a3-8b5c-db628fa755d4[relative-line-number,2]")
+findRelation("Age", "Phase orale chez le chiot").score = 0
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Sup8Mois.yrule", 3, "30c3167e-d6c5-46a3-8b5c-db628fa755d4[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois > 8"
+         --> thenDsl "le score de la relation \"Age\" - \"Phase orale chez le chiot\" est mis à jour avec le score \"0\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienPhaseOrale_Sup8Mois.yrule", 98, "df0de4c4-f8ea-469d-871c-30a2337ec848[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Inf2Ans.yrule", 2, "14cf2ac1-2f85-4c22-a4f9-384e664223bc")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienInsuffisancePancreatique_Inf2Ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Inf2Ans.yrule", 1, "14cf2ac1-2f85-4c22-a4f9-384e664223bc[relative-line-number,1]")
+getAnimal().ansAnimal <= 2) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Inf2Ans.yrule", 1, "14cf2ac1-2f85-4c22-a4f9-384e664223bc[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Inf2Ans.yrule", 2, "14cf2ac1-2f85-4c22-a4f9-384e664223bc[relative-line-number,2]")
+findRelation("Age", "Insuffisances pancréatiques").score = 100
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Inf2Ans.yrule", 3, "14cf2ac1-2f85-4c22-a4f9-384e664223bc[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en années ? 2"
+         --> thenDsl "le score de la relation \"Age\" - \"Insuffisances pancréatiques\" est mis à jour avec le score \"100\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Inf2Ans.yrule", 96, "694d3784-5372-4963-be99-bd5a6b91d919[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 2, "4096846a-8585-4c35-8e90-ebf695650560")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienInsuffisancePancreatique_2a5ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 1, "4096846a-8585-4c35-8e90-ebf695650560[relative-line-number,1]")
+getAnimal().ansAnimal > 2,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 2, "4096846a-8585-4c35-8e90-ebf695650560[relative-line-number,2]")
+getAnimal().ansAnimal < 5) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 1, "4096846a-8585-4c35-8e90-ebf695650560[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 2, "4096846a-8585-4c35-8e90-ebf695650560[relative-line-number,2]")
+findRelation("Age", "Insuffisances pancréatiques").score = 50
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 3, "4096846a-8585-4c35-8e90-ebf695650560[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en années > 2 and l'age du chien en années < 5"
+         --> thenDsl "le score de la relation \"Age\" - \"Insuffisances pancréatiques\" est mis à jour avec le score \"50\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_2a5ans.yrule", 121, "f0197fb9-c73b-4f57-a511-1c489dcd6bc3[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 2, "205e9651-17c1-4393-843c-05a006c40c2e")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienInsuffisancePancreatique_Sup5ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 1, "205e9651-17c1-4393-843c-05a006c40c2e[relative-line-number,1]")
+getAnimal().ansAnimal >= 5,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 2, "205e9651-17c1-4393-843c-05a006c40c2e[relative-line-number,2]")
+cu.symptomeDAppel != findSymptome("Selles décolorées")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 1, "205e9651-17c1-4393-843c-05a006c40c2e[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 2, "205e9651-17c1-4393-843c-05a006c40c2e[relative-line-number,2]")
+findRelation("Age", "Insuffisances pancréatiques").score = 0
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 3, "205e9651-17c1-4393-843c-05a006c40c2e[relative-line-number,3]")
+findDiagnostic("Insuffisances pancréatiques").diagnosticElimine = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 4, "205e9651-17c1-4393-843c-05a006c40c2e[relative-line-number,4]")
+}
+         --> ifDsl "l'age du chien en années ? 5 and le symptome \"Selles décolorées\" n'est pas le symptome d'appel"
+         --> thenDsl "le score de la relation \"Age\" - \"Insuffisances pancréatiques\" est mis à jour avec le score \"0\" then le diagnostic \"Insuffisances pancréatiques\" est éliminé"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienInsuffisancePancreatique_Sup5ans.yrule", 143, "32bfb2cb-ad76-49fd-9abf-b5d9e39b9452[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_Senior.yrule", 2, "3c3493c7-3c3c-43be-a7ae-4f04ff30d8d0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienDepression_Senior
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_Senior.yrule", 1, "3c3493c7-3c3c-43be-a7ae-4f04ff30d8d0[relative-line-number,1]")
+getAnimal().getClasseAgeChien() == CAC_SENIOR) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_Senior.yrule", 1, "3c3493c7-3c3c-43be-a7ae-4f04ff30d8d0[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_Senior.yrule", 2, "3c3493c7-3c3c-43be-a7ae-4f04ff30d8d0[relative-line-number,2]")
+findRelation("Classe d'age", "Dépression d'involution").score = 100
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_Senior.yrule", 3, "3c3493c7-3c3c-43be-a7ae-4f04ff30d8d0[relative-line-number,3]")
+}
+         --> ifDsl "la classe d'age du chien = sénior"
+         --> thenDsl "le score de la relation \"Classe d'age\" - \"Dépression d'involution\" est mis à jour avec le score \"100\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_Senior.yrule", 100, "f7fcb60b-3b9f-4a2f-b7e8-40e0b30b6dd1[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 2, "5b97a726-96ee-44bf-bc13-3fccc05469ae")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeChienDepression_NonSenior
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 1, "5b97a726-96ee-44bf-bc13-3fccc05469ae[relative-line-number,1]")
+getAnimal().getClasseAgeChien() != CAC_SENIOR) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 1, "5b97a726-96ee-44bf-bc13-3fccc05469ae[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 2, "5b97a726-96ee-44bf-bc13-3fccc05469ae[relative-line-number,2]")
+findRelation("Classe d'age", "Dépression d'involution").score = 0
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 3, "5b97a726-96ee-44bf-bc13-3fccc05469ae[relative-line-number,3]")
+findDiagnostic("Dépression d'involution").diagnosticElimine = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 4, "5b97a726-96ee-44bf-bc13-3fccc05469ae[relative-line-number,4]")
+}
+         --> ifDsl "la classe d'age du chien ? sénior"
+         --> thenDsl "le score de la relation \"Classe d'age\" - \"Dépression d'involution\" est mis à jour avec le score \"0\" then le diagnostic \"Dépression d'involution\" est éliminé"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeChienDepression_NonSenior.yrule", 123, "c028065f-d58f-4034-856c-fdfbec7508ae[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Oui.yrule", 2, "dfbc8a47-590d-46a9-bdd9-9b96faca8136")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeComportementAncestral_Oui
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Oui.yrule", 1, "dfbc8a47-590d-46a9-bdd9-9b96faca8136[relative-line-number,1]")
+getAnimal().raceChien.estRustique == true) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Oui.yrule", 1, "dfbc8a47-590d-46a9-bdd9-9b96faca8136[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Oui.yrule", 2, "dfbc8a47-590d-46a9-bdd9-9b96faca8136[relative-line-number,2]")
+findRelation("Race rustique", "Comportement ancestral /physiologique").score = 100
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Oui.yrule", 3, "dfbc8a47-590d-46a9-bdd9-9b96faca8136[relative-line-number,3]")
+}
+         --> ifDsl "la race du chien est rustique is true"
+         --> thenDsl "le score de la relation \"Race rustique\" - \"Comportement ancestral /physiologique\" est mis à jour avec le score \"100\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Oui.yrule", 96, "db5b6314-ed50-4d0d-941a-4ae10fa919f3[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Non.yrule", 2, "669a6af7-182c-4d0b-91ef-982e29cfe0ca")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajAgeComportementAncestral_Non
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Non.yrule", 1, "669a6af7-182c-4d0b-91ef-982e29cfe0ca[relative-line-number,1]")
+getAnimal().raceChien.estRustique == false) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Non.yrule", 1, "669a6af7-182c-4d0b-91ef-982e29cfe0ca[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Non.yrule", 2, "669a6af7-182c-4d0b-91ef-982e29cfe0ca[relative-line-number,2]")
+findRelation("Race rustique", "Comportement ancestral /physiologique").score = 0
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Non.yrule", 3, "669a6af7-182c-4d0b-91ef-982e29cfe0ca[relative-line-number,3]")
+}
+         --> ifDsl "la race du chien est rustique is false"
+         --> thenDsl "le score de la relation \"Race rustique\" - \"Comportement ancestral /physiologique\" est mis à jour avec le score \"0\""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajAgeComportementAncestral_Non.yrule", 96, "762d83ee-aa81-43e7-bd87-7bf0c4252a7c[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 2, "cfec625a-9941-4894-b984-f82fe602a871")
+      Rule conseilVeto:DiagnosticChien:_businessRules:40_regleMajQuestionsSuiteInput:regleMajTest
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 1, "cfec625a-9941-4894-b984-f82fe602a871[relative-line-number,1]")
+cu.questionTroisDeterminationSA == VotreChienSeGratteLesOreilles
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 2, "cfec625a-9941-4894-b984-f82fe602a871[relative-line-number,2]")
+) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 1, "cfec625a-9941-4894-b984-f82fe602a871[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 2, "cfec625a-9941-4894-b984-f82fe602a871[relative-line-number,2]")
+logInfo(\( Votre chien se gratte les oreilles !! \));
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 3, "cfec625a-9941-4894-b984-f82fe602a871[relative-line-number,3]")
+}
+         --> thenDsl "écrire dans la log Votre chien se gratte les oreilles !!"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\40_regleMajQuestionsSuiteInput\\regleMajTest.yrule", 45, "d820e54b-a337-42fc-a51d-5835744ace29[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

@@ -1,0 +1,170 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 2, "61c7d7da-9b0c-4e4e-9851-c91e9ff58dbb")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 179, "61c7d7da-9b0c-4e4e-9851-c91e9ff58dbb[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 1, "61c7d7da-9b0c-4e4e-9851-c91e9ff58dbb[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "61345c61-d8fe-4be4-849f-808a8274bcbc[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 59, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 1, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,1,component-id,textGranule]")
+//\conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 2, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,2,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 3, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,3,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 4, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,4,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 5, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,5,component-id,textGranule]")
+	\foreach(_x, getListeQR(), 
+// SrcGenerator : 22/08/16 14:32
+-> TextListAssembly
+   --> mode _COMPOSE_BULLETS
+   --> bulletAssembly -> TextListBulletAssembly
+      --> startNewSentenceAfterBullet _ALWAYS
+      --> lineDefaultSuffix \(.
+\)
+      --> lastLineSuffix \(\)
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> usingThreshold 1
+      ;
+   ;
+)	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 6, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,6,component-id,textGranule]")
+	//	\setStartOfSentence(true), pas de majsucule en début de ligne, même avec, lorsqu'il y a ensuite _NO_INTERPRET_CHARS
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 7, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,7,component-id,textGranule]")
+		\value(_x.questionQR, _NO_INTERPRET_CHARS)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 8, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,8,component-id,textGranule]")
+		\_		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 9, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,9,component-id,textGranule]")
+		\beginStyle(BOLD_STYLE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 10, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,10,component-id,textGranule]")
+			\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 11, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,11,component-id,textGranule]")
+			\value(_x.reponseQRi18nName)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 12, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,12,component-id,textGranule]")
+		\endStyle		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 13, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,13,component-id,textGranule]")
+		\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 14, "61345c61-d8fe-4be4-849f-808a8274bcbc|fr[relative-line-number,14,component-id,textGranule]")
+	\endForeach
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 172, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 1, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,1,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 2, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,2,component-id,textGranule]")
+/*** Entete **************************************************************************
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 3, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,3,component-id,textGranule]")
+\beginStyle(styleUL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 4, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,4,component-id,textGranule]")
+	\foreach(_x, cu.listeQR)			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 5, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,5,component-id,textGranule]")
+		\beginStyle(styleLI)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 6, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,6,component-id,textGranule]")
+			 \beginStyle(styleUL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 7, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,7,component-id,textGranule]")
+				Question
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 8, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,8,component-id,textGranule]")
+			\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 9, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,9,component-id,textGranule]")
+			\beginStyle(styleUL) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 10, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,10,component-id,textGranule]")
+				Réponse
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 11, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,11,component-id,textGranule]")
+			\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 12, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,12,component-id,textGranule]")
+		\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 13, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,13,component-id,textGranule]")
+	\endForeach
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 14, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,14,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 15, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,15,component-id,textGranule]")
+/*** lignes **************************************************************************
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 16, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,16,component-id,textGranule]")
+\beginStyle(styleUL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 17, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,17,component-id,textGranule]")
+	\foreach(_x, cu.listeQR)			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 18, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,18,component-id,textGranule]")
+		\beginStyle(styleLI)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 19, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,19,component-id,textGranule]")
+			 \beginStyle(styleUL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 20, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,20,component-id,textGranule]")
+				\value(_x.questionQR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 21, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,21,component-id,textGranule]")
+			\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 22, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,22,component-id,textGranule]")
+			\beginStyle(styleUL) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 23, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,23,component-id,textGranule]")
+				\value(_x.reponseQRi18nName)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 24, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,24,component-id,textGranule]")
+			\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 25, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,25,component-id,textGranule]")
+		\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 26, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,26,component-id,textGranule]")
+	\endForeach
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 27, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,27,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 28, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,28,component-id,textGranule]")
+/*** lignes **************************************************************************/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 29, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,29,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 30, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,30,component-id,textGranule]")
+	\foreach(_x, getListeQR(), 
+// SrcGenerator : 22/08/16 14:32
+-> TextListAssembly
+   --> mode _COMPOSE_BULLETS
+   --> bulletAssembly -> TextListBulletAssembly
+      --> startNewSentenceAfterBullet _ALWAYS
+      --> lineDefaultSuffix \(.
+\)
+      --> lastLineSuffix \(.
+\)
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(.
+\)
+        }
+      
+      --> usingThreshold 1
+      ;
+   ;
+)				
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 31, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,31,component-id,textGranule]")
+		\value(_x.questionQR, _NO_INTERPRET_CHARS)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 32, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,32,component-id,textGranule]")
+		\_
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 33, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,33,component-id,textGranule]")
+		\beginStyle(BOLD_STYLE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 34, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,34,component-id,textGranule]")
+			\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 35, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,35,component-id,textGranule]")
+			\value(_x.reponseQRi18nName)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 36, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,36,component-id,textGranule]")
+		\endStyle		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 37, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,37,component-id,textGranule]")
+		\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeDesReponses.ytextfunction", 38, "61345c61-d8fe-4be4-849f-808a8274bcbc|en[relative-line-number,38,component-id,textGranule]")
+	\endForeach
+\);
+      ;
+   ;
+@pragma usecase()
+

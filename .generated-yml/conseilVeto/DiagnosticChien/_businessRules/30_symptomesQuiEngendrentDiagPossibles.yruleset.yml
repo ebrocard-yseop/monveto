@@ -1,0 +1,57 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles.yruleset", 2, "f0c78793-c597-44b6-bd26-04748d6ef2a7")
+conseilVeto:DiagnosticChien:_businessRules:30_symptomesQuiEngendrentDiagPossibles()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 2, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d")
+      Rule conseilVeto:DiagnosticChien:_businessRules:30_symptomesQuiEngendrentDiagPossibles:symptomesQuiEngendrentDiagPossibles
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 1, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,1]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 2, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,2]")
+?r.symptome == ?s,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 3, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,3]")
+?d.estPossible == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 4, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,4]")
+?d.diagnosticElimine != true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 5, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,5]")
+?s != cu.symptomeDAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 1, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 2, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,2]")
+?s.calcule = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 3, "5d5aa7ae-ff11-4edd-b147-cece9bb6667d[relative-line-number,3]")
+}
+         --> ifDsl "soit une relation liée à un diagnostic and soit une relation avec un symptome non nul and le diagnostic est possible and le diagnostic n'est pas éliminé and le symptome n'est pas le symptome d'appel"
+         --> thenDsl "le symptome devient calculé"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentDiagPossibles.yrule", 74, "ed8ba763-cdc9-43c9-b680-991d093be289[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 2, "98681540-35b6-4897-86c7-29bdfe716640")
+      Rule conseilVeto:DiagnosticChien:_businessRules:30_symptomesQuiEngendrentDiagPossibles:symptomesQuiEngendrentFichesConseilPossibles
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 1, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,1]")
+?rfc.ficheconseil == ?fc,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 2, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,2]")
+?rfc.symptome == ?s,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 3, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,3]")
+?fc == cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 1, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 2, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,2]")
+?s.calcule = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 3, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,3]")
+?s.questionDoitEtrePosee = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 4, "98681540-35b6-4897-86c7-29bdfe716640[relative-line-number,4]")
+}
+         --> ifDsl "soit une relation FC associée a une Fiche Conseil and soit une relation FC associée à un symptome and la fiche conseil est la FCA"
+         --> thenDsl "le symptome devient calculé then la question associée au symptome devient à poser"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\30_symptomesQuiEngendrentDiagPossibles\\symptomesQuiEngendrentFichesConseilPossibles.yrule", 66, "f2d33aba-113e-4162-8038-129e4968a63b[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

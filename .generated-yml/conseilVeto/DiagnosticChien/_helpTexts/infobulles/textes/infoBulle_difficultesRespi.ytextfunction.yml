@@ -1,0 +1,21 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_difficultesRespi.ytextfunction", 2, "e2580814-1784-4bd8-9497-afe37a80cba9")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_difficultesRespi(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_difficultesRespi.ytextfunction", 25, "e2580814-1784-4bd8-9497-afe37a80cba9[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_difficultesRespi.ytextfunction", 1, "e2580814-1784-4bd8-9497-afe37a80cba9[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "2a43313b-08be-4086-a053-c7fa42ea6554[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_difficultesRespi_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_difficultesRespi_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_difficultesRespi.ytextfunction", 11, "2a43313b-08be-4086-a053-c7fa42ea6554|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_difficultesRespi.ytextfunction", 1, "2a43313b-08be-4086-a053-c7fa42ea6554|fr[relative-line-number,1,component-id,textGranule]")
+// Voir si besoin
+\);
+      ;
+   ;
+@pragma usecase()
+

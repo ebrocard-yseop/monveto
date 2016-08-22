@@ -1,0 +1,44 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 2, "d96777f0-0d20-4c25-b82a-3a2a33613736")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:hisHer(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 33, "d96777f0-0d20-4c25-b82a-3a2a33613736[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 1, "d96777f0-0d20-4c25-b82a-3a2a33613736[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "82677961-8e05-4f39-9461-e853ecd63f78[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:hisHer_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:hisHer_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 15, "82677961-8e05-4f39-9461-e853ecd63f78|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 1, "82677961-8e05-4f39-9461-e853ecd63f78|fr[relative-line-number,1,component-id,textGranule]")
+\if(getAnimal().getGender() == MASCULINE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 2, "82677961-8e05-4f39-9461-e853ecd63f78|fr[relative-line-number,2,component-id,textGranule]")
+	his
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 3, "82677961-8e05-4f39-9461-e853ecd63f78|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 4, "82677961-8e05-4f39-9461-e853ecd63f78|fr[relative-line-number,4,component-id,textGranule]")
+	her
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 5, "82677961-8e05-4f39-9461-e853ecd63f78|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:hisHer_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 26, "82677961-8e05-4f39-9461-e853ecd63f78|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 1, "82677961-8e05-4f39-9461-e853ecd63f78|en[relative-line-number,1,component-id,textGranule]")
+\if(getAnimal().getGender() == MASCULINE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 2, "82677961-8e05-4f39-9461-e853ecd63f78|en[relative-line-number,2,component-id,textGranule]")
+	his
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 3, "82677961-8e05-4f39-9461-e853ecd63f78|en[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 4, "82677961-8e05-4f39-9461-e853ecd63f78|en[relative-line-number,4,component-id,textGranule]")
+	her
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\hisHer.ytextfunction", 5, "82677961-8e05-4f39-9461-e853ecd63f78|en[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

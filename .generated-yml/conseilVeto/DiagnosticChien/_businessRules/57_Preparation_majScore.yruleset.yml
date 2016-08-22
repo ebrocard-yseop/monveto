@@ -1,0 +1,25 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore.yruleset", 2, "f040a74f-529e-4f1f-b4fe-d677a83985d6")
+conseilVeto:DiagnosticChien:_businessRules:57_Preparation_majScore()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore\\PreparationMajScore.yrule", 2, "49278b9f-5f15-444e-a145-cd91dd2babc0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:57_Preparation_majScore:PreparationMajScore
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore\\PreparationMajScore.yrule", 1, "49278b9f-5f15-444e-a145-cd91dd2babc0[relative-line-number,1]")
+?d.estPossible == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore\\PreparationMajScore.yrule", 2, "49278b9f-5f15-444e-a145-cd91dd2babc0[relative-line-number,2]")
+?d.diagnosticElimine != true,	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore\\PreparationMajScore.yrule", 3, "49278b9f-5f15-444e-a145-cd91dd2babc0[relative-line-number,3]")
+?r.diagnostic == ?d) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore\\PreparationMajScore.yrule", 1, "49278b9f-5f15-444e-a145-cd91dd2babc0[relative-line-number,1]")
+?r.diagnosticPossibleNonElimine = ?d
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\57_Preparation_majScore\\PreparationMajScore.yrule", 26, "2f3ac575-3bb5-4616-b73a-f540ec2dd232[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

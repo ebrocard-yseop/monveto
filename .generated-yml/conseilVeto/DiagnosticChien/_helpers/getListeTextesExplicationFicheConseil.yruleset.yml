@@ -1,0 +1,29 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 2, "7baf1bf0-cb43-457f-90ae-ca32c70e1435")
+conseilVeto:DiagnosticChien:_helpers:getListeTextesExplicationFicheConseil()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 4, "7baf1bf0-cb43-457f-90ae-ca32c70e1435")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 1, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,1]")
+--> domains Collection
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 2, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,2]")
+--> useCache true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 3, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,3]")
+--> action {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 4, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,4]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 5, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,5]")
+	//ne fonctionne pas avec les topics. Pourquoi ???
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 6, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,6]")
+	return as(?texte, ?texte._fwcc_responseSection == ?theme  
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 7, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,7]")
+					/*  ?text.topics == ?theme*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 8, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,8]")
+					?theme == explication_ficheconseil)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 9, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,9]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationFicheConseil.yruleset", 10, "7baf1bf0-cb43-457f-90ae-ca32c70e1435[relative-line-number,10]")
+};
+@pragma usecase()
+

@@ -1,0 +1,203 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 2, "59390d95-ce5b-4765-854a-e488aa579e6e")
+ConstList conseilVeto:ActionsAFaire
+   --> values @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 5)
+      -> Symbol A_GOTO_VETO
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 5, "fr")
+         --> i18nName_fr "Prendre contact avec un vétérinaire"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 5, "en")
+         --> i18nName_en "Contact a veterinarian"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 16)
+      -> Symbol A_GOTO_RAPID_VETO
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 16, "fr")
+         --> i18nName_fr "Prendre contact avec un vétérinaire rapidement"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 16, "en")
+         --> i18nName_en "Contact a veterinarian as soon as possible"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 27)
+      -> Symbol A_DIETE_24H
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 27, "fr")
+         --> i18nName_fr "Mettre l'animal à la diète pour 24h"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 27, "en")
+         --> i18nName_en "Put the animal on a light diet for 24 hours"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 38)
+      -> Symbol A_VERMIFUGER
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 38, "fr")
+         --> i18nName_fr "Vermifuger votre chien"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 38, "en")
+         --> i18nName_en "Deworm your dog"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 49)
+      -> Symbol A_TRAITER_PUCES
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 49, "fr")
+         --> i18nName_fr "Traiter contre les puces et parasites externes"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 49, "en")
+         --> i18nName_en "Treat your dog against fleas and external parasites"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 60)
+      -> Symbol A_DRESSER
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 60, "fr")
+         --> i18nName_fr "Eduquer / dresser votre animal"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 60, "en")
+         --> i18nName_en "Train your dog"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 71)
+      -> Symbol A_RETABLIR_HIERARCHIE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 71, "fr")
+         --> i18nName_fr "Rétablir la hiérarchie"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 71, "en")
+         --> i18nName_en "Restore the power dynamic"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 82)
+      -> Symbol A_QUANTIFIER_EAU
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 82, "fr")
+         --> i18nName_fr "Quantifier l'eau de boisson"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 82, "en")
+         --> i18nName_en "Measure the amount of water the dog ingests"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 93)
+      -> Symbol A_CHANGER_ALIMENT
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 93, "fr")
+         --> i18nName_fr "Changer d'aliment"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 93, "en")
+         --> i18nName_en "Change food"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 104)
+      -> Symbol A_GOTO_VETO_COMPORTEMENTALISTE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 104, "fr")
+         --> i18nName_fr "Consulter un vétérinaire comportementaliste"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 104, "en")
+         --> i18nName_en "Consult a veterinary behaviorist"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 115)
+      -> Symbol A_APPRENDRE_LA_PROPRETE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 115, "fr")
+         --> i18nName_fr "Apprendre la propreté"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 115, "en")
+         --> i18nName_en "House train the dog"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 126)
+      -> Symbol RESPECTER_DISTRIBUTION_REPAS
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 126, "fr")
+         --> i18nName_fr "Nourrir correctement"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 126, "en")
+         --> i18nName_en "Properly feed the dog"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 137)
+      -> Symbol A_APPRENDRE_A_RESTER_SEUL
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 137, "fr")
+         --> i18nName_fr "Apprendre à rester seul"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 137, "en")
+         --> i18nName_en "Teach the dog how to stay alone"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 148)
+      -> Symbol A_HABITUER_A_LA_VOITURE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 148, "fr")
+         --> i18nName_fr "Habituer progressivement à la voiture"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 148, "en")
+         --> i18nName_en "Get the dog used to the car little by little"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 159)
+      -> Symbol A_TRAITER_MAL_DES_TRANSPORTS
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 159, "fr")
+         --> i18nName_fr "Lutter contre le mal des transports"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 159, "en")
+         --> i18nName_en "Minimize motion sickness"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 170)
+      -> Symbol A_CLOTURER
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 170, "fr")
+         --> i18nName_fr "Bien clôturer le terrain"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 170, "en")
+         --> i18nName_en "Fence in your yard"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 181)
+      -> Symbol A_SOCIABILISER
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 181, "fr")
+         --> i18nName_fr "Sociabiliser"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 181, "en")
+         --> i18nName_en "Socialize the dog with other animals"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 192)
+      -> Symbol A_GOTO_EDUCATEUR
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 192, "fr")
+         --> i18nName_fr "Recourir aux services d'un éducateur canin"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 192, "en")
+         --> i18nName_en "Consult with a professional dog trainer"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 203)
+      -> Symbol A_STERILISER
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 203, "fr")
+         --> i18nName_fr "Stériliser/castrer"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 203, "en")
+         --> i18nName_en "Sterilize/neuter the dog"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 214)
+      -> Symbol A_EDUQUER
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 214, "fr")
+         --> i18nName_fr "Eduquer"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 214, "en")
+         --> i18nName_en "Educate the dog"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 225)
+      -> Symbol A_FRACTIONNER_REPAS
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 225, "fr")
+         --> i18nName_fr "Fractionner les repas"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 225, "en")
+         --> i18nName_en "Ration the dog's meals"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 236)
+      -> Symbol A_RALENTIR_INGESTION
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 236, "fr")
+         --> i18nName_fr "Ralentir la vitesse d'ingestion de la ration"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 236, "en")
+         --> i18nName_en "Slow down the speed at which the food is ingested"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 247)
+      -> Symbol A_SURELEVER_GAMELLE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 247, "fr")
+         --> i18nName_fr "Surélever la gamelle"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 247, "en")
+         --> i18nName_en "Put the dog bowl at a higher level"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 258)
+      -> Symbol A_DONNER_COMPLEMENTS
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 258, "fr")
+         --> i18nName_fr "Donner des compléments alimentaires"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 258, "en")
+         --> i18nName_en "Give the dog nutritional supplements"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 269)
+      -> Symbol A_ENTRETENIR_PELAGE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 269, "fr")
+         --> i18nName_fr "Entretenir le pelage"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 269, "en")
+         --> i18nName_en "Take care of the dog's fur"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 280)
+      -> Symbol A_TANNER_COUSSINETS
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 280, "fr")
+         --> i18nName_fr "Tanner les coussinets"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 280, "en")
+         --> i18nName_en "//TBT"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 291)
+      -> Symbol A_HYGIENE_BUCCO_DENTAIRE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 291, "fr")
+         --> i18nName_fr "Agir sur l'hygiène bucco-dentaire"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 291, "en")
+         --> i18nName_en "Clean the dog's mouth and teeth"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 302)
+      -> Symbol A_AUGMENTER_RATION
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 302, "fr")
+         --> i18nName_fr "Augmenter la ration"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 302, "en")
+         --> i18nName_en "Provide more food"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 313)
+      -> Symbol A_GO_VETO_PAR_SECURITE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 313, "fr")
+         --> i18nName_fr "Aller voir un véto par sécurité"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 313, "en")
+         --> i18nName_en "//TBT"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 324)
+      -> Symbol A_ARRETER_LE_LECHAGE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 324, "fr")
+         --> i18nName_fr "Ne pas laisser le chien lécher"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 324, "en")
+         --> i18nName_en "//TBT"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 335)
+      -> Symbol A_INFLUER_SUR_LE_COMPORTEMENT_ALIM
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 335, "fr")
+         --> i18nName_fr "Influer sur le comportement alimentaire"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 335, "en")
+         --> i18nName_en "//TBT"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 346)
+      -> Symbol A_VERIFIER_RATION
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 346, "fr")
+         --> i18nName_fr "Vérifier la ration"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ActionsAFaire.yconstlist", 346, "en")
+         --> i18nName_en "//TBT"
+         ;
+      
+   ;
+@pragma usecase()
+

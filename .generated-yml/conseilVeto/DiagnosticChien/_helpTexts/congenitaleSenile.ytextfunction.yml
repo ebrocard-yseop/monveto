@@ -1,0 +1,82 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 2, "740838cb-bede-4e55-a510-8f78b7904bc1")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:congenitaleSenile(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 268, "740838cb-bede-4e55-a510-8f78b7904bc1[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 1, "740838cb-bede-4e55-a510-8f78b7904bc1[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:congenitaleSenile_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:congenitaleSenile_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 94, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 1, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f[relative-line-number,1]")
+__dsl( getAnimal().ansAnimal < 3, "l'age du chien en années < 3" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 2, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,2,component-id,textGranule]")
+	congénitale 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 3, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,3,component-id,textGranule]")
+	(compte tenu de son jeune âge) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 4, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,4,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 5, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,5,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f[relative-line-number,1]")
+__dsl( currentUsecase.classeDAge == CAC_SENIOR, "classe d'age du chien = sénior" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 6, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,6,component-id,textGranule]")
+	sénile
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 7, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,7,component-id,textGranule]")
+	(compte tenu de son âge)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 8, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,8,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 9, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|fr[relative-line-number,9,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:congenitaleSenile_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 261, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 1, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f[relative-line-number,1]")
+__dsl( getAnimal().ansAnimal < 3, "l'age du chien en années < 3" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 2, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,2,component-id,textGranule]")
+	congenital cataract 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 3, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,3,component-id,textGranule]")
+	(in account of
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 4, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,4,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 5, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,5,component-id,textGranule]")
+	young age) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 6, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,6,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 7, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,7,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f[relative-line-number,1]")
+__dsl( currentUsecase.classeDAge == CAC_SENIOR, "classe d'age du chien = sénior" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 8, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,8,component-id,textGranule]")
+	senile cataract
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 9, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,9,component-id,textGranule]")
+	(in account of
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 10, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,10,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 11, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,11,component-id,textGranule]")
+	age)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\congenitaleSenile.ytextfunction", 12, "13b94f32-6321-48bc-a7b7-8869bf7d2d7f|en[relative-line-number,12,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

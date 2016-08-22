@@ -1,0 +1,71 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 2, "a4aa1b73-9590-4b04-ad47-40b1e9dd8156")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Fievre(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 47, "a4aa1b73-9590-4b04-ad47-40b1e9dd8156[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 1, "a4aa1b73-9590-4b04-ad47-40b1e9dd8156[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Fievre_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Fievre_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 20, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 1, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 2, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,2,component-id,textGranule]")
+pour information, la température rectale normale 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 3, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,3,component-id,textGranule]")
+du chien est de 38,\+5°C. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 4, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,4,component-id,textGranule]")
+on considère qu'un chien a de la fièvre s'il est 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 5, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,5,component-id,textGranule]")
+à plus de 39°C au repos. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 6, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,6,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 7, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,7,component-id,textGranule]")
+notez que la température et 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 8, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,8,component-id,textGranule]")
+l'humidité de la truffe ne sont absolument pas 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 9, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,9,component-id,textGranule]")
+significatives, contrairement aux
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 10, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|fr[relative-line-number,10,component-id,textGranule]")
+idées reçues. 
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Fievre_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 40, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 1, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 2, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,2,component-id,textGranule]")
+for your information, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 3, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,3,component-id,textGranule]")
+the normal 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 4, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,4,component-id,textGranule]")
+temperature for a dog 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 5, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,5,component-id,textGranule]")
+(when measured rectally)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 6, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,6,component-id,textGranule]")
+is 101\.3°F (38,\+5°C).
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 7, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,7,component-id,textGranule]")
+anything above 102\.2°F (39,\+0°C) (when resting)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 8, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,8,component-id,textGranule]")
+is considered feverous 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 9, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,9,component-id,textGranule]")
+. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 10, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,10,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 11, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,11,component-id,textGranule]")
+the temperature and humidity of the 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 12, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,12,component-id,textGranule]")
+nose
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 13, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,13,component-id,textGranule]")
+are not significant, contrary to
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Fievre.ytextfunction", 14, "dfd0dc03-d2d5-47d4-ba17-e117de05bdc8|en[relative-line-number,14,component-id,textGranule]")
+popular belief.'
+\);
+      ;
+   ;
+@pragma usecase()
+

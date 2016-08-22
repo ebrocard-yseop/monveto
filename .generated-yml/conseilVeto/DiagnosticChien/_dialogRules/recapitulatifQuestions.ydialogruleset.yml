@@ -1,0 +1,194 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions.ydialogruleset", 2, "b43b29b3-0e11-4fdb-ad75-712faa3a6453")
+conseilVeto:DiagnosticChien:_dialogRules:recapitulatifQuestions()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 2, "ea5f5e17-26e6-408f-874e-90a61a6768a4")
+      Rule conseilVeto:DiagnosticChien:_dialogRules:recapitulatifQuestions:recapitulatifQuestions
+         if()
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 25, "e6f894df-6253-4852-b177-2ec9946cc046|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> SelectionWidget
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 4, "11495949-e733-458e-9616-30f82e0f7321")
+               --> setable @pragma source("", 0, "11495949-e733-458e-9616-30f82e0f7321|currentUsecase.valideReponses")
+               currentUsecase.valideReponses
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 28, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|Widget.gatheringStore")
+               --> gatheringStore @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 28, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|Widget.gatheringStore")
+               false
+               ;, -> WidgetControl
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 26, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|WidgetControl.mandatory")
+               --> mandatory @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 26, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|WidgetControl.mandatory")
+               true
+               ;, -> SelectionWidgetStyle
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 27, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|SelectionWidgetStyle.type")
+               --> type @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 27, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|SelectionWidgetStyle.type")
+               _CHECK_BOX_OR_RADIO_BUTTON
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 29, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 29, "e6f894df-6253-4852-b177-2ec9946cc046|Selection|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:recapitulatifQuestions:recapitulatifQuestions:gather1_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:recapitulatifQuestions:recapitulatifQuestions:gather1_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 240, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 1, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,1,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 2, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,2,component-id,textGranule]")
+\if(cu.questionTroisDeterminationSA.introRecapFR != null)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 3, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,3,component-id,textGranule]")
+	\beginStyle(styleRecap1)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 4, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,4,component-id,textGranule]")
+		\value(cu.questionTroisDeterminationSA.introRecapFR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 5, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,5,component-id,textGranule]")
+		.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 6, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,6,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 7, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,7,component-id,textGranule]")
+	\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 8, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,8,component-id,textGranule]")
+	\beginStyle(styleRecap2)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 9, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,9,component-id,textGranule]")
+		merci de vérifier /*le résumé de*/ vos réponses ci\-dessous 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 10, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,10,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 11, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,11,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 12, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,12,component-id,textGranule]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 13, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,13,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 14, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,14,component-id,textGranule]")
+	\beginStyle(styleRecap2)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 15, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,15,component-id,textGranule]")
+		merci de vérifier /*le résumé de*/ vos réponses ci\-dessous 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 16, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,16,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 17, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,17,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 18, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,18,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 19, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,19,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 20, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,20,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 21, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,21,component-id,textGranule]")
+\beginStyle(styleRecap3)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 22, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,22,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 23, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,23,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 24, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,24,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be[relative-line-number,1]")
+__dsl( (currentUsecase.nbQuestionsPoseesNSP > 3) || ((currentUsecase.nbQuestionsPoseesOuiNonNSP > 4) && (cu.nbQuestionsPoseesOuiNonNSP<2*cu.nbQuestionsPoseesNSP)), "le nombre de questions posées NSP > 3 or (le nombre de questions posées Oui/Non/NSP > 4 and le nombre de question NSP est supérieur à 50%)" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 25, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,25,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:AlerteNSP
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 26, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,26,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 27, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,27,component-id,textGranule]")
+\beginStyle(styleRecap4)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 28, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,28,component-id,textGranule]")
+	//souhaitez\-vous recommencer le questionnaire, ou valider vos réponses ? 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 29, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,29,component-id,textGranule]")
+	souhaitez\-vous valider vos réponses ?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 30, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,30,component-id,textGranule]")
+\endStyle 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 31, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,31,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 32, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,32,component-id,textGranule]")
+//Debug
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 33, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,33,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 34, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,34,component-id,textGranule]")
+\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 35, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,35,component-id,textGranule]")
+cu.QuestionsPosees : \value(cu.nbQuestionsPosees); \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 36, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,36,component-id,textGranule]")
+cu.nbQuestionsPoseesOuiNonNSP : \value(cu.nbQuestionsPoseesOuiNonNSP); \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 37, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,37,component-id,textGranule]")
+cu.nbQuestionsPoseesNSP : \value(cu.nbQuestionsPoseesNSP); \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 38, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,38,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 39, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|fr[relative-line-number,39,component-id,textGranule]")
+
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:recapitulatifQuestions:recapitulatifQuestions:gather1_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 507, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 1, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,1,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 2, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,2,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 3, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,3,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 4, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,4,component-id,textGranule]")
+\if(cu.questionTroisDeterminationSA.introRecapEN != null)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 5, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,5,component-id,textGranule]")
+	\value(cu.questionTroisDeterminationSA.introRecapEN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 6, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,6,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 7, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,7,component-id,textGranule]")
+	\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 8, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,8,component-id,textGranule]")
+	\beginStyle(styleRecap2)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 9, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,9,component-id,textGranule]")
+		Here is a summary of your answers:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 10, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,10,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 11, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,11,component-id,textGranule]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 12, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,12,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 13, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,13,component-id,textGranule]")
+	\beginStyle(styleRecap2)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 14, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,14,component-id,textGranule]")
+		Here is a summary of your answers:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 15, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,15,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 16, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,16,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 17, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,17,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 18, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,18,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 19, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,19,component-id,textGranule]")
+\beginStyle(styleRecap3)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 20, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,20,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:listeDesReponses
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 21, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,21,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 22, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,22,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be[relative-line-number,1]")
+__dsl( (currentUsecase.nbQuestionsPoseesNSP > 3) || ((currentUsecase.nbQuestionsPoseesOuiNonNSP > 4) && (cu.nbQuestionsPoseesOuiNonNSP<2*cu.nbQuestionsPoseesNSP)), "le nombre de questions posées NSP > 3 or (le nombre de questions posées Oui/Non/NSP > 4 and le nombre de question NSP est supérieur à 50%)" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 23, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,23,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:AlerteNSP
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 24, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,24,component-id,textGranule]")
+	\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 25, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,25,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 26, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,26,component-id,textGranule]")
+\beginStyle(styleRecap4)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 27, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,27,component-id,textGranule]")
+	Please confirm your answers or start again
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 28, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,28,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 29, "86d8e5b3-8fe1-498f-b0af-dfff6a5ca9be|en[relative-line-number,29,component-id,textGranule]")
+\endStyle 
+\);
+                  ;
+               ;);
+         --> thenDsl "la validation des réponses"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\recapitulatifQuestions\\recapitulatifQuestions.ydialogrule", 530, "5d118576-3a6d-4e07-93d0-f4cb18056f03[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

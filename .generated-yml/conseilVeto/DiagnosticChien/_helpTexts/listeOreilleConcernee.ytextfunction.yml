@@ -1,0 +1,56 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 2, "d3a9ecd0-5aca-4d99-a354-43aa410482d6")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:listeOreilleConcernee(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 115, "d3a9ecd0-5aca-4d99-a354-43aa410482d6[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 1, "d3a9ecd0-5aca-4d99-a354-43aa410482d6[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "3df618d6-3461-4f8e-9c16-75bc88af512d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:listeOreilleConcernee_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeOreilleConcernee_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 55, "3df618d6-3461-4f8e-9c16-75bc88af512d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 1, "3df618d6-3461-4f8e-9c16-75bc88af512d|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "3df618d6-3461-4f8e-9c16-75bc88af512d[relative-line-number,1]")
+__dsl( currentUsecase.oreilleConcernee == UNE_OREILLE, "le problème auriculaire concerne = Une oreille" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 2, "3df618d6-3461-4f8e-9c16-75bc88af512d|fr[relative-line-number,2,component-id,textGranule]")
+	son oreille
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 3, "3df618d6-3461-4f8e-9c16-75bc88af512d|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 4, "3df618d6-3461-4f8e-9c16-75bc88af512d|fr[relative-line-number,4,component-id,textGranule]")
+	ses oreilles
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 5, "3df618d6-3461-4f8e-9c16-75bc88af512d|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeOreilleConcernee_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 108, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 1, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "3df618d6-3461-4f8e-9c16-75bc88af512d[relative-line-number,1]")
+__dsl( currentUsecase.oreilleConcernee == UNE_OREILLE, "le problème auriculaire concerne = Une oreille" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 2, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,2,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 3, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,3,component-id,textGranule]")
+	ear
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 4, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,4,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 5, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,5,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 6, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,6,component-id,textGranule]")
+	ears
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOreilleConcernee.ytextfunction", 7, "3df618d6-3461-4f8e-9c16-75bc88af512d|en[relative-line-number,7,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

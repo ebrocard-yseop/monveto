@@ -1,0 +1,142 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 2, "1d14d0d0-e39b-45e3-9b08-dcadecc56e30")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:declinaisonNormal(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 808, "1d14d0d0-e39b-45e3-9b08-dcadecc56e30[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 1, "1d14d0d0-e39b-45e3-9b08-dcadecc56e30[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "51200475-5312-4886-8a21-82b3147f5ae8[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:declinaisonNormal_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:declinaisonNormal_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 794, "51200475-5312-4886-8a21-82b3147f5ae8|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 1, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( (currentUsecase.signesDeDouleur == OUI) && (currentUsecase.boiterie != OUI), "le chien a mal = oui and le chien boite ? oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 2, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,2,component-id,textGranule]")
+	est selon nous parfaitement anormale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 3, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,3,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 4, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,4,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.prostrationAbattement == OUI, "le chien est prostré, abattu = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 5, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,5,component-id,textGranule]")
+	est selon nous parfaitement anormal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 6, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,6,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 7, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,7,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.chienAnorexique == OUI, "le chien est anorexique, refuse de s'alimenter = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 8, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,8,component-id,textGranule]")
+	est selon nous parfaitement anormale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 9, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,9,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 10, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,10,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.pupd == QEB_BEAUCOUP, "le chien présente de la PUPD = Plus de 100mL par kg et par j (soit plus de 1L par jour pour un chien de 10kg)" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 11, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,11,component-id,textGranule]")
+	est selon nous parfaitement anormale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 12, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,12,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 13, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,13,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.hematurie == OUI, "le chien présente de l'hématurie = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 14, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,14,component-id,textGranule]")
+	est selon nous parfaitement anormale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 15, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,15,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 16, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,16,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.sellesMollesEtOuDiarhees == OUI, "le chien a des selles molles ou de la diarrhée = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 17, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,17,component-id,textGranule]")
+	n'est selon nous pas normale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 18, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,18,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 19, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,19,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( (currentUsecase.vomissements == OUI) && (currentUsecase.frequenceVomissement != FRV_PEU_FQ), "le chien vomit = oui and le chien présente des vomissements récurrents ? Moins souvent" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 20, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,20,component-id,textGranule]")
+	nous paraissent parfaitement anormaux
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 21, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,21,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 22, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,22,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.difficultesRespiratoires == OUI, "le chien présente des difficultés respiratoires = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 23, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,23,component-id,textGranule]")
+	nous paraissent parfaitement anormaux
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 24, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,24,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 25, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,25,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( (currentUsecase.toux == OUI) && (currentUsecase.difficultesRespiratoires != OUI), "le chien tousse = oui and le chien présente des difficultés respiratoires ? oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 26, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,26,component-id,textGranule]")
+	est selon nous parfaitement anormale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 27, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,27,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 28, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,28,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( (currentUsecase.eternuements == OUI) && (currentUsecase.difficultesRespiratoires != OUI), "le chien éternue = oui and le chien présente des difficultés respiratoires ? oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 29, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,29,component-id,textGranule]")
+	sont anormaux
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 30, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,30,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 31, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,31,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.boiterie == OUI, "le chien boite = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 32, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,32,component-id,textGranule]")
+	nous paraît anormale
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 33, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,33,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 34, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,34,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "51200475-5312-4886-8a21-82b3147f5ae8[relative-line-number,1]")
+__dsl( currentUsecase.articulationEnflee == OUI, "ses articulations sont enflées = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 35, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,35,component-id,textGranule]")
+	retient toute notre attention
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 36, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,36,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\declinaisonNormal.ytextfunction", 37, "51200475-5312-4886-8a21-82b3147f5ae8|fr[relative-line-number,37,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,61 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 2, "02dbfeeb-102e-49c2-98ce-55aa7fd9ea53")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_BonEtatGeneral(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 42, "02dbfeeb-102e-49c2-98ce-55aa7fd9ea53[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 1, "02dbfeeb-102e-49c2-98ce-55aa7fd9ea53[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "857e01f9-24bc-4382-936c-1a0ebf8c7328[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_BonEtatGeneral_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_BonEtatGeneral_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 21, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 1, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 2, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,2,component-id,textGranule]")
+par bon état général, nous entendons
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 3, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,3,component-id,textGranule]")
+ que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 4, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,4,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 5, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,5,component-id,textGranule]")
+mange convenablement, n'est pas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 6, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,6,component-id,textGranule]")
+\adjective("abattu", _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 7, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,7,component-id,textGranule]")
+, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 8, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,8,component-id,textGranule]")
+\adjective("prostré", _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 9, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,9,component-id,textGranule]")
+, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 10, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,10,component-id,textGranule]")
+ne semble pas souffrir,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 11, "857e01f9-24bc-4382-936c-1a0ebf8c7328|fr[relative-line-number,11,component-id,textGranule]")
+n'a pas de diarrhée, de vomissements, etc\...
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_BonEtatGeneral_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 35, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 1, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 2, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,2,component-id,textGranule]")
+in good health, we mean
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 3, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,3,component-id,textGranule]")
+that
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 4, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,4,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 5, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,5,component-id,textGranule]")
+eats well, doesn't seem sad and listless, doesn't 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 6, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,6,component-id,textGranule]")
+seem to be in any pain, does not have
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 7, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,7,component-id,textGranule]")
+sickness, diarrhea, etc\.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_BonEtatGeneral.ytextfunction", 8, "857e01f9-24bc-4382-936c-1a0ebf8c7328|en[relative-line-number,8,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

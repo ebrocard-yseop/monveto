@@ -1,0 +1,11 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_forkRules.yruleset", 2, "9640b0ea-b109-4dc1-8a58-73c279f67741")
+conseilVeto:DiagnosticChien:_forkRules()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_forkRules.yruleset", 6, "bf062f52-64dc-4894-978e-ff6072944638[property-field,dsl,property-type,YML_PROPERTY]")
+   --> dsl "règles"
+   ;
+@pragma usecase()
+

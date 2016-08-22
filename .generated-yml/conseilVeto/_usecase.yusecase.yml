@@ -1,0 +1,12 @@
+// SrcGenerator : 22/08/16 14:32
+implementation @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_usecase.yusecase", 2, "2eb887a6-b2b1-4e4a-83fd-1a93c4ed922b")
+conseilVeto:_usecase
+   override { runBusinessRules function }
+;
+Function conseilVeto:_usecase::runBusinessRules()
+   --> action  {
+      conseilVeto:_businessRules:calculEtEstimationDonnees();
+conseilVeto:_businessRules:communicationEtTechnique();
+}
+   
+   ;

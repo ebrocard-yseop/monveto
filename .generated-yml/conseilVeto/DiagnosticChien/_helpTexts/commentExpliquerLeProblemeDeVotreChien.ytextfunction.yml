@@ -1,0 +1,42 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 2, "8391873f-16de-450f-8aa8-450630ffc39d")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:commentExpliquerLeProblemeDeVotreChien(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 32, "8391873f-16de-450f-8aa8-450630ffc39d[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 1, "8391873f-16de-450f-8aa8-450630ffc39d[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:commentExpliquerLeProblemeDeVotreChien_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:commentExpliquerLeProblemeDeVotreChien_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 17, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 1, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,1,component-id,textGranule]")
+\beginSynonym(_RANDOM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 2, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 3, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,3,component-id,textGranule]")
+		\simpleXmlTag("div" , \( Comment expliquer le problème  de  \value(getAnimal().nomAnimal) ? \), [ "class" , "titre_monveto3"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 4, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,4,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 5, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,5,component-id,textGranule]")
+		\simpleXmlTag("div" , \( Comment interpréter le problème  de  \value(getAnimal().nomAnimal) ? \), [ "class" , "titre_monveto3"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 6, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,6,component-id,textGranule]")
+\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 7, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|fr[relative-line-number,7,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:commentExpliquerLeProblemeDeVotreChien_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 25, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 1, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|en[relative-line-number,1,component-id,textGranule]")
+\simpleXmlTag("div" , \( Vet Online's analysis \), [ "class" , "titre_monveto3"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\commentExpliquerLeProblemeDeVotreChien.ytextfunction", 2, "b353c9be-8052-4e8e-b5a7-5d3244fd73c8|en[relative-line-number,2,component-id,textGranule]")
+	
+\);
+      ;
+   ;
+@pragma usecase()
+

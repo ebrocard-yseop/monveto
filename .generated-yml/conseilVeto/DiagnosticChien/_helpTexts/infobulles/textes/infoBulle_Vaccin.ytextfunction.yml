@@ -1,0 +1,145 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 2, "56b3ebca-7853-49a4-a592-9c68e04d2b0b")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vaccin(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 84, "56b3ebca-7853-49a4-a592-9c68e04d2b0b[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 1, "56b3ebca-7853-49a4-a592-9c68e04d2b0b[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "bad7d365-39bd-4e0f-8ff9-386b04b84836[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vaccin_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vaccin_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 39, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 1, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 2, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,2,component-id,textGranule]")
+on considère qu'un chien est correctement
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 3, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,3,component-id,textGranule]")
+vacciné s'il a bien reçu deux injections à environ un
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 4, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,4,component-id,textGranule]")
+mois d'intervalle la première année,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 5, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,5,component-id,textGranule]")
+puis un rappel tous les ans par la suite
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 6, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,6,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 7, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,7,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 8, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,8,component-id,textGranule]")
+ si 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 9, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,9,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 10, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,10,component-id,textGranule]")
+n'a pas été
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 11, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,11,component-id,textGranule]")
+\adjective("vacciné", _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 12, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,12,component-id,textGranule]")
+depuis plus d'un an, vous devrez donc répondre
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 13, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,13,component-id,textGranule]")
+\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 14, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,14,component-id,textGranule]")
+non
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 15, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,15,component-id,textGranule]")
+\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 16, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,16,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 17, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,17,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 18, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,18,component-id,textGranule]")
+ si 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 19, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,19,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 20, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,20,component-id,textGranule]")
+n'a reçu pour le moment que sa première
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 21, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,21,component-id,textGranule]")
+injection de primo\-vaccination, merci de répondre :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 22, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,22,component-id,textGranule]")
+\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 23, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,23,component-id,textGranule]")
+je ne sais pas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 24, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,24,component-id,textGranule]")
+\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 25, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,25,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 26, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,26,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 27, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,27,component-id,textGranule]")
+Rq : ce sont les deux injections réalisées la première année
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 28, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,28,component-id,textGranule]")
+que l'on appelle primo\-vaccination
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 29, "bad7d365-39bd-4e0f-8ff9-386b04b84836|fr[relative-line-number,29,component-id,textGranule]")
+.
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vaccin_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 77, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 1, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 2, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,2,component-id,textGranule]")
+a dog is considered to be correctly vaccinated 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 3, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,3,component-id,textGranule]")
+if it has received two injections
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 4, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,4,component-id,textGranule]")
+one month apart (approximately) during the first year
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 5, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,5,component-id,textGranule]")
+(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 6, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,6,component-id,textGranule]")
+\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 7, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,7,component-id,textGranule]")
+	primary vaccination course
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 8, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,8,component-id,textGranule]")
+\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 9, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,9,component-id,textGranule]")
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 10, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,10,component-id,textGranule]")
+, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 11, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,11,component-id,textGranule]")
+then a booster every year afterwards
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 12, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,12,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 13, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,13,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 14, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,14,component-id,textGranule]")
+if
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 15, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,15,component-id,textGranule]")
+\value(getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 16, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,16,component-id,textGranule]")
+has not been vaccinated for over a \noContraction year, you should answer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 17, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,17,component-id,textGranule]")
+\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 18, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,18,component-id,textGranule]")
+no
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 19, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,19,component-id,textGranule]")
+\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 20, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,20,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 21, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,21,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 22, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,22,component-id,textGranule]")
+if
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 23, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,23,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 24, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,24,component-id,textGranule]")
+has only had the first injection of the primary vaccination course, please answer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 25, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,25,component-id,textGranule]")
+\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 26, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,26,component-id,textGranule]")
+I don\'t know
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 27, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,27,component-id,textGranule]")
+\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 28, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,28,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 29, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,29,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 30, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,30,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 31, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,31,component-id,textGranule]")
+please note the primary vaccination course consists of two injections the first year
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vaccin.ytextfunction", 32, "bad7d365-39bd-4e0f-8ff9-386b04b84836|en[relative-line-number,32,component-id,textGranule]")
+.*/
+\);
+      ;
+   ;
+@pragma usecase()
+

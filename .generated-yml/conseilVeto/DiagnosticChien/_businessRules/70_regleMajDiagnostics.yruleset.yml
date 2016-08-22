@@ -1,0 +1,152 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics.yruleset", 2, "4e8dbde8-581e-4d30-890c-184cdbe3d8b7")
+conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 2, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:calculeProbabiliteDiagnostic
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 1, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,1]")
+?d.estPossible == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 2, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,2]")
+?d.diagnosticElimine != true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 3, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,3]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 4, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,4]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 5, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,5]")
+) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 1, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 2, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,2]")
+?d.setSommeDesReponsePonderee()
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 3, "bfb2bd9b-1042-4f81-9141-bd7d3cbbc8c3[relative-line-number,3]")
+}
+         --> thenDsl "faire la somme pondérée des réponses aux symptomes pour le diagnostic identifié"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\calculeProbabiliteDiagnostic.yrule", 50, "70facd67-2284-43a7-844f-ef59da28e5d3[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 2, "e7138851-73cb-4f35-96dd-0af26716ff97")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:diagnosticValide
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 1, "e7138851-73cb-4f35-96dd-0af26716ff97[relative-line-number,1]")
+?d.pourcentAvancement == ?p,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 2, "e7138851-73cb-4f35-96dd-0af26716ff97[relative-line-number,2]")
+?p >= 1) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 1, "e7138851-73cb-4f35-96dd-0af26716ff97[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 2, "e7138851-73cb-4f35-96dd-0af26716ff97[relative-line-number,2]")
+?d.diagnosticValide = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 3, "e7138851-73cb-4f35-96dd-0af26716ff97[relative-line-number,3]")
+}
+         --> ifDsl "Soit un diagnostic qui a un pourcentage d'avancement and le pourcentage d'avancement est supérieur à 100%"
+         --> thenDsl "les diagnostics deviennent valides"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\diagnosticValide.yrule", 50, "c3c703d9-0016-406b-ad1f-ea2319e876c8[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 2, "344562c8-4775-48d2-9f52-103e753397a1")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:quali2quanti_peuProbable
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 1, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,1]")
+?d.probabilite == ?proba,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 2, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,2]")
+?d.pourcentAvancement >= 0,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 3, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,3]")
+?d.pourcentAvancement == ?pa,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 4, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,4]")
+?d.pourcentAvancement < getConfig().seuilPeuProbable) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 1, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 2, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,2]")
+?d.probaQuali = PQ_PEU_PROBABLE;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 3, "344562c8-4775-48d2-9f52-103e753397a1[relative-line-number,3]")
+}
+         --> ifDsl "soit un diagnostic disposant d'une proba non nulle and le pourcentage d'avancement du diagnostic ? 0 and soit un diagnostic disposant d'un pourcentage d'avancement non nul and le pourcentage d'avancement du diagnostic < getConfig().seuilPeuProbable"
+         --> thenDsl "la probabilité quantitative du diagnostic becomes peu probable"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_peuProbable.yrule", 121, "f918101b-d4e3-42a6-acdc-6bff20bce4ba[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 2, "dd85e45e-0fb3-46ba-8414-2234668aff3b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:quali2quanti_probable
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 1, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,1]")
+?d.probabilite == ?proba,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 2, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,2]")
+?d.pourcentAvancement == ?pa,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 3, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,3]")
+?d.pourcentAvancement >= getConfig().seuilPeuProbable,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 4, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,4]")
+?d.pourcentAvancement < getConfig().seuilProbable) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 1, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 2, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,2]")
+?d.probaQuali = PQ_PROBABLE;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 3, "dd85e45e-0fb3-46ba-8414-2234668aff3b[relative-line-number,3]")
+}
+         --> ifDsl "soit un diagnostic disposant d'une proba non nulle and soit un diagnostic disposant d'un pourcentage d'avancement non nul and le pourcentage d'avancement du diagnostic ? getConfig().seuilPeuProbable and le pourcentage d'avancement du diagnostic < getConfig().seuilProbable"
+         --> thenDsl "la probabilité quantitative du diagnostic becomes probable"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_probable.yrule", 121, "abed70e6-1a95-4d25-bda2-c0efd74dc23b[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 2, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:quali2quanti_tresProbable
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 1, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3[relative-line-number,1]")
+?d.probabilite == ?proba,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 2, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3[relative-line-number,2]")
+?d.pourcentAvancement == ?pa,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 3, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3[relative-line-number,3]")
+?d.pourcentAvancement >= getConfig().seuilProbable) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 1, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 2, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3[relative-line-number,2]")
+?d.probaQuali = PQ_TRES_PROBABLE;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 3, "d2072cc0-7e8e-4d5d-aa7c-6360aa82f3d3[relative-line-number,3]")
+}
+         --> ifDsl "soit un diagnostic disposant d'une proba non nulle and soit un diagnostic disposant d'un pourcentage d'avancement non nul and le pourcentage d'avancement du diagnostic ? getConfig().seuilProbable"
+         --> thenDsl "la probabilité quantitative du diagnostic becomes très probable"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\quali2quanti_tresProbable.yrule", 96, "765622d2-14fb-4466-a392-8bba5a111d38[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 2, "cc868b2e-3f55-4a7b-af17-c00a306fc7e0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:regleMajAvancementDiagnostic
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 1, "cc868b2e-3f55-4a7b-af17-c00a306fc7e0[relative-line-number,1]")
+?d.probabilite == ?proba,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 2, "cc868b2e-3f55-4a7b-af17-c00a306fc7e0[relative-line-number,2]")
+?d.pourcentSuffisant == ?pourcentSuff) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 1, "cc868b2e-3f55-4a7b-af17-c00a306fc7e0[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 2, "cc868b2e-3f55-4a7b-af17-c00a306fc7e0[relative-line-number,2]")
+?d.pourcentAvancement = ?proba / ?pourcentSuff
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 3, "cc868b2e-3f55-4a7b-af17-c00a306fc7e0[relative-line-number,3]")
+}
+         --> ifDsl "Soit un diagnostic qui a une probabilité and Soit un diagnostic qui a un pourcentage suffisant"
+         --> thenDsl "le pourcentage d'avancement du diagnostic est mis à jour"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleMajAvancementDiagnostic.yrule", 50, "750d21b1-2f2e-434a-93d1-90a480be25d2[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 2, "b8a33079-888e-4684-8d00-6824d7bee737")
+      Rule conseilVeto:DiagnosticChien:_businessRules:70_regleMajDiagnostics:regleSymptomesEliminatoires
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 1, "b8a33079-888e-4684-8d00-6824d7bee737[relative-line-number,1]")
+?r.eliminatoire == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 2, "b8a33079-888e-4684-8d00-6824d7bee737[relative-line-number,2]")
+?r.symptome.constateChezLAnimal == false) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 1, "b8a33079-888e-4684-8d00-6824d7bee737[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 2, "b8a33079-888e-4684-8d00-6824d7bee737[relative-line-number,2]")
+?r.diagnostic.diagnosticElimine = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 3, "b8a33079-888e-4684-8d00-6824d7bee737[relative-line-number,3]")
+}
+         --> ifDsl "Soit une relation éliminatoire and le symptome de la relation est non constaté chez l'animal"
+         --> thenDsl "le diagnostic de la relation devient éliminé"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\70_regleMajDiagnostics\\regleSymptomesEliminatoires.yrule", 50, "278cac71-5671-40fd-a4df-9237867ab8f1[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

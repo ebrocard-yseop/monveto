@@ -1,0 +1,48 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 2, "7d459aa7-dd02-4542-8934-5b6a700af49b")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:ailleursElsewhere(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 208, "7d459aa7-dd02-4542-8934-5b6a700af49b[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 1, "7d459aa7-dd02-4542-8934-5b6a700af49b[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "8c865993-dd00-4676-984c-15dd68ce43ec[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:ailleursElsewhere_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:ailleursElsewhere_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 84, "8c865993-dd00-4676-984c-15dd68ce43ec|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 1, "8c865993-dd00-4676-984c-15dd68ce43ec|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "8c865993-dd00-4676-984c-15dd68ce43ec[relative-line-number,1]")
+__dsl( (currentUsecase.chienFemelle == OUI) && (currentUsecase.sterilisationChien == NON), "le chien est une femelle = oui and le chien est stérilisé = non" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 2, "8c865993-dd00-4676-984c-15dd68ce43ec|fr[relative-line-number,2,component-id,textGranule]")
+	autre
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 3, "8c865993-dd00-4676-984c-15dd68ce43ec|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 4, "8c865993-dd00-4676-984c-15dd68ce43ec|fr[relative-line-number,4,component-id,textGranule]")
+	quelque part sur son corps
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 5, "8c865993-dd00-4676-984c-15dd68ce43ec|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:ailleursElsewhere_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 201, "8c865993-dd00-4676-984c-15dd68ce43ec|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 1, "8c865993-dd00-4676-984c-15dd68ce43ec|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "8c865993-dd00-4676-984c-15dd68ce43ec[relative-line-number,1]")
+__dsl( (currentUsecase.chienFemelle == OUI) && (currentUsecase.sterilisationChien == NON), "le chien est une femelle = oui and le chien est stérilisé = non" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 2, "8c865993-dd00-4676-984c-15dd68ce43ec|en[relative-line-number,2,component-id,textGranule]")
+	somewhere other than in the area of the teats
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ailleursElsewhere.ytextfunction", 3, "8c865993-dd00-4676-984c-15dd68ce43ec|en[relative-line-number,3,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

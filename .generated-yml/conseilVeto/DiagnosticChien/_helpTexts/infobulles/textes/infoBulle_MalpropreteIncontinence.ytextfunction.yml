@@ -1,0 +1,57 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 2, "fed260dc-0136-48a4-9209-fa1afbed0de8")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_MalpropreteIncontinence(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 40, "fed260dc-0136-48a4-9209-fa1afbed0de8[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 1, "fed260dc-0136-48a4-9209-fa1afbed0de8[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "704ee6bf-84f5-4f22-bc83-071250c64de4[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_MalpropreteIncontinence_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_MalpropreteIncontinence_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 22, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 1, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 2, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,2,component-id,textGranule]")
+dans le cas de l'incontinence, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 3, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,3,component-id,textGranule]")
+le chien ne contrôle pas ses besoins 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 4, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,4,component-id,textGranule]")
+:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 5, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,5,component-id,textGranule]")
+les urines et/ou les selles sortent toutes seules, là où l'animal se trouve (dans le panier, en marchant, etc\...)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 6, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,6,component-id,textGranule]")
+. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 7, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,7,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 8, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,8,component-id,textGranule]")
+dans le cas de la malpropreté, au contraire, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 9, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,9,component-id,textGranule]")
+le chien fait ses besoins de façon volontaire, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 10, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,10,component-id,textGranule]")
+en se mettant en position, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 11, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,11,component-id,textGranule]")
+mais dans un lieu inapproprié
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 12, "704ee6bf-84f5-4f22-bc83-071250c64de4|fr[relative-line-number,12,component-id,textGranule]")
+.
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_MalpropreteIncontinence_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 33, "704ee6bf-84f5-4f22-bc83-071250c64de4|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 1, "704ee6bf-84f5-4f22-bc83-071250c64de4|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 2, "704ee6bf-84f5-4f22-bc83-071250c64de4|en[relative-line-number,2,component-id,textGranule]")
+there are two types of incontinence : urinary which is the involuntary leakage of urine, and fecal which is the inability to control the bowels
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 3, "704ee6bf-84f5-4f22-bc83-071250c64de4|en[relative-line-number,3,component-id,textGranule]")
+. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 4, "704ee6bf-84f5-4f22-bc83-071250c64de4|en[relative-line-number,4,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_MalpropreteIncontinence.ytextfunction", 5, "704ee6bf-84f5-4f22-bc83-071250c64de4|en[relative-line-number,5,component-id,textGranule]")
+when it is a housetraining problem, the dog voluntarily eliminates in an inappropriate place.'
+\);
+      ;
+   ;
+@pragma usecase()
+

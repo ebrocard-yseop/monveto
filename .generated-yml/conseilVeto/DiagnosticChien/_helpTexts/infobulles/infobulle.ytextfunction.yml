@@ -1,0 +1,132 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 2, "646f91e1-28ef-475d-82e9-312280115592")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:infobulle(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 65, "646f91e1-28ef-475d-82e9-312280115592[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 1, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,1,component-id,ymlParameters]")
+Text monTexte
+)
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 65, "646f91e1-28ef-475d-82e9-312280115592[component-id,advanced]")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 1, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,1,component-id,advanced]")
+--> local 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 2, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,2,component-id,advanced]")
+	Text monTexte2,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 3, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,3,component-id,advanced]")
+	String htmlTitle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 4, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,4,component-id,advanced]")
+--> action{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 5, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,5,component-id,advanced]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 6, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,6,component-id,advanced]")
+	//monTexte =  \(Toto \endOfLine TATA \);  
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 7, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,7,component-id,advanced]")
+	htmlTitle = monTexte.toString();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 8, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,8,component-id,advanced]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 9, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,9,component-id,advanced]")
+	logInfo("htmlTitle =", htmlTitle);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 10, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,10,component-id,advanced]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 11, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,11,component-id,advanced]")
+	this.text.write();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 12, "646f91e1-28ef-475d-82e9-312280115592[relative-line-number,12,component-id,advanced]")
+}
+--> text @pragma source("", 0, "2802abfe-cf80-42de-9939-aa161674253d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:infobulle_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:infobulle_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 31, "2802abfe-cf80-42de-9939-aa161674253d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 1, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,1,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 2, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,2,component-id,textGranule]")
+	<a name="N100FC" id="N100FC" rel="tooltip" href="http://localhost:8080/yseop-manager/dialog/monveto/dialog.do;jsessionid=062178C1F65A1DD0038A43926FCD59C9?fb=-397317632#" 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 3, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,3,component-id,textGranule]")
+		data-original-title="TATA : nous vous conseillons un petit test simple :MangerEt bien dormir.">
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 4, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,4,component-id,textGranule]")
+		<i class="icon-flag"></i>
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 5, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,5,component-id,textGranule]")
+	</a>	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 6, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,6,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 7, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,7,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 8, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,8,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 9, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,9,component-id,textGranule]")
+\beginStyle(xmlTreeA, [
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 10, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,10,component-id,textGranule]")
+	"id", "N100FFF", 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 11, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,11,component-id,textGranule]")
+	"rel",  "tooltip",
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 12, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,12,component-id,textGranule]")
+	"href",  "#",
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 13, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,13,component-id,textGranule]")
+	"data-original-title",  htmlTitle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 14, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,14,component-id,textGranule]")
+	])
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 15, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,15,component-id,textGranule]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 16, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,16,component-id,textGranule]")
+	\beginStyle(xmlTreeI, ["class", "icon-flag"]) 	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 17, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,17,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 18, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,18,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 19, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,19,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 20, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,20,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 21, "2802abfe-cf80-42de-9939-aa161674253d|fr[relative-line-number,21,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:infobulle_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 58, "2802abfe-cf80-42de-9939-aa161674253d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 1, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,1,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 2, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,2,component-id,textGranule]")
+	<a name="N100FC" id="N100FC" rel="tooltip" href="http://localhost:8080/yseop-manager/dialog/monveto/dialog.do;jsessionid=062178C1F65A1DD0038A43926FCD59C9?fb=-397317632#" 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 3, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,3,component-id,textGranule]")
+		data-original-title="TATA : nous vous conseillons un petit test simple :MangerEt bien dormir.">
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 4, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,4,component-id,textGranule]")
+		<i class="icon-flag"></i>
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 5, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,5,component-id,textGranule]")
+	</a>	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 6, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,6,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 7, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,7,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 8, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,8,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 9, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,9,component-id,textGranule]")
+\beginStyle(xmlTreeA, [
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 10, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,10,component-id,textGranule]")
+	"id", "N100FFF", 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 11, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,11,component-id,textGranule]")
+	"rel",  "tooltip",
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 12, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,12,component-id,textGranule]")
+	"href",  "#",
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 13, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,13,component-id,textGranule]")
+	"data-original-title",  htmlTitle  
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 14, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,14,component-id,textGranule]")
+	])
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 15, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,15,component-id,textGranule]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 16, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,16,component-id,textGranule]")
+	\beginStyle(xmlTreeI, ["class", "icon-flag"]) 	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 17, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,17,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 18, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,18,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 19, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,19,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 20, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,20,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infobulle.ytextfunction", 21, "2802abfe-cf80-42de-9939-aa161674253d|en[relative-line-number,21,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

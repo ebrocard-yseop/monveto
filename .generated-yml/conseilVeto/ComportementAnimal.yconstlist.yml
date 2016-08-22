@@ -1,0 +1,31 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 2, "7394c8f7-65b6-4d64-bd45-8db604fb5f7f")
+ConstList conseilVeto:ComportementAnimal
+   --> values @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 5)
+      -> Symbol CA_PROB_PATHO
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 5, "fr")
+         --> i18nName_fr "comportement probablement pathologique"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 5, "en")
+         --> i18nName_en "probable pathological behavior"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 16)
+      -> Symbol CA_PE_PATHO
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 16, "fr")
+         --> i18nName_fr "comportement peut-être pathologique"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 16, "en")
+         --> i18nName_en "possible pathological behavior"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 27)
+      -> Symbol CA_PDT_PATHO
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 27, "fr")
+         --> i18nName_fr "comportement pas du tout pathologique"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 27, "en")
+         --> i18nName_en "not pathological behavior"
+         ;
+      
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ComportementAnimal.yconstlist", 41, "bd3061d8-c5a5-4169-811f-7776c4ed31d2[property-field,dsl,property-type,YML_PROPERTY]")
+   --> dsl "comportement de l'animal"
+   ;
+@pragma usecase()
+

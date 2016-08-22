@@ -1,0 +1,23 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_businessRules\\calculEtEstimationDonnees.yruleset", 2, "1306a5df-ead1-4720-a76e-f290767b6e6b")
+conseilVeto:_businessRules:calculEtEstimationDonnees()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_businessRules\\calculEtEstimationDonnees\\calculAge.yrule", 2, "b8f7e5a6-87ec-4305-9421-f6eb1c64df06")
+      Rule conseilVeto:_businessRules:calculEtEstimationDonnees:calculAge
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_businessRules\\calculEtEstimationDonnees\\calculAge.yrule", 1, "b8f7e5a6-87ec-4305-9421-f6eb1c64df06[relative-line-number,1]")
+?animal.dateDeNaissance == ?ddn
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_businessRules\\calculEtEstimationDonnees\\calculAge.yrule", 2, "b8f7e5a6-87ec-4305-9421-f6eb1c64df06[relative-line-number,2]")
+/*?animal.ageEnMois == null*/) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_businessRules\\calculEtEstimationDonnees\\calculAge.yrule", 1, "b8f7e5a6-87ec-4305-9421-f6eb1c64df06[relative-line-number,1]")
+?animal.setAge()
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_businessRules\\calculEtEstimationDonnees\\calculAge.yrule", 25, "eaaa733d-5a98-4016-8a7a-c19a162b6810[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

@@ -1,0 +1,143 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 2, "2f1a425d-b214-49fc-b0c0-0447278cb5b5")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_PUPD(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 121, "2f1a425d-b214-49fc-b0c0-0447278cb5b5[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 1, "2f1a425d-b214-49fc-b0c0-0447278cb5b5[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "71acc1ec-2d02-472c-bba6-df59f2cb7248[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_PUPD_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_PUPD_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 81, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 1, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 2, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,2,component-id,textGranule]")
+afin de savoir quelle quantité d'eau boit quotidiennement
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 3, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,3,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal(_REFERENTIAL),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 4, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,4,component-id,textGranule]")
+nous vous conseillons un petit test simple,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 5, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,5,component-id,textGranule]")
+qui s'effectue pendant deux à trois jours 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 6, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,6,component-id,textGranule]")
+(puis on fait la moyenne pour connaître le volume bu en 24 heures)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 7, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,7,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 8, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,8,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 9, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,9,component-id,textGranule]")
+à l'aide d'un verre mesureur, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 10, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,10,component-id,textGranule]")
+mettez dans sa gamelle une certaine quantité d'eau
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 11, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,11,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 12, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,12,component-id,textGranule]")
+n'oubliez pas de changer son eau toutes les douze heures,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 13, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,13,component-id,textGranule]")
+et de mesurer la quantité d'eau que vous avez retirée,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 14, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,14,component-id,textGranule]")
+ afin de la soustraire à la quantité d'eau de départ
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 15, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,15,component-id,textGranule]")
+ .
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 16, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,16,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 17, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,17,component-id,textGranule]")
+si votre chien mange un aliment humide (alimentation 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 18, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,18,component-id,textGranule]")
+ménagère ou boîtes) et non des croquettes, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 19, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,19,component-id,textGranule]")
+il faudra également tenir compte de l'apport d'eau 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 20, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,20,component-id,textGranule]")
+que représente ce type d'alimentation
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 21, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,21,component-id,textGranule]")
+. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 22, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,22,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 23, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,23,component-id,textGranule]")
+veillez également à ce que votre 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 24, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,24,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "71acc1ec-2d02-472c-bba6-df59f2cb7248[relative-line-number,1]")
+__dsl( currentUsecase.chienFemelle == OUI, "le chien est une femelle = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 25, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,25,component-id,textGranule]")
+	chienne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 26, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,26,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 27, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,27,component-id,textGranule]")
+	chien
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 28, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,28,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 29, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,29,component-id,textGranule]")
+ne manque jamais 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 30, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,30,component-id,textGranule]")
+d'eau au cours de la journée, car cela fausserait les résultats
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 31, "71acc1ec-2d02-472c-bba6-df59f2cb7248|fr[relative-line-number,31,component-id,textGranule]")
+.
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_PUPD_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 114, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 1, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 2, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,2,component-id,textGranule]")
+in order to find out how much water
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 3, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,3,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 4, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,4,component-id,textGranule]")
+drinks daily, you can carry out
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 5, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,5,component-id,textGranule]")
+	a simple test. do the test over two to three days and work 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 6, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,6,component-id,textGranule]")
+	out the daily average
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 7, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,7,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 8, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,8,component-id,textGranule]")
+ \conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 9, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,9,component-id,textGranule]")
+	using a measuring cup, put a measured amount of water in 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 10, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,10,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:nomAnimal\'s
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 11, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,11,component-id,textGranule]")
+	bowl.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 12, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,12,component-id,textGranule]")
+	don\'t forget to change
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 13, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,13,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 14, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,14,component-id,textGranule]")
+	water every 12 hours at least. measure the quantity of water that you throw away, in order
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 15, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,15,component-id,textGranule]")
+	to subtract it from the initial amount of water given
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 16, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,16,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 17, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,17,component-id,textGranule]")
+ \conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 18, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,18,component-id,textGranule]")
+	if you give
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 19, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,19,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:nomAnimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 20, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,20,component-id,textGranule]")
+	wet food (canned food) or homemade food, don\'t forget to add the approximate 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 21, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,21,component-id,textGranule]")
+	quantity of water they contain
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 22, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,22,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 23, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,23,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 24, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,24,component-id,textGranule]")
+	make sure that
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 25, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,25,component-id,textGranule]")
+	\value(getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 26, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,26,component-id,textGranule]")
+	never goes without water during the day or this would falsify the
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_PUPD.ytextfunction", 27, "71acc1ec-2d02-472c-bba6-df59f2cb7248|en[relative-line-number,27,component-id,textGranule]")
+	results. 
+\);
+      ;
+   ;
+@pragma usecase()
+

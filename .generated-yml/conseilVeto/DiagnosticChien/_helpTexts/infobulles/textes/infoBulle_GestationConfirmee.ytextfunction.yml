@@ -1,0 +1,47 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 2, "76687180-23de-4b3f-9abf-19cdd8559d14")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GestationConfirmee(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 35, "76687180-23de-4b3f-9abf-19cdd8559d14[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 1, "76687180-23de-4b3f-9abf-19cdd8559d14[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GestationConfirmee_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GestationConfirmee_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 15, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 1, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|fr[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 2, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|fr[relative-line-number,2,component-id,textGranule]")
+selon son stade,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 3, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|fr[relative-line-number,3,component-id,textGranule]")
+la gestation chez la chienne peut être confirmée
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 4, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|fr[relative-line-number,4,component-id,textGranule]")
+par palpation abdominale, échographie, prise
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 5, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|fr[relative-line-number,5,component-id,textGranule]")
+de sang ou encore radiographie.'
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GestationConfirmee_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 28, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 1, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 2, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,2,component-id,textGranule]")
+depending on the stage,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 3, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,3,component-id,textGranule]")
+a pregnancy can be
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 4, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,4,component-id,textGranule]")
+confirmed by abdominal palpation,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 5, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,5,component-id,textGranule]")
+an ultrasound scan, blood test or X\-ray.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 6, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,6,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GestationConfirmee.ytextfunction", 7, "bf757a4d-eb3a-4ed7-9622-03462ca7d4e2|en[relative-line-number,7,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

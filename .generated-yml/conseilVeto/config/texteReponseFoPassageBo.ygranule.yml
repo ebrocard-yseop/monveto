@@ -1,0 +1,40 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+MultilingualText conseilVeto:config:texteReponseFoPassageBo
+   --> i18nName_fr -> TextGranule conseilVeto:config:texteReponseFoPassageBo__fr
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 52, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[component-id,textGranule]")
+      \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 1, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,1,component-id,textGranule]")
+un vétérinaire 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 2, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,2,component-id,textGranule]")
+\conseilVeto:granules:site 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 3, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,3,component-id,textGranule]")
+va traiter votre demande au plus vite
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 4, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,4,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 5, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,5,component-id,textGranule]")
+merci de votre fidélité
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 6, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,6,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 7, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|fr[relative-line-number,7,component-id,textGranule]")
+\urlLink("http://www.monveto", _LABEL_NAME, "retour à l'accueil")
+\);
+   --> i18nName_en -> TextGranule conseilVeto:config:texteReponseFoPassageBo__en
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 63, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|en[component-id,textGranule]")
+      \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 1, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|en[relative-line-number,1,component-id,textGranule]")
+a \conseilVeto:granules:site vet will answer your question as soon as possible
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 2, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|en[relative-line-number,2,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 3, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|en[relative-line-number,3,component-id,textGranule]")
+thank you for your confidence
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 4, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|en[relative-line-number,4,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\config\\texteReponseFoPassageBo.ygranule", 5, "db1b236b-59ff-49ec-9fe4-d43ed73a4d15|en[relative-line-number,5,component-id,textGranule]")
+\urlLink("http://www.monveto", _LABEL_NAME, "back home")
+\);
+   ;
+@pragma usecase()
+

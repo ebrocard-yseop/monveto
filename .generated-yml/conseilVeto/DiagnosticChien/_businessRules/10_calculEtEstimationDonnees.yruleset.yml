@@ -1,0 +1,93 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees.yruleset", 2, "8444da8f-9247-41e4-90d2-bae08a503371")
+conseilVeto:DiagnosticChien:_businessRules:10_calculEtEstimationDonnees()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 2, "cdc3205d-2688-4335-b8b4-a0b40a876577")
+      Rule conseilVeto:DiagnosticChien:_businessRules:10_calculEtEstimationDonnees:calculClasseAge
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 1, "cdc3205d-2688-4335-b8b4-a0b40a876577[relative-line-number,1]")
+?a.dateDeNaissance == ?ddn,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 2, "cdc3205d-2688-4335-b8b4-a0b40a876577[relative-line-number,2]")
+?a.classeAgeChien == null) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 1, "cdc3205d-2688-4335-b8b4-a0b40a876577[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 2, "cdc3205d-2688-4335-b8b4-a0b40a876577[relative-line-number,2]")
+?a.setClasseAgeChien()
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 3, "cdc3205d-2688-4335-b8b4-a0b40a876577[relative-line-number,3]")
+}
+         --> ifDsl "Soit un animal avec une date de naissance and la classe d'age du chien est nulle"
+         --> thenDsl "mettre à jour la classe d'age du chien"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\calculClasseAge.yrule", 50, "a7a5b91b-3fee-4a24-a88e-1b9a0c06a6db[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 2, "37ea2c6f-0102-46c3-adb8-91740bae7d29")
+      Rule conseilVeto:DiagnosticChien:_businessRules:10_calculEtEstimationDonnees:animalFemelle
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 1, "37ea2c6f-0102-46c3-adb8-91740bae7d29[relative-line-number,1]")
+getAnimal().getGender() == FEMININE) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 1, "37ea2c6f-0102-46c3-adb8-91740bae7d29[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 2, "37ea2c6f-0102-46c3-adb8-91740bae7d29[relative-line-number,2]")
+currentUsecase.chienFemelle = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 3, "37ea2c6f-0102-46c3-adb8-91740bae7d29[relative-line-number,3]")
+currentUsecase.chienMale = NON;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 4, "37ea2c6f-0102-46c3-adb8-91740bae7d29[relative-line-number,4]")
+}
+         --> thenDsl "le chien est une femelle becomes oui then le chien est un male becomes non"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalFemelle.yrule", 83, "fe70888e-f988-47d0-b9c5-4a7895f937f0[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 2, "15253cda-e051-4506-a6ee-e72504293534")
+      Rule conseilVeto:DiagnosticChien:_businessRules:10_calculEtEstimationDonnees:animalMale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 1, "15253cda-e051-4506-a6ee-e72504293534[relative-line-number,1]")
+getAnimal().getGender() == MASCULINE) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 1, "15253cda-e051-4506-a6ee-e72504293534[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 2, "15253cda-e051-4506-a6ee-e72504293534[relative-line-number,2]")
+currentUsecase.chienMale = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 3, "15253cda-e051-4506-a6ee-e72504293534[relative-line-number,3]")
+currentUsecase.chienFemelle = NON;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 4, "15253cda-e051-4506-a6ee-e72504293534[relative-line-number,4]")
+}
+         --> thenDsl "le chien est un male becomes oui then le chien est une femelle becomes non"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalMale.yrule", 83, "a2a658fd-d042-4907-afb1-c50d2624bcd3[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalSterilise.yrule", 2, "b2530293-c048-420d-810b-12d74e8dc9e4")
+      Rule conseilVeto:DiagnosticChien:_businessRules:10_calculEtEstimationDonnees:animalSterilise
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalSterilise.yrule", 1, "b2530293-c048-420d-810b-12d74e8dc9e4[relative-line-number,1]")
+getAnimal().estSterilise == true) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalSterilise.yrule", 1, "b2530293-c048-420d-810b-12d74e8dc9e4[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalSterilise.yrule", 2, "b2530293-c048-420d-810b-12d74e8dc9e4[relative-line-number,2]")
+currentUsecase.sterilisationChien = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalSterilise.yrule", 3, "b2530293-c048-420d-810b-12d74e8dc9e4[relative-line-number,3]")
+}
+         --> thenDsl "le chien est stérilisé becomes oui"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalSterilise.yrule", 54, "352a4a0e-8f8a-42c1-a546-20c2511703db[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalNonSterilise.yrule", 2, "39f6f389-4645-4a87-b8fc-6765cbd4430e")
+      Rule conseilVeto:DiagnosticChien:_businessRules:10_calculEtEstimationDonnees:animalNonSterilise
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalNonSterilise.yrule", 1, "39f6f389-4645-4a87-b8fc-6765cbd4430e[relative-line-number,1]")
+getAnimal().estSterilise != true) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalNonSterilise.yrule", 1, "39f6f389-4645-4a87-b8fc-6765cbd4430e[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalNonSterilise.yrule", 2, "39f6f389-4645-4a87-b8fc-6765cbd4430e[relative-line-number,2]")
+currentUsecase.sterilisationChien = NON;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalNonSterilise.yrule", 3, "39f6f389-4645-4a87-b8fc-6765cbd4430e[relative-line-number,3]")
+}
+         --> thenDsl "le chien est stérilisé becomes non"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\10_calculEtEstimationDonnees\\animalNonSterilise.yrule", 54, "3aeb4ba8-6fc3-45f5-9851-da692a900ac5[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

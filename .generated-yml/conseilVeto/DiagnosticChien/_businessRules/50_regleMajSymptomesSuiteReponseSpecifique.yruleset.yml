@@ -1,0 +1,253 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique.yruleset", 2, "cde421cd-e9bd-49a5-919a-4d4887ba74e3")
+conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsAigus.yrule", 2, "574d5324-a165-4001-b203-50c89366d86c")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majSymptomeConstateVomissementsAigus
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsAigus.yrule", 1, "574d5324-a165-4001-b203-50c89366d86c[relative-line-number,1]")
+currentUsecase.vomissementsAigus == VAC_AIGUS) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsAigus.yrule", 1, "574d5324-a165-4001-b203-50c89366d86c[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsAigus.yrule", 2, "574d5324-a165-4001-b203-50c89366d86c[relative-line-number,2]")
+findSymptome("Vomissements aigus").constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsAigus.yrule", 3, "574d5324-a165-4001-b203-50c89366d86c[relative-line-number,3]")
+}
+         --> ifDsl "le chien présente des vomissement aigus = Moins de 72 heures"
+         --> thenDsl "le symptome \"Vomissements aigus\" est constaté chez l'animal devient true"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsAigus.yrule", 86, "ee611868-3797-4c3a-a030-018d2880bdd6[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 2, "24b17493-2cb7-4540-b9eb-deaefc563a43")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majSymptomeConstateVomissementsRecurrents
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 1, "24b17493-2cb7-4540-b9eb-deaefc563a43[relative-line-number,1]")
+currentUsecase.frequenceVomissement != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 2, "24b17493-2cb7-4540-b9eb-deaefc563a43[relative-line-number,2]")
+currentUsecase.frequenceVomissement != FRV_PEU_FQ) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 1, "24b17493-2cb7-4540-b9eb-deaefc563a43[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 2, "24b17493-2cb7-4540-b9eb-deaefc563a43[relative-line-number,2]")
+findSymptome("Vomissements récurrents").constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 3, "24b17493-2cb7-4540-b9eb-deaefc563a43[relative-line-number,3]")
+}
+         --> ifDsl "le chien présente des vomissements récurrents is known and le chien présente des vomissements récurrents ? Moins souvent"
+         --> thenDsl "le symptome \"Vomissements récurrents\" est constaté chez l'animal devient true"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateVomissementsRecurrents.yrule", 102, "509dcab2-3fba-4c67-81c2-60f104e29ec6[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeAigue.yrule", 2, "eb1f94a3-407b-4f2a-94ae-c1102f968274")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majSymptomeConstateDiarrheeAigue
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeAigue.yrule", 1, "eb1f94a3-407b-4f2a-94ae-c1102f968274[relative-line-number,1]")
+currentUsecase.diarrheeAigueOuChronique == DAC_AIGU) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeAigue.yrule", 1, "eb1f94a3-407b-4f2a-94ae-c1102f968274[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeAigue.yrule", 2, "eb1f94a3-407b-4f2a-94ae-c1102f968274[relative-line-number,2]")
+findSymptome("Diarrhée aigüe").constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeAigue.yrule", 3, "eb1f94a3-407b-4f2a-94ae-c1102f968274[relative-line-number,3]")
+}
+         --> ifDsl "le chien présente de la diarrhée aiguë ou chronique = Seulement quelques jours"
+         --> thenDsl "le symptome \"Diarrhée aigüe\" est constaté chez l'animal devient true"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeAigue.yrule", 86, "9e51222b-efb3-4e77-97e7-4b2add520841[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeChronique.yrule", 2, "6c21b223-c097-49d5-8a6e-f988dea61530")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majSymptomeConstateDiarrheeChronique
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeChronique.yrule", 1, "6c21b223-c097-49d5-8a6e-f988dea61530[relative-line-number,1]")
+currentUsecase.diarrheeAigueOuChronique == DAC_CHRONIQUE) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeChronique.yrule", 1, "6c21b223-c097-49d5-8a6e-f988dea61530[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeChronique.yrule", 2, "6c21b223-c097-49d5-8a6e-f988dea61530[relative-line-number,2]")
+findSymptome("Diarrhée chronique").constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeChronique.yrule", 3, "6c21b223-c097-49d5-8a6e-f988dea61530[relative-line-number,3]")
+}
+         --> ifDsl "le chien présente de la diarrhée aiguë ou chronique = Plus de 2 à 3 semaines"
+         --> thenDsl "le symptome \"Diarrhée chronique\" est constaté chez l'animal devient true"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majSymptomeConstateDiarrheeChronique.yrule", 86, "762c6929-3144-4bf7-933a-5f906f87e151[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 2, "2d5fc610-88b7-4d80-b78e-4be2abdddce3")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteSA_PUPD
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 1, "2d5fc610-88b7-4d80-b78e-4be2abdddce3[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("PUPD")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 1, "2d5fc610-88b7-4d80-b78e-4be2abdddce3[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 2, "2d5fc610-88b7-4d80-b78e-4be2abdddce3[relative-line-number,2]")
+currentUsecase.pupd = QEB_BEAUCOUP;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 3, "2d5fc610-88b7-4d80-b78e-4be2abdddce3[relative-line-number,3]")
+findSymptome("PUPD").constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 4, "2d5fc610-88b7-4d80-b78e-4be2abdddce3[relative-line-number,4]")
+}
+         --> ifDsl "le symptome \"PUPD\" est le symptome d'appel"
+         --> thenDsl "le chien présente de la PUPD becomes Plus de 100mL par kg et par j (soit plus de 1L par jour pour un chien de 10kg) then le symptome \"PUPD\" est constaté chez l'animal devient true"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_PUPD.yrule", 107, "9eecbc96-3913-451d-9156-dab1acae0516[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 2, "c4628d51-27b8-4b13-a0b6-8acfd4d3c649")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteSA_cryptorchidie
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 1, "c4628d51-27b8-4b13-a0b6-8acfd4d3c649[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Testicules non présents dans le scrotum")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 1, "c4628d51-27b8-4b13-a0b6-8acfd4d3c649[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 2, "c4628d51-27b8-4b13-a0b6-8acfd4d3c649[relative-line-number,2]")
+currentUsecase.testiculesNonPresentsDansLeScrotum = NON;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 3, "c4628d51-27b8-4b13-a0b6-8acfd4d3c649[relative-line-number,3]")
+findSymptome("Testicules non présents dans le scrotum").constateChezLAnimal = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 4, "c4628d51-27b8-4b13-a0b6-8acfd4d3c649[relative-line-number,4]")
+}
+         --> ifDsl "le symptome \"Testicules non présents dans le scrotum\" est le symptome d'appel"
+         --> thenDsl "les testicules du chien ne sont pas descendus becomes non then le symptome \"Testicules non présents dans le scrotum\" est constaté chez l'animal devient true"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSA_cryptorchidie.yrule", 107, "11370b0e-917b-4769-ac7b-b62203481900[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienArthrosique.yrule", 2, "88d18c85-5ac0-4875-a1df-7e5b2d015e2c")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteChienArthrosique
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienArthrosique.yrule", 1, "88d18c85-5ac0-4875-a1df-7e5b2d015e2c[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("souffre d'arthrose")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienArthrosique.yrule", 1, "88d18c85-5ac0-4875-a1df-7e5b2d015e2c[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienArthrosique.yrule", 2, "88d18c85-5ac0-4875-a1df-7e5b2d015e2c[relative-line-number,2]")
+currentUsecase.motivationDeLaQuestion = MQ_SOUFFRE_DE_CE_PB;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienArthrosique.yrule", 3, "88d18c85-5ac0-4875-a1df-7e5b2d015e2c[relative-line-number,3]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"souffre d'arthrose\""
+         --> thenDsl "la motivation de la question becomes Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienDysplasique.yrule", 2, "cd7806f1-0977-4b05-b288-7e078273b0a7")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteChienDysplasique
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienDysplasique.yrule", 1, "cd7806f1-0977-4b05-b288-7e078273b0a7[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("souffre de dysplasie de la hanche et vous voulez des renseignements à ce sujet")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienDysplasique.yrule", 1, "cd7806f1-0977-4b05-b288-7e078273b0a7[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienDysplasique.yrule", 2, "cd7806f1-0977-4b05-b288-7e078273b0a7[relative-line-number,2]")
+currentUsecase.motivationDeLaQuestion = MQ_SOUFFRE_DE_CE_PB;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienDysplasique.yrule", 3, "cd7806f1-0977-4b05-b288-7e078273b0a7[relative-line-number,3]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"souffre de dysplasie de la hanche et vous voulez des renseignements à ce sujet\""
+         --> thenDsl "la motivation de la question becomes Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienSouffreDeLuxationDeRotule.yrule", 2, "3f754590-f252-4159-91ce-204cc9f5db0b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteChienSouffreDeLuxationDeRotule
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienSouffreDeLuxationDeRotule.yrule", 1, "3f754590-f252-4159-91ce-204cc9f5db0b[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("présente une luxation de rotule")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienSouffreDeLuxationDeRotule.yrule", 1, "3f754590-f252-4159-91ce-204cc9f5db0b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienSouffreDeLuxationDeRotule.yrule", 2, "3f754590-f252-4159-91ce-204cc9f5db0b[relative-line-number,2]")
+currentUsecase.motivationDeLaQuestion = MQ_SOUFFRE_DE_CE_PB;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteChienSouffreDeLuxationDeRotule.yrule", 3, "3f754590-f252-4159-91ce-204cc9f5db0b[relative-line-number,3]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"présente une luxation de rotule\""
+         --> thenDsl "la motivation de la question becomes Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 2, "edd5bf1b-9b34-4331-8d77-5125bff00d99")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuitePlaieDeCoussinet
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 1, "edd5bf1b-9b34-4331-8d77-5125bff00d99[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("au niveau d'un coussinet")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 1, "edd5bf1b-9b34-4331-8d77-5125bff00d99[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 2, "edd5bf1b-9b34-4331-8d77-5125bff00d99[relative-line-number,2]")
+currentUsecase.localisationDeLaPlaie = LP_AU_NIVEAU_D_UN_COUSSINET;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 3, "edd5bf1b-9b34-4331-8d77-5125bff00d99[relative-line-number,3]")
+findSymptome("Localisation de la plaie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 4, "edd5bf1b-9b34-4331-8d77-5125bff00d99[relative-line-number,4]")
+currentUsecase.plaieDeCoussinet = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuitePlaieDeCoussinet.yrule", 5, "edd5bf1b-9b34-4331-8d77-5125bff00d99[relative-line-number,5]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"au niveau d'un coussinet\""
+         --> thenDsl "la plaie est située becomes Au niveau d'un coussinet then le symptome \"Localisation de la plaie\" sort du périmètre des symptômes calculés then le chien a une plaie de coussinet becomes oui"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSouffreDUneRuptureDeLigamentsCroises.yrule", 2, "19505eaf-7d95-4e6c-874c-86a1c1dff699")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteSouffreDUneRuptureDeLigamentsCroises
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSouffreDUneRuptureDeLigamentsCroises.yrule", 1, "19505eaf-7d95-4e6c-874c-86a1c1dff699[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("souffre d'une rupture de ligament croisé")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSouffreDUneRuptureDeLigamentsCroises.yrule", 1, "19505eaf-7d95-4e6c-874c-86a1c1dff699[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSouffreDUneRuptureDeLigamentsCroises.yrule", 2, "19505eaf-7d95-4e6c-874c-86a1c1dff699[relative-line-number,2]")
+currentUsecase.motivationDeLaQuestion = MQ_SOUFFRE_DE_CE_PB;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSouffreDUneRuptureDeLigamentsCroises.yrule", 3, "19505eaf-7d95-4e6c-874c-86a1c1dff699[relative-line-number,3]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"souffre d'une rupture de ligament croisé\""
+         --> thenDsl "la motivation de la question becomes Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 2, "6b643e38-f55a-4cab-b98c-fb35f14e958d")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseGeneBuccale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 1, "6b643e38-f55a-4cab-b98c-fb35f14e958d[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Douleur à l'ouverture de la bouche")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 1, "6b643e38-f55a-4cab-b98c-fb35f14e958d[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 2, "6b643e38-f55a-4cab-b98c-fb35f14e958d[relative-line-number,2]")
+findSymptome("Gêne buccale/mâchonnement").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 3, "6b643e38-f55a-4cab-b98c-fb35f14e958d[relative-line-number,3]")
+currentUsecase.geneBuccaleMachonnement = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 4, "6b643e38-f55a-4cab-b98c-fb35f14e958d[relative-line-number,4]")
+findSymptome("Gêne buccale/mâchonnement").afficheRecap = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseGeneBuccale.yrule", 5, "6b643e38-f55a-4cab-b98c-fb35f14e958d[relative-line-number,5]")
+}
+         --> ifDsl "le symptome \"Douleur à l'ouverture de la bouche\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Gêne buccale/mâchonnement\" sort du périmètre des symptômes calculés then le chien présente une gêne buccale becomes oui then la question associée au symptome Gêne buccale/mâchonnement ne doit pas apparaitre dans le récap"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majQuestionNatureDesSecretionAuriculaireSiOreillesSales.yrule", 2, "abdbdf15-db14-469e-a557-8f6f0e6d430f")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majQuestionNatureDesSecretionAuriculaireSiOreillesSales
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majQuestionNatureDesSecretionAuriculaireSiOreillesSales.yrule", 1, "abdbdf15-db14-469e-a557-8f6f0e6d430f[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Tête penchée"),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majQuestionNatureDesSecretionAuriculaireSiOreillesSales.yrule", 2, "abdbdf15-db14-469e-a557-8f6f0e6d430f[relative-line-number,2]")
+currentUsecase.presenceDeSecretionsOculaires == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majQuestionNatureDesSecretionAuriculaireSiOreillesSales.yrule", 1, "abdbdf15-db14-469e-a557-8f6f0e6d430f[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majQuestionNatureDesSecretionAuriculaireSiOreillesSales.yrule", 2, "abdbdf15-db14-469e-a557-8f6f0e6d430f[relative-line-number,2]")
+findSymptome("Nature des sécrétions auriculaires").questionDoitEtrePosee = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majQuestionNatureDesSecretionAuriculaireSiOreillesSales.yrule", 3, "abdbdf15-db14-469e-a557-8f6f0e6d430f[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Tête penchée\" est le symptome d'appel and le chien présente des sécrétions dans les oreilles = oui"
+         --> thenDsl "la question associée au symptome Nature des sécrétions auriculaires doit donc être posée"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSALeveLaPatte.yrule", 2, "11da25cb-b754-432b-a7c3-394ae830df65")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteSALeveLaPatte
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSALeveLaPatte.yrule", 1, "11da25cb-b754-432b-a7c3-394ae830df65[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("lève la patte dans la maison")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSALeveLaPatte.yrule", 1, "11da25cb-b754-432b-a7c3-394ae830df65[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSALeveLaPatte.yrule", 2, "11da25cb-b754-432b-a7c3-394ae830df65[relative-line-number,2]")
+currentUsecase.leveLaPattePourUriner = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSALeveLaPatte.yrule", 3, "11da25cb-b754-432b-a7c3-394ae830df65[relative-line-number,3]")
+findSymptome("Lève la patte pour uriner").afficheRecap = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSALeveLaPatte.yrule", 4, "11da25cb-b754-432b-a7c3-394ae830df65[relative-line-number,4]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"lève la patte dans la maison\""
+         --> thenDsl "le chien lève la patte pour uriner becomes oui then la question associée au symptome Lève la patte pour uriner ne doit pas apparaitre dans le récap"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSAIncontinenceUrinaire.yrule", 2, "99b885cf-7548-4a2d-ac74-ca5f79de5ac5")
+      Rule conseilVeto:DiagnosticChien:_businessRules:50_regleMajSymptomesSuiteReponseSpecifique:majReponseSuiteSAIncontinenceUrinaire
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSAIncontinenceUrinaire.yrule", 1, "99b885cf-7548-4a2d-ac74-ca5f79de5ac5[relative-line-number,1]")
+cu.questionTroisDeterminationSA == findItemReponseDSAbyLibelle("souffre d'incontinence urinaire")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSAIncontinenceUrinaire.yrule", 1, "99b885cf-7548-4a2d-ac74-ca5f79de5ac5[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSAIncontinenceUrinaire.yrule", 2, "99b885cf-7548-4a2d-ac74-ca5f79de5ac5[relative-line-number,2]")
+currentUsecase.incontinenceOuMalproprete = INCONTINENCE_URINAIRE;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSAIncontinenceUrinaire.yrule", 3, "99b885cf-7548-4a2d-ac74-ca5f79de5ac5[relative-line-number,3]")
+findSymptome("Incontinence ou Malpropreté").afficheRecap = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\50_regleMajSymptomesSuiteReponseSpecifique\\majReponseSuiteSAIncontinenceUrinaire.yrule", 4, "99b885cf-7548-4a2d-ac74-ca5f79de5ac5[relative-line-number,4]")
+}
+         --> ifDsl "la réponse à la question 3 est  \"souffre d'incontinence urinaire\""
+         --> thenDsl "est-ce de l'incontinence ou de la malpropreté becomes D'incontinence urinaire then la question associée au symptome Incontinence ou Malpropreté ne doit pas apparaitre dans le récap"
+         ;
+     }
+   ;
+@pragma usecase()
+

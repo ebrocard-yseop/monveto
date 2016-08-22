@@ -1,0 +1,30 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 2, "efbb8c6b-50ad-4cfb-a3fb-1edaff345934")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:listePourBouche1(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 88, "efbb8c6b-50ad-4cfb-a3fb-1edaff345934[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 1, "efbb8c6b-50ad-4cfb-a3fb-1edaff345934[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "2be1a3b4-f0bf-4ef4-bbe5-1908b9d97506[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:listePourBouche1_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listePourBouche1_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 74, "2be1a3b4-f0bf-4ef4-bbe5-1908b9d97506|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 1, "2be1a3b4-f0bf-4ef4-bbe5-1908b9d97506|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "2be1a3b4-f0bf-4ef4-bbe5-1908b9d97506[relative-line-number,1]")
+__dsl( (findSymptome("Masses buccales").calcule == true && findSymptome("Masses buccales").questionDoitEtrePosee == true) && (currentUsecase.massesBuccales == OUI), "le symptome \"Masses buccales\" fait partie des symptomes calculés et la question doit être posée and le chien a une masse dans la bouche = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 2, "2be1a3b4-f0bf-4ef4-bbe5-1908b9d97506|fr[relative-line-number,2,component-id,textGranule]")
+	de plus, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche1.ytextfunction", 3, "2be1a3b4-f0bf-4ef4-bbe5-1908b9d97506|fr[relative-line-number,3,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

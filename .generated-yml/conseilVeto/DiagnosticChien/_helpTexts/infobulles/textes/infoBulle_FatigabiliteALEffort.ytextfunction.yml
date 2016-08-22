@@ -1,0 +1,97 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 2, "b7ca8bc0-a365-4128-a9b1-e3801f99b486")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_FatigabiliteALEffort(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 120, "b7ca8bc0-a365-4128-a9b1-e3801f99b486[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 1, "b7ca8bc0-a365-4128-a9b1-e3801f99b486[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "b5f95be9-6c18-475c-8944-d4b3d4495c6d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_FatigabiliteALEffort_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_FatigabiliteALEffort_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 59, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 1, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 2, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,2,component-id,textGranule]")
+une fatigabilité à l'effort peut par exemple se 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 3, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,3,component-id,textGranule]")
+traduire par un manque d'entrain au cours de vos
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 4, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,4,component-id,textGranule]")
+sorties 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 5, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,5,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "b5f95be9-6c18-475c-8944-d4b3d4495c6d[relative-line-number,1]")
+__dsl( findFicheConseil("FC_Le syndrome brachycéphale") != cu.ficheConseilAppel, "la fiche conseil \"FC_Le syndrome brachycéphale\" n'est pas la fiche conseil d'appel" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 6, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,6,component-id,textGranule]")
+	(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 7, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,7,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 8, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,8,component-id,textGranule]")
+	traîne derrière vous alors
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 9, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,9,component-id,textGranule]")
+	 que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 10, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,10,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 11, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,11,component-id,textGranule]")
+	était toujours devant auparavant
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 12, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,12,component-id,textGranule]")
+	)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 13, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,13,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 14, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,14,component-id,textGranule]")
+, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 15, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,15,component-id,textGranule]")
+un refus ou des difficultés à monter 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 16, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,16,component-id,textGranule]")
+les escaliers (sans faire de pause), 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 17, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|fr[relative-line-number,17,component-id,textGranule]")
+etc\...
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_FatigabiliteALEffort_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 113, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 1, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,1,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 2, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 3, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,3,component-id,textGranule]")
+fatigability can be shown by a lack of energy
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 4, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,4,component-id,textGranule]")
+on your outings 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 5, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,5,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "b5f95be9-6c18-475c-8944-d4b3d4495c6d[relative-line-number,1]")
+__dsl( findFicheConseil("FC_Le syndrome brachycéphale") != cu.ficheConseilAppel, "la fiche conseil \"FC_Le syndrome brachycéphale\" n'est pas la fiche conseil d'appel" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 6, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,6,component-id,textGranule]")
+	(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 7, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,7,component-id,textGranule]")
+	\value("e.g.,", _NO_INTERPRET_CHARS)\_ 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 8, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,8,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 9, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,9,component-id,textGranule]")
+	lags behind you whereas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 10, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,10,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal(_ANAPHOR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 11, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,11,component-id,textGranule]")
+	is normally in front
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 12, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,12,component-id,textGranule]")
+	)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 13, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,13,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 14, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,14,component-id,textGranule]")
+, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 15, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,15,component-id,textGranule]")
+refusing to or having difficulty going up stairs (without stopping), 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_FatigabiliteALEffort.ytextfunction", 16, "b5f95be9-6c18-475c-8944-d4b3d4495c6d|en[relative-line-number,16,component-id,textGranule]")
+etc\.'
+\);
+      ;
+   ;
+@pragma usecase()
+

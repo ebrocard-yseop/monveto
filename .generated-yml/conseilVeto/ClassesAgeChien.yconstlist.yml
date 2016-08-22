@@ -1,0 +1,29 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 2, "4c9f7ca9-034c-48f5-ba47-5f2876542321")
+ConstList conseilVeto:ClassesAgeChien
+   --> values @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 5)
+      -> Symbol CAC_CHIOT
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 5, "fr")
+         --> i18nName_fr "chiot"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 5, "en")
+         --> i18nName_en "puppy"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 16)
+      -> Symbol CAC_ADULTE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 16, "fr")
+         --> i18nName_fr "adulte"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 16, "en")
+         --> i18nName_en "adult"
+         ;, @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 27)
+      -> Symbol CAC_SENIOR
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 27, "fr")
+         --> i18nName_fr "sénior"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\ClassesAgeChien.yconstlist", 27, "en")
+         --> i18nName_en "senior"
+         ;
+      
+   ;
+@pragma usecase()
+

@@ -1,0 +1,134 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 2, "d2dc0053-c0f0-42e5-9c82-09d2b6a37ffa")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:lanimal(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 75, "d2dc0053-c0f0-42e5-9c82-09d2b6a37ffa[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 1, "d2dc0053-c0f0-42e5-9c82-09d2b6a37ffa[relative-line-number,1,component-id,ymlParameters]")
+{ [_CASE]: NlgCase parametreGetAnimal {__nullable, __default SUBJECT},
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 2, "d2dc0053-c0f0-42e5-9c82-09d2b6a37ffa[relative-line-number,2,component-id,ymlParameters]")
+  [_REFERENCE]: {_REFERENTIAL, _ANAPHOR} modeRepresentation
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 3, "d2dc0053-c0f0-42e5-9c82-09d2b6a37ffa[relative-line-number,3,component-id,ymlParameters]")
+}
+)
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 7, "d2dc0053-c0f0-42e5-9c82-09d2b6a37ffa")
+   --> action this.text.write();
+   --> text @pragma source("", 0, "9f55634b-dad8-4fb9-90ac-f203f91a0595[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:lanimal_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lanimal_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 39, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 1, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,1,component-id,textGranule]")
+\if(modeRepresentation != null)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 2, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,2,component-id,textGranule]")
+	\switch(modeRepresentation)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 3, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,3,component-id,textGranule]")
+		\case(_REFERENTIAL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 4, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,4,component-id,textGranule]")
+			//xx1 \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 5, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,5,component-id,textGranule]")
+			\value(getAnimal(), parametreGetAnimal, _REFERENCE: _REFERENTIAL) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 6, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,6,component-id,textGranule]")
+		\case(_ANAPHOR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 7, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,7,component-id,textGranule]")
+			//xx2 \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 8, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,8,component-id,textGranule]")
+			//\resetReferences
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 9, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,9,component-id,textGranule]")
+			\value(getAnimal(), parametreGetAnimal, _REFERENCE: _ANAPHOR)	//il			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 10, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,10,component-id,textGranule]")
+		\default		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 11, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,11,component-id,textGranule]")
+			\value(getAnimal(), parametreGetAnimal, _REFERENCE: modeRepresentation)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 12, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,12,component-id,textGranule]")
+	\endSwitch
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 13, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,13,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 14, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,14,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 15, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,15,component-id,textGranule]")
+	\value(getAnimal(), _CASE: parametreGetAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 16, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,16,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 17, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,17,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 18, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,18,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 19, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,19,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 20, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,20,component-id,textGranule]")
+\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 21, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,21,component-id,textGranule]")
+on est ici dans la textFunction :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 22, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,22,component-id,textGranule]")
+\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 23, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,23,component-id,textGranule]")
+\value(getAnimal(), _CASE: SUBJECT, _REFERENCE: _ANAPHOR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 24, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,24,component-id,textGranule]")
+est super cool
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 25, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,25,component-id,textGranule]")
+\value(getAnimal(), _CASE: SUBJECT, _REFERENCE: _REFERENTIAL) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 26, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,26,component-id,textGranule]")
+et
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 27, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,27,component-id,textGranule]")
+est super top.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 28, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,28,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 29, "9f55634b-dad8-4fb9-90ac-f203f91a0595|fr[relative-line-number,29,component-id,textGranule]")
+*/
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lanimal_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 68, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 1, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,1,component-id,textGranule]")
+/*\if(modeRepresentation != null)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 2, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,2,component-id,textGranule]")
+	\value(getAnimal(), parametreGetAnimal, modeRepresentation)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 3, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,3,component-id,textGranule]")
+\else  
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 4, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,4,component-id,textGranule]")
+	\value(getAnimal(), parametreGetAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 5, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,5,component-id,textGranule]")
+\endIf*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 6, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,6,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 7, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,7,component-id,textGranule]")
+\if(modeRepresentation != null)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 8, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,8,component-id,textGranule]")
+	\switch(modeRepresentation)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 9, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,9,component-id,textGranule]")
+		\case(_REFERENTIAL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 10, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,10,component-id,textGranule]")
+			//xx1 \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 11, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,11,component-id,textGranule]")
+			\value(getAnimal(), parametreGetAnimal, _REFERENCE: _REFERENTIAL) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 12, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,12,component-id,textGranule]")
+		\case(_ANAPHOR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 13, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,13,component-id,textGranule]")
+			//xx2 \endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 14, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,14,component-id,textGranule]")
+			//\resetReferences
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 15, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,15,component-id,textGranule]")
+			\value(getAnimal(), parametreGetAnimal, _REFERENCE: _ANAPHOR)	//il			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 16, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,16,component-id,textGranule]")
+		\default		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 17, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,17,component-id,textGranule]")
+			\value(getAnimal(), parametreGetAnimal, _REFERENCE: modeRepresentation)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 18, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,18,component-id,textGranule]")
+	\endSwitch
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 19, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,19,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 20, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,20,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 21, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,21,component-id,textGranule]")
+	\value(getAnimal(), _CASE: parametreGetAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 22, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,22,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimal.ytextfunction", 23, "9f55634b-dad8-4fb9-90ac-f203f91a0595|en[relative-line-number,23,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,22 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_forkRules.yruleset", 3, "e8fa5fb9-03e6-4119-90ec-8bcf534f1ac9")
+conseilVeto:_forkRules()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_forkRules\\chien.yforkrule", 2, "d4558442-2ca0-42de-aa13-3ba2b2ac6ddf")
+      Rule conseilVeto:_forkRules:chien
+         if()
+         then 
+            currentUsecase.forkUsecase(conseilVeto:DiagnosticChien:_usecase)
+         --> thenDsl "conseilVeto:DiagnosticChien:_usecase"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_forkRules\\chien.yforkrule", 15, "3a80a633-d4c6-493e-977e-76dbd9bce128[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_forkRules.yruleset", 13, "3bb8fde0-8ff2-409f-a903-03440802b07f[property-field,dsl,property-type,YML_PROPERTY]")
+   --> dsl "règles"
+   ;
+@pragma usecase()
+

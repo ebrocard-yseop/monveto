@@ -1,0 +1,23 @@
+// SrcGenerator : 22/08/16 14:32
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_usecase.yusecase", 2, "2eb887a6-b2b1-4e4a-83fd-1a93c4ed922b")
+interface(UsecaseClass) conseilVeto:_usecase
+   extends fwCallCenter:scenarios:CallCenter:_usecase
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_usecase.yusecase", 5, "1ef02e99-3bd1-47f9-89f7-0a6407881983")
+   field comportementAnimal
+   --> domains conseilVeto:ComportementAnimal
+   @ifdef DATA_USE_FOR_DIALOG
+   DATA_USE_FOR_DIALOG
+@endifdef DATA_USE_FOR_DIALOG
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_usecase.yusecase", 13, "247ca2e4-f8f0-4534-9986-3333e283ee7c")
+   field souhaiteAssistance
+   --> domains Boolean
+   @ifdef DATA_USE_FOR_DIALOG
+   DATA_USE_FOR_DIALOG
+@endifdef DATA_USE_FOR_DIALOG
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_usecase.yusecase", 21, "38e1a5f2-907c-4017-8912-a8822533178c")
+   field copieMotsClesLn
+   --> domains String
+   @ifdef DATA_USE_FOR_RULE_RESULT
+   DATA_USE_FOR_RULE_RESULT
+@endifdef DATA_USE_FOR_RULE_RESULT
+   ;

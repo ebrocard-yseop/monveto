@@ -1,0 +1,59 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+TextSequence conseilVeto:_responseTexts:debut
+   --> assembly -> TextListAssembly
+      --> mode _COMPOSE_SENTENCES
+      --> sentenceAssembly -> TextListSentenceAssembly
+         --> separator PARAGRAPH_BREAK
+         ;
+      --> stringAssembly -> TextListStringAssembly
+         ;
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      ;
+   --> components  {
+      @pragma source("", 0, "8b293dbb-2d16-41dd-be12-25175876ec70[component-id,textGranule]")
+      -> MultilingualText conseilVeto:_responseTexts:debut:REPONSE_FRONT_OFFICE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 61, "734a7372-b07b-4bf9-9b3f-c6710c16db5e[property-field,_fwcc_responseSection,property-type,YML_PROPERTY]")
+         --> _fwcc_responseSection SR_ENTETE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 62, "734a7372-b07b-4bf9-9b3f-c6710c16db5e[property-field,_fwcc_singleOccurrence,property-type,YML_PROPERTY]")
+         --> _fwcc_singleOccurrence false
+         --> usecaseClass conseilVeto:_usecase
+         --> i18nName_fr -> TextGranule conseilVeto:_responseTexts:debut:REPONSE_FRONT_OFFICE__fr
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 48, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[component-id,textGranule]")
+            \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 1, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,1,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:votreDemande
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 2, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,2,component-id,textGranule]")
+//\simpleXmlTag("hr", "",  ["class" , "hrfine"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 3, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,3,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 4, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,4,component-id,textGranule]")
+\conseilVeto:granules:site 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 5, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,5,component-id,textGranule]")
+vous remercie de votre confiance
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 6, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,6,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 7, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 8, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,8,component-id,textGranule]")
+//Permet l'affichage du texte "Click Here For More Informations" dans la bonne langue
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\debut.ydoc", 9, "8b293dbb-2d16-41dd-be12-25175876ec70|fr[relative-line-number,9,component-id,textGranule]")
+\conseilVeto:granules:clickHereForMoreInformations
+\);
+         ;
+     }
+   
+   --> dsl "début"
+   --> usecaseClass conseilVeto:_usecase
+   ;
+@pragma usecase()
+

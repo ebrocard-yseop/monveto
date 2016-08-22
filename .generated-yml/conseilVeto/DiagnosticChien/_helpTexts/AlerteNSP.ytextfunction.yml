@@ -1,0 +1,106 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 2, "1995b4dc-de06-403b-969b-4b65d07e5707")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:AlerteNSP(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 313, "1995b4dc-de06-403b-969b-4b65d07e5707[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 1, "1995b4dc-de06-403b-969b-4b65d07e5707[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "a3376037-e542-47e9-8d3d-1edba04e84ef[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:AlerteNSP_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:AlerteNSP_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 286, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 1, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,1,component-id,textGranule]")
+\beginStyle(styleAlerte)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 2, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,2,component-id,textGranule]")
+	vous nous avez répondu 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 3, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,3,component-id,textGranule]")
+	\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 4, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,4,component-id,textGranule]")
+		je ne sais pas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 5, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,5,component-id,textGranule]")
+	\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 6, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,6,component-id,textGranule]")
+	à
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 7, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,7,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "a3376037-e542-47e9-8d3d-1edba04e84ef[relative-line-number,1]")
+__dsl( (currentUsecase.pupd == IDK) && (currentUsecase.delaiDepuisLesDernieresChaleurs == IDK), "le chien présente de la PUPD = Je ne sais pas and les dernières chaleurs de la chienne datent de :  = Je ne sais pas" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 8, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,8,component-id,textGranule]")
+		\value(currentUsecase.nbQuestionsPoseesNSP+2)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 9, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,9,component-id,textGranule]")
+	\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 10, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,10,component-id,textGranule]")
+		\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "a3376037-e542-47e9-8d3d-1edba04e84ef[relative-line-number,1]")
+__dsl( (currentUsecase.pupd == IDK) || (currentUsecase.delaiDepuisLesDernieresChaleurs == IDK) || (currentUsecase.oreilleConcernee == IDK) || (currentUsecase.membreConcerneParLaBoiterie == IDK) || (currentUsecase.apparitionDesTremblements == IDK) || (currentUsecase.evolutionDeLaMasse == IDK), "le chien présente de la PUPD = Je ne sais pas or les dernières chaleurs de la chienne datent de :  = Je ne sais pas or le problème auriculaire concerne = Je ne sais pas or la boiterie concerne = Je ne sais pas or les tremblements du chien sont apparus = Je ne sais pas or l'évolution de la masse = Je ne sais pas" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 11, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,11,component-id,textGranule]")
+			\value(currentUsecase.nbQuestionsPoseesNSP+1)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 12, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,12,component-id,textGranule]")
+		\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 13, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,13,component-id,textGranule]")
+			\value(currentUsecase.nbQuestionsPoseesNSP)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 14, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,14,component-id,textGranule]")
+		\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 15, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,15,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 16, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,16,component-id,textGranule]")
+	reprises
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 17, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,17,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 18, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,18,component-id,textGranule]")
+	nous attirons votre attention sur le fait que
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 19, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,19,component-id,textGranule]")
+	cela peut nuire à
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 20, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,20,component-id,textGranule]")
+	la qualité de la réponse personnalisée que nous vous proposons
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 21, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,21,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 22, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,22,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 23, "a3376037-e542-47e9-8d3d-1edba04e84ef|fr[relative-line-number,23,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:AlerteNSP_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 306, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 1, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,1,component-id,textGranule]")
+\beginStyle(styleAlerte)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 2, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,2,component-id,textGranule]")
+	you answered
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 3, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,3,component-id,textGranule]")
+	\beginQuote(_DOUBLE_QUOTE_EN)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 4, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,4,component-id,textGranule]")
+		I don\'t know
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 5, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,5,component-id,textGranule]")
+	\endQuote
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 6, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,6,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:nombre
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 7, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,7,component-id,textGranule]")
+	times
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 8, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,8,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 9, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,9,component-id,textGranule]")
+	we would like to bring your attention
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 10, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,10,component-id,textGranule]")
+	to the fact that this
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 11, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,11,component-id,textGranule]")
+	may adversely affect the quality of your
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 12, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,12,component-id,textGranule]")
+	personalized response
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 13, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,13,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\AlerteNSP.ytextfunction", 14, "a3376037-e542-47e9-8d3d-1edba04e84ef|en[relative-line-number,14,component-id,textGranule]")
+\endStyle
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,56 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 2, "e9122b1f-2a21-417d-a91e-3c1d54cb743e")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:lHypotheseLaPlusProbableConcernantVotreChien(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 39, "e9122b1f-2a21-417d-a91e-3c1d54cb743e[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 1, "e9122b1f-2a21-417d-a91e-3c1d54cb743e[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "2d04d860-dabe-4c1e-9242-e64e3b3306d0[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:lHypotheseLaPlusProbableConcernantVotreChien_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lHypotheseLaPlusProbableConcernantVotreChien_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 17, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 1, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,1,component-id,textGranule]")
+\beginSynonym(_RANDOM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 2, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 3, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,3,component-id,textGranule]")
+		\simpleXmlTag("div" , \( L'hypothèse la plus probable concernant \value(getAnimal().nomAnimal): \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 4, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,4,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 5, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,5,component-id,textGranule]")
+		\simpleXmlTag("div" , \( L'hypothèse la plus vraisemblable concernant \value(getAnimal().nomAnimal): \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 6, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,6,component-id,textGranule]")
+\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 7, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|fr[relative-line-number,7,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lHypotheseLaPlusProbableConcernantVotreChien_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 32, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 1, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,1,component-id,textGranule]")
+\beginSynonym(_RANDOM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 2, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 3, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,3,component-id,textGranule]")
+		\simpleXmlTag("div" , \( 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 4, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,4,component-id,textGranule]")
+		The most likely explanation for \value("problem", _OWNER: getAnimal().nomAnimal ) \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 5, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,5,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 6, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,6,component-id,textGranule]")
+		\simpleXmlTag("div" , \( 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 7, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,7,component-id,textGranule]")
+		The most probable explanation for \value("problem", _OWNER: getAnimal().nomAnimal ) \), [ "class" , "titre_monveto2"] )
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 8, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,8,component-id,textGranule]")
+\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lHypotheseLaPlusProbableConcernantVotreChien.ytextfunction", 9, "2d04d860-dabe-4c1e-9242-e64e3b3306d0|en[relative-line-number,9,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,137 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 2, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1")
+conseilVeto:_initRules()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 5, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 1, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,1]")
+--> local 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 2, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,2]")
+		ReferentialLoader r,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 3, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,3]")
+		WidgetControl   wControl
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 4, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,4]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 5, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,5]")
+--> action
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 6, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,6]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 7, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,7]")
+	fwCallCenter:dialogue:enchainementFO:uneReponse:passageBO:saisieComplementaire.zones := fwCallCenter:dialogue:zones:xmlFin;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 8, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,8]")
+	fwCallCenter:dialogue:enchainementFO:uneReponse:passageBO:saisieComplementaire.zones := conseilVeto:output:zoneTexteResume;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 9, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,9]")
+	fwCallCenter:dialogue:enchainementFO:uneReponse:passageBO:saisieComplementaire.tasks := 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 10, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,10]")
+			-> DialogGatherTask --> implementation fwCallCenter:dialogue:collecte:xmlFin() ;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 11, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,11]")
+	;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 12, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,12]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 13, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,13]")
+	//TODO : ceci devra être supprimé lorsque l'on aura ttrouvé le moyen de pouvoir avoir le libellé du bouton en angalis naturellement
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 14, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,14]")
+	uiSuivant.textualContent.title = "Next >";
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 15, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,15]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 16, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,16]")
+	//Chargement unique du référentiel des chiens
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 17, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,17]")
+	if(getAnimal().raceChien == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 18, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,18]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 19, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,19]")
+		//Chargement du référentiel des races
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 20, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,20]")
+		//if(getSequenceur().etapeGenerale == EG_DEBUT) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 21, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,21]")
+		//if(getSequenceur().getUsecasesValides().isEmpty() == true) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 22, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,22]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 23, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,23]")
+		//ecrireLog("==>", "debut chargement Races de Chiens");
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 24, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,24]")
+		//logInfo("debut chargement Races de Chiens");
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 25, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,25]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 26, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,26]")
+		r = new(ReferentialLoader);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 27, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,27]")
+		r.referentialURI = "referentielRacesChien.xml";
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 28, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,28]")
+		r.loadReferential();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 29, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,29]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 30, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,30]")
+		getAnimal().raceChien = getObjectById(getAnimal().raceChienId);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 31, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,31]")
+							
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 32, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,32]")
+	}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 33, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,33]")
+	@patch  "pour un log d'éléments non traduits ou plutôt techniquement dont les i18nName_en sont vides "
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 34, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,34]")
+	/*foreach(_m,MultilingualText) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 35, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,35]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 36, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,36]")
+		if (_m.i18nName_en == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 37, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,37]")
+		 if((_m.extendedIdentifier).indexOfText("DiagnosticChien") >= 1){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 38, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,38]")
+				logWarning("to translate :" , _m.extendedIdentifier);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 39, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,39]")
+			}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 40, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,40]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 41, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,41]")
+	}*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 42, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,42]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 43, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,43]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 44, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,44]")
+		@patch "forcer le mandatory à true par défaut"
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 45, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,45]")
+		// systématisation du widgetControl	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 46, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,46]")
+		wControl = new(WidgetControl);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 47, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,47]")
+		wControl.mandatory = true;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 48, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,48]")
+		foreach(_w, Widget) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 49, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,49]")
+			if( _w.gatheringStore != true){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 50, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,50]")
+				 if (_w.controls  == null){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 51, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,51]")
+					 _w.controls = wControl;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 52, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,52]")
+				 }
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 53, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,53]")
+				 else{ 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 54, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,54]")
+				 	if (_w.controls.mandatory == null ) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 55, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,55]")
+				 		 _w.controls.mandatory = true;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 56, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,56]")
+				 	}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 57, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,57]")
+				 }
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 58, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,58]")
+			}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 59, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,59]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 60, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,60]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 61, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,61]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 62, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,62]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 63, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,63]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_initRules.yruleset", 64, "cfb04bd5-bd5a-4ba0-8afe-7242a322d7a1[relative-line-number,64]")
+};
+@pragma usecase()
+

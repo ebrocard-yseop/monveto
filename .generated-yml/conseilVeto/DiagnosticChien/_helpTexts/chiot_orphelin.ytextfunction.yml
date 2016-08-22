@@ -1,0 +1,58 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 2, "3fdc7d2f-bc23-4303-bde8-0c1676a30e40")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:chiot_orphelin(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 155, "3fdc7d2f-bc23-4303-bde8-0c1676a30e40[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 1, "3fdc7d2f-bc23-4303-bde8-0c1676a30e40[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "d3ae3574-a893-445c-8766-22eff6f8224d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:chiot_orphelin_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:chiot_orphelin_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 57, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 1, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,1,component-id,textGranule]")
+parce
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 2, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,2,component-id,textGranule]")
+ que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 3, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,3,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "d3ae3574-a893-445c-8766-22eff6f8224d[relative-line-number,1]")
+__dsl( currentUsecase.nombreDeChiotsABiberonner == UN_SEUL_CHIOT, "le nombre de chiots à biberonner = Un seul chiot" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 4, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,4,component-id,textGranule]")
+	il est orphelin
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 5, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,5,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 6, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,6,component-id,textGranule]")
+	ils sont orphelins
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 7, "d3ae3574-a893-445c-8766-22eff6f8224d|fr[relative-line-number,7,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:chiot_orphelin_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 148, "d3ae3574-a893-445c-8766-22eff6f8224d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 1, "d3ae3574-a893-445c-8766-22eff6f8224d|en[relative-line-number,1,component-id,textGranule]")
+because
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 2, "d3ae3574-a893-445c-8766-22eff6f8224d|en[relative-line-number,2,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "d3ae3574-a893-445c-8766-22eff6f8224d[relative-line-number,1]")
+__dsl( currentUsecase.nombreDeChiotsABiberonner == UN_SEUL_CHIOT, "le nombre de chiots à biberonner = Un seul chiot" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 3, "d3ae3574-a893-445c-8766-22eff6f8224d|en[relative-line-number,3,component-id,textGranule]")
+	it is orphan
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 4, "d3ae3574-a893-445c-8766-22eff6f8224d|en[relative-line-number,4,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 5, "d3ae3574-a893-445c-8766-22eff6f8224d|en[relative-line-number,5,component-id,textGranule]")
+	they are orphans
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\chiot_orphelin.ytextfunction", 6, "d3ae3574-a893-445c-8766-22eff6f8224d|en[relative-line-number,6,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

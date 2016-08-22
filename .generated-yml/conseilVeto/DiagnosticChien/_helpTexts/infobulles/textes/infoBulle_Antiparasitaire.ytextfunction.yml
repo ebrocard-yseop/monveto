@@ -1,0 +1,85 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 2, "db619054-a7ae-4073-ac3a-89afd7306074")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Antiparasitaire(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 54, "db619054-a7ae-4073-ac3a-89afd7306074[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 1, "db619054-a7ae-4073-ac3a-89afd7306074[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Antiparasitaire_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Antiparasitaire_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 28, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 1, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 2, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,2,component-id,textGranule]")
+retenez que la plupart des produits
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 3, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,3,component-id,textGranule]")
+(sprays et pipettes = spot\-ons)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 4, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,4,component-id,textGranule]")
+doivent être appliqués au moins
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 5, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,5,component-id,textGranule]")
+une fois par mois pour une
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 6, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,6,component-id,textGranule]")
+bonne efficacité
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 7, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,7,component-id,textGranule]")
+. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 8, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,8,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 9, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,9,component-id,textGranule]")
+en cas de doute, référez\-vous à l'emballage
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 10, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,10,component-id,textGranule]")
+du dernier traitement utilisé afin de vous 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 11, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,11,component-id,textGranule]")
+assurer de la fréquence d'administration conseillée
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 12, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,12,component-id,textGranule]")
+par le fabricant
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 13, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,13,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 14, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,14,component-id,textGranule]")
+sachez aussi que l'efficacité de tous les produits
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 15, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,15,component-id,textGranule]")
+antiparasitaires externes ne se vaut pas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 16, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,16,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 17, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,17,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 18, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|fr[relative-line-number,18,component-id,textGranule]")
+// attention bravecto !
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Antiparasitaire_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 47, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 1, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,1,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 2, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 3, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,3,component-id,textGranule]")
+please note that not all external
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 4, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,4,component-id,textGranule]")
+antiparasitic products have the same effectiveness
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 5, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,5,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 6, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,6,component-id,textGranule]")
+most products
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 7, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,7,component-id,textGranule]")
+(sprays and spot\-ons)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 8, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,8,component-id,textGranule]")
+must be applied once a month for best results
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 9, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,9,component-id,textGranule]")
+. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 10, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,10,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 11, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,11,component-id,textGranule]")
+in case of doubt, check the recommended frequency of administration 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 12, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,12,component-id,textGranule]")
+of the last treatment used
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Antiparasitaire.ytextfunction", 13, "8a3bfe0d-8da3-456d-8c16-d9191dc3aa9f|en[relative-line-number,13,component-id,textGranule]")
+.'
+\);
+      ;
+   ;
+@pragma usecase()
+

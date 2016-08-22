@@ -1,0 +1,104 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 2, "ff2aba10-ae5f-4635-9755-26fae5bc9d3b")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:diagnostic_diagnostics(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 332, "ff2aba10-ae5f-4635-9755-26fae5bc9d3b[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 1, "ff2aba10-ae5f-4635-9755-26fae5bc9d3b[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "23f45641-aa04-413a-a82c-6adb53ff890c[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:diagnostic_diagnostics_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:diagnostic_diagnostics_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 186, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 1, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "23f45641-aa04-413a-a82c-6adb53ff890c[relative-line-number,1]")
+__dsl( (cu.symptomeDAppel == findSymptome("Comportement maternel avec des objets")) || (cu.symptomeDAppel == findSymptome("Montée de lait")) || (cu.symptomeDAppel == findSymptome("Traces de pullicose")) || (cu.symptomeDAppel == findSymptome("Aoutats")), "le symptome \"Comportement maternel avec des objets\" est le symptome d'appel or le symptome \"Montée de lait\" est le symptome d'appel or le symptome \"Traces de pullicose\" est le symptome d'appel or le symptome \"Aoutats\" est le symptome d'appel" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 2, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,2,component-id,textGranule]")
+	Tout cela nous a permis de nous pencher plus précisément sur son cas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 3, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,3,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 4, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,4,component-id,textGranule]")
+	   Nous avons détaillé ci\-dessous ce dont 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 5, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,5,component-id,textGranule]")
+	   \conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 6, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,6,component-id,textGranule]")
+	   pourrait souffrir
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 7, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,7,component-id,textGranule]")
+	   .
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 8, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,8,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 9, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,9,component-id,textGranule]")
+	\beginSynonym(_RANDOM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 10, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,10,component-id,textGranule]")
+		\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 11, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,11,component-id,textGranule]")
+			Toutes les informations recueillies nous ont permis de dresser une liste des affections dont 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 12, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,12,component-id,textGranule]")
+			\thirdAction(getAnimal(), VERB_FR_POUVOIR)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 13, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,13,component-id,textGranule]")
+			souffrir
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 14, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,14,component-id,textGranule]")
+			\conseilVeto:DiagnosticChien:_helpTexts:siPUPDAveree
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 15, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,15,component-id,textGranule]")
+			.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 16, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,16,component-id,textGranule]")
+			Nous avons décrit de manière précise ces différentes hypothèses diagnostiques ci\-dessous.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 17, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,17,component-id,textGranule]")
+		\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 18, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,18,component-id,textGranule]")
+			Tout cela nous a permis de nous pencher plus précisément sur son cas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 19, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,19,component-id,textGranule]")
+			.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 20, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,20,component-id,textGranule]")
+	   	     Nous avons détaillé ci\-dessous les différentes hypothèses diagnostiques à envisager
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 21, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,21,component-id,textGranule]")
+			\conseilVeto:DiagnosticChien:_helpTexts:siPUPDAveree
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 22, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,22,component-id,textGranule]")
+			.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 23, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,23,component-id,textGranule]")
+		\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 24, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,24,component-id,textGranule]")
+			Tout cela nous a permis de nous pencher plus précisément sur son cas et de lister les hypothèses diagnostiques à envisager
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 25, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,25,component-id,textGranule]")
+			\conseilVeto:DiagnosticChien:_helpTexts:siPUPDAveree
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 26, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,26,component-id,textGranule]")
+			.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 27, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,27,component-id,textGranule]")
+	\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 28, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,28,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 29, "23f45641-aa04-413a-a82c-6adb53ff890c|fr[relative-line-number,29,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:diagnostic_diagnostics_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 325, "23f45641-aa04-413a-a82c-6adb53ff890c|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 1, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "23f45641-aa04-413a-a82c-6adb53ff890c[relative-line-number,1]")
+__dsl( (cu.symptomeDAppel == findSymptome("Comportement maternel avec des objets")) || (cu.symptomeDAppel == findSymptome("Montée de lait")) || (cu.symptomeDAppel == findSymptome("Traces de pullicose")) || (cu.symptomeDAppel == findSymptome("Aoutats")), "le symptome \"Comportement maternel avec des objets\" est le symptome d'appel or le symptome \"Montée de lait\" est le symptome d'appel or le symptome \"Traces de pullicose\" est le symptome d'appel or le symptome \"Aoutats\" est le symptome d'appel" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 2, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,2,component-id,textGranule]")
+	explanation
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 3, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 4, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,4,component-id,textGranule]")
+	explanations
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 5, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 6, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,6,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\diagnostic_diagnostics.ytextfunction", 7, "23f45641-aa04-413a-a82c-6adb53ff890c|en[relative-line-number,7,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

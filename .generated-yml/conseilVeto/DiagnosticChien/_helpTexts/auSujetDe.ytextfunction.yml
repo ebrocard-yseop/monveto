@@ -1,0 +1,56 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 2, "708bf20c-31f7-4a9d-8475-021fdd3cc085")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:auSujetDe(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 39, "708bf20c-31f7-4a9d-8475-021fdd3cc085[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 1, "708bf20c-31f7-4a9d-8475-021fdd3cc085[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "4942df8e-b44b-4205-bee1-9ef2a5576507[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:auSujetDe_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:auSujetDe_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 18, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 1, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,1,component-id,textGranule]")
+\beginSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 2, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 3, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,3,component-id,textGranule]")
+		au sujet  de 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 4, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,4,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 5, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,5,component-id,textGranule]")
+		concernant 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 6, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,6,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 7, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,7,component-id,textGranule]")
+		à propos  de 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 8, "4942df8e-b44b-4205-bee1-9ef2a5576507|fr[relative-line-number,8,component-id,textGranule]")
+\endSynonym
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:auSujetDe_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 32, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 1, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,1,component-id,textGranule]")
+/*\beginSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 2, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 3, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,3,component-id,textGranule]")
+		regarding
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 4, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,4,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 5, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,5,component-id,textGranule]")
+		concerning
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 6, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,6,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 7, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,7,component-id,textGranule]")
+		about
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\auSujetDe.ytextfunction", 8, "4942df8e-b44b-4205-bee1-9ef2a5576507|en[relative-line-number,8,component-id,textGranule]")
+\endSynonym*/
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,85 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 2, "6685045d-969d-415a-981b-1bfad0f1cec3")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vermifuge(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 54, "6685045d-969d-415a-981b-1bfad0f1cec3[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 1, "6685045d-969d-415a-981b-1bfad0f1cec3[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vermifuge_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vermifuge_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 26, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 1, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 2, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,2,component-id,textGranule]")
+pour rappel, un chien doit être vermifugé
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 3, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,3,component-id,textGranule]")
+tous les mois jusqu'à ses 6 mois puis 2 à
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 4, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,4,component-id,textGranule]")
+4 fois par an à l'âge adulte
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 5, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,5,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 6, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,6,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 7, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 8, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,8,component-id,textGranule]")
+pour considérer  que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 9, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,9,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 10, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,10,component-id,textGranule]")
+est correctement 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 11, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,11,component-id,textGranule]")
+\adjective("vermifugé", _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 12, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,12,component-id,textGranule]")
+, il faut utiliser un 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 13, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,13,component-id,textGranule]")
+vermifuge à large spectre
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 14, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,14,component-id,textGranule]")
+(c'est\-à\-dire efficace contre tous les types de vers)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 15, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,15,component-id,textGranule]")
+, que peut vous délivrer votre vétérinaire
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 16, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|fr[relative-line-number,16,component-id,textGranule]")
+.
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Vermifuge_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 47, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 1, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 2, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,2,component-id,textGranule]")
+as a reminder, a dog should be dewormed
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 3, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,3,component-id,textGranule]")
+every month up to the age of 6 months 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 4, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,4,component-id,textGranule]")
+and then 2 to 4 times per year 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 5, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,5,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 6, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,6,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 7, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 8, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,8,component-id,textGranule]")
+to make sure that
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 9, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,9,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 10, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,10,component-id,textGranule]")
+is correctly dewormed, you should use
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 11, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,11,component-id,textGranule]")
+a broad\-spectrum dewormer (
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 12, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,12,component-id,textGranule]")
+\value("i.e.,", _NO_INTERPRET_CHARS) \_ 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 13, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,13,component-id,textGranule]")
+ one that is 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 14, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,14,component-id,textGranule]")
+effective on all types of worms)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Vermifuge.ytextfunction", 15, "4b1148ff-2a87-43ee-b4b7-ba579e791ee9|en[relative-line-number,15,component-id,textGranule]")
+.'
+\);
+      ;
+   ;
+@pragma usecase()
+

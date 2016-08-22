@@ -1,0 +1,35 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 2, "db382e7a-164c-4f02-a4f3-deaacca4457e")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_TroublesDigestifsChroniques(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 29, "db382e7a-164c-4f02-a4f3-deaacca4457e[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 1, "db382e7a-164c-4f02-a4f3-deaacca4457e[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "116d67fe-9e58-4c15-b08b-ddc1691b797f[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_TroublesDigestifsChroniques_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_TroublesDigestifsChroniques_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 13, "116d67fe-9e58-4c15-b08b-ddc1691b797f|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 1, "116d67fe-9e58-4c15-b08b-ddc1691b797f|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 2, "116d67fe-9e58-4c15-b08b-ddc1691b797f|fr[relative-line-number,2,component-id,textGranule]")
+'les troubles digestifs chroniques peuvent être des régurgitations, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 3, "116d67fe-9e58-4c15-b08b-ddc1691b797f|fr[relative-line-number,3,component-id,textGranule]")
+vomissements récurrents, flatulences\... '
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_TroublesDigestifsChroniques_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 22, "116d67fe-9e58-4c15-b08b-ddc1691b797f|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 1, "116d67fe-9e58-4c15-b08b-ddc1691b797f|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 2, "116d67fe-9e58-4c15-b08b-ddc1691b797f|en[relative-line-number,2,component-id,textGranule]")
+chronic digestive problems can be the regular and frequent occurrence of
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_TroublesDigestifsChroniques.ytextfunction", 3, "116d67fe-9e58-4c15-b08b-ddc1691b797f|en[relative-line-number,3,component-id,textGranule]")
+regurgitation, vomiting, flatulence, etc. '
+\);
+      ;
+   ;
+@pragma usecase()
+

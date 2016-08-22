@@ -1,0 +1,193 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+TextSequence conseilVeto:_responseTexts:fin
+   --> assembly -> TextListAssembly
+      --> mode _COMPOSE_SENTENCES
+      --> sentenceAssembly -> TextListSentenceAssembly
+         --> separator PARAGRAPH_BREAK
+         ;
+      --> stringAssembly -> TextListStringAssembly
+         ;
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      ;
+   --> components  {
+      @pragma source("", 0, "fa060ded-bbea-4cfe-9002-c674344dd650[component-id,textGranule]")
+      -> MultilingualText conseilVeto:_responseTexts:fin:REPONSE_FRONT_OFFICE
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 138, "50478e0f-56a6-4ab0-bb38-db4a3d6f3a8f[property-field,_fwcc_responseSection,property-type,YML_PROPERTY]")
+         --> _fwcc_responseSection SR_FIN
+         --> usecaseClass conseilVeto:_usecase
+         --> i18nName_fr -> TextGranule conseilVeto:_responseTexts:fin:REPONSE_FRONT_OFFICE__fr
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 111, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[component-id,textGranule]")
+            \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 1, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,1,component-id,textGranule]")
+/*n'hésitez pas à nous donner des nouvelles de 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 2, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,2,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:lanimal(_REFERENTIAL)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 3, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,3,component-id,textGranule]")
+, toute l'équipe de Wanimo en sera très heureuse
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 4, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,4,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 5, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,5,component-id,textGranule]")
+nous espérons avoir répondu à vos attentes,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 6, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,6,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 7, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,7,component-id,textGranule]")
+meilleures salutations, l'équipe des vétérinaires de Wanimo
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 8, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,8,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 9, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,9,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 10, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,10,component-id,textGranule]")
+\if(getSequenceur().foDecision != null)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 11, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,11,component-id,textGranule]")
+	\if(cu.comportementAnimal == CA_PDT_PATHO)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 12, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,12,component-id,textGranule]")
+		si ce comportement ne disparaît pas dans les prochaines semaines, il sera toutefois nécessaire de s'en inquiéter
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 13, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,13,component-id,textGranule]")
+		\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 14, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,14,component-id,textGranule]")
+		n'hésitez pas à nous reconsulter voire à en parler à votre véterinaire si cela s'avère être le cas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 15, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,15,component-id,textGranule]")
+		\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 16, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,16,component-id,textGranule]")
+		.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 17, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,17,component-id,textGranule]")
+	\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 18, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,18,component-id,textGranule]")
+		//--------- Fin de texte -----------------------------
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 19, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,19,component-id,textGranule]")
+		\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "fa060ded-bbea-4cfe-9002-c674344dd650[relative-line-number,1]")
+__dsl( cu.questionTroisDeterminationSA.typeItemDSA == TI_SYMPTOME, "le type item DSA de la 3ème question = symptome" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 20, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,20,component-id,textGranule]")
+			\beginSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 21, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,21,component-id,textGranule]")
+				\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 22, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,22,component-id,textGranule]")
+				nous espérons avoir répondu à vos attentes
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 23, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,23,component-id,textGranule]")
+				.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 24, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,24,component-id,textGranule]")
+				\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 25, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,25,component-id,textGranule]")
+				nous espérons sincèrement que ces quelques conseils vous éclaireront
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 26, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,26,component-id,textGranule]")
+				.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 27, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,27,component-id,textGranule]")
+				\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 28, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,28,component-id,textGranule]")
+				en espérant que ces quelques informations vous auront été utiles,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 29, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,29,component-id,textGranule]")
+				\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 30, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,30,component-id,textGranule]")
+				en espérant avoir répondu à vos attentes ,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 31, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,31,component-id,textGranule]")
+			\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 32, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,32,component-id,textGranule]")
+		\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 33, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,33,component-id,textGranule]")
+		\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 34, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,34,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 35, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,35,component-id,textGranule]")
+	meilleures salutations,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 36, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,36,component-id,textGranule]")
+	\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 37, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,37,component-id,textGranule]")
+	\beginSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 38, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,38,component-id,textGranule]")
+		//\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 39, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,39,component-id,textGranule]")
+			//une équipe de vétérinaires à votre service 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 40, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,40,component-id,textGranule]")
+		\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 41, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,41,component-id,textGranule]")
+			l'équipe des vétérinaires de 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 42, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,42,component-id,textGranule]")
+			\conseilVeto:granules:site
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 43, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,43,component-id,textGranule]")
+		\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 44, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,44,component-id,textGranule]")
+			vos vétérinaires Online
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 45, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,45,component-id,textGranule]")
+	\endSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 46, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,46,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 47, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,47,component-id,textGranule]")
+	\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 48, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,48,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 49, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,49,component-id,textGranule]")
+	\beginStyle(styleHighLight)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 50, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,50,component-id,textGranule]")
+		\beginStyle(ITALIC_STYLE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 51, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,51,component-id,textGranule]")
+			veuillez continuer à répondre aux questions
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 52, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,52,component-id,textGranule]")
+			.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 53, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,53,component-id,textGranule]")
+		\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 54, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,54,component-id,textGranule]")
+	\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 55, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,55,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 56, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,56,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 57, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,57,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 58, "fa060ded-bbea-4cfe-9002-c674344dd650|fr[relative-line-number,58,component-id,textGranule]")
+
+\);
+         --> i18nName_en -> TextGranule conseilVeto:_responseTexts:fin:REPONSE_FRONT_OFFICE__en
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 132, "fa060ded-bbea-4cfe-9002-c674344dd650|en[component-id,textGranule]")
+            \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 1, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,1,component-id,textGranule]")
+// TBT : reprendre à partir du FR
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 2, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,2,component-id,textGranule]")
+do not hesitate to send us news of 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 3, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,3,component-id,textGranule]")
+\value(getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 4, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,4,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 5, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,5,component-id,textGranule]")
+we would be very happy to 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 6, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,6,component-id,textGranule]")
+hear from you again and hope that we have 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 7, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,7,component-id,textGranule]")
+satisfactorily addressed 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 8, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,8,component-id,textGranule]")
+your concerns
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 9, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,9,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 10, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,10,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 11, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,11,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 12, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,12,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 13, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,13,component-id,textGranule]")
+The Team at \conseilVeto:granules:site 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 14, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,14,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_responseTexts\\fin.ydoc", 15, "fa060ded-bbea-4cfe-9002-c674344dd650|en[relative-line-number,15,component-id,textGranule]")
+
+\);
+         ;
+     }
+   
+   --> dsl ""
+   --> usecaseClass conseilVeto:_usecase
+   ;
+@pragma usecase()
+

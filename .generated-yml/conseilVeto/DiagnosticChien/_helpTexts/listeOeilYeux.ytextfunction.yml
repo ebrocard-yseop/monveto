@@ -1,0 +1,62 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 2, "e055c8a4-dbb8-4234-8185-6b269075359c")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:listeOeilYeux(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 118, "e055c8a4-dbb8-4234-8185-6b269075359c[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 1, "e055c8a4-dbb8-4234-8185-6b269075359c[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "edded210-a5c4-4c11-a86f-f04bd61eebdc[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:listeOeilYeux_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeOeilYeux_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 57, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 1, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "edded210-a5c4-4c11-a86f-f04bd61eebdc[relative-line-number,1]")
+__dsl( currentUsecase.oeilConcerne == UN_OEIL, "le problème ophtalmo concerne = Un seul oeil" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 2, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,2,component-id,textGranule]")
+	\value("oeil", MASCULINE, _OWNER : getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 3, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 4, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,4,component-id,textGranule]")
+	\value("yeux", PLURAL, _OWNER : getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 5, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 6, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,6,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 7, "edded210-a5c4-4c11-a86f-f04bd61eebdc|fr[relative-line-number,7,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeOeilYeux_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 111, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 1, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "edded210-a5c4-4c11-a86f-f04bd61eebdc[relative-line-number,1]")
+__dsl( currentUsecase.oeilConcerne == UN_OEIL, "le problème ophtalmo concerne = Un seul oeil" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 2, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,2,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 3, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,3,component-id,textGranule]")
+	eye
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 4, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,4,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 5, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,5,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:hisHer
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 6, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,6,component-id,textGranule]")
+	eyes
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 7, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,7,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeOeilYeux.ytextfunction", 8, "edded210-a5c4-4c11-a86f-f04bd61eebdc|en[relative-line-number,8,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

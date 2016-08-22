@@ -1,0 +1,45 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 2, "43f8c208-409a-4685-beee-478170315cd0")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GeneBuccale(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 34, "43f8c208-409a-4685-beee-478170315cd0[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 1, "43f8c208-409a-4685-beee-478170315cd0[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "6fb2a0ac-8623-40e8-b463-c90804fa713d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GeneBuccale_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GeneBuccale_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 15, "6fb2a0ac-8623-40e8-b463-c90804fa713d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 1, "6fb2a0ac-8623-40e8-b463-c90804fa713d|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 2, "6fb2a0ac-8623-40e8-b463-c90804fa713d|fr[relative-line-number,2,component-id,textGranule]")
+une gêne buccale peut se manifester par des mâchonnements, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 3, "6fb2a0ac-8623-40e8-b463-c90804fa713d|fr[relative-line-number,3,component-id,textGranule]")
+de la sécheresse buccale ou au contraire 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 4, "6fb2a0ac-8623-40e8-b463-c90804fa713d|fr[relative-line-number,4,component-id,textGranule]")
+de l'hypersalivation, une douleur à l'ouverture des mâchoires, des difficultés à mâcher, etc\...
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 5, "6fb2a0ac-8623-40e8-b463-c90804fa713d|fr[relative-line-number,5,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_GeneBuccale_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 27, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 1, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[relative-line-number,1,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 2, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 3, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[relative-line-number,3,component-id,textGranule]")
+this could be shown by  
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 4, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[relative-line-number,4,component-id,textGranule]")
+gnawing, a dry mouth or, on the other hand,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 5, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[relative-line-number,5,component-id,textGranule]")
+excessive drooling, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_GeneBuccale.ytextfunction", 6, "6fb2a0ac-8623-40e8-b463-c90804fa713d|en[relative-line-number,6,component-id,textGranule]")
+pain when opening the mouth, etc.'
+\);
+      ;
+   ;
+@pragma usecase()
+

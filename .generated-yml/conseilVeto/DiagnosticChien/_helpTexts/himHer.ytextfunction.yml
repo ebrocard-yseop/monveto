@@ -1,0 +1,36 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 2, "fcbb8e1e-439a-4ba1-b4c2-285ac2c6b315")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:himHer(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 29, "fcbb8e1e-439a-4ba1-b4c2-285ac2c6b315[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 1, "fcbb8e1e-439a-4ba1-b4c2-285ac2c6b315[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:himHer_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:himHer_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 11, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 1, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|fr[relative-line-number,1,component-id,textGranule]")
+//no need
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:himHer_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 22, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 1, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|en[relative-line-number,1,component-id,textGranule]")
+\if(getAnimal().getGender() == MASCULINE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 2, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|en[relative-line-number,2,component-id,textGranule]")
+	him
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 3, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|en[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 4, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|en[relative-line-number,4,component-id,textGranule]")
+	her
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himHer.ytextfunction", 5, "f80b0ab3-a8e1-4bea-8906-4f7b5bfb145f|en[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

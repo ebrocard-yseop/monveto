@@ -1,0 +1,612 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 2, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340")
+conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 4, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 1, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,1]")
+--> action {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 2, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,2]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 3, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,3]")
+	fireRuleset();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 4, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,4]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 5, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,5]")
+	conseilVeto:DiagnosticChien:_dialogRules:questionsEliminatoires();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 6, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,6]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 7, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,7]")
+	conseilVeto:DiagnosticChien:_dialogRules:questionsNonEliminatoires();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 8, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,8]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 9, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,9]")
+	conseilVeto:DiagnosticChien:_dialogRules:recapitulatifQuestions();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 10, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,10]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande.ydialogruleset", 11, "5e62c7c9-8d7e-4759-9019-6ea8a29ca340[relative-line-number,11]")
+}ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 2, "c86c2e58-a4e3-44a5-8af9-636f2265c90e")
+      Rule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:lienSiPasDeReponsesTrouvees
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 1, "c86c2e58-a4e3-44a5-8af9-636f2265c90e[relative-line-number,1]")
+/* on n'affiche ce lien que si l'on est sur les 3 questions DSA*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 2, "c86c2e58-a4e3-44a5-8af9-636f2265c90e[relative-line-number,2]")
+cu.questionTroisDeterminationSA == null
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 3, "c86c2e58-a4e3-44a5-8af9-636f2265c90e[relative-line-number,3]")
+) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 17, "d0a06a3e-0fe4-418d-b924-b4720c6649b3|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> OutputWidget
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 18, "d0a06a3e-0fe4-418d-b924-b4720c6649b3|Push|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 18, "d0a06a3e-0fe4-418d-b924-b4720c6649b3|Push|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:lienSiPasDeReponsesTrouvees:gather1_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:lienSiPasDeReponsesTrouvees:gather1_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 31, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 1, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|fr[relative-line-number,1,component-id,textGranule]")
+//Ceci est le lien qui va pointer vers une page de monveto
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 2, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|fr[relative-line-number,2,component-id,textGranule]")
+//si l'utilisateur ne trouve pas la réponse à sa question
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 3, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|fr[relative-line-number,3,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 4, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|fr[relative-line-number,4,component-id,textGranule]")
+\notEmptyString
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 5, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|fr[relative-line-number,5,component-id,textGranule]")
+\conseilVeto:granules:lienAbsenceDeReponse
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:lienSiPasDeReponsesTrouvees:gather1_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 42, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 1, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|en[relative-line-number,1,component-id,textGranule]")
+//Ceci est le lien qui va pointer vers une page de monveto
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 2, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|en[relative-line-number,2,component-id,textGranule]")
+//si l'utilisateur ne trouve pas la réponse à sa question
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 3, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|en[relative-line-number,3,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 4, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|en[relative-line-number,4,component-id,textGranule]")
+\notEmptyString
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 5, "61b58da7-ed02-4e3b-8eea-d33dd8a60b96|en[relative-line-number,5,component-id,textGranule]")
+\conseilVeto:granules:lienAbsenceDeReponse
+\);
+                  ;
+               ;);
+         --> thenDsl ""
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\lienSiPasDeReponsesTrouvees.ydialogrule", 67, "90bc2652-7db4-4a2d-984e-528d15b45a0f[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 2, "b78ba629-0794-4b88-9f40-51808b63d889")
+      Rule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA
+         if()
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 17, "528df8d6-3ad1-421b-809a-490a1a3791b3|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> OutputWidget
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 20, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|DialogItem.condition")
+               --> condition @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 20, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|DialogItem.condition")
+               affichageProgressBar() == true
+               ;, -> WidgetStyle
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 18, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|WidgetStyle.cssClass")
+               --> cssClass @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 18, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|WidgetStyle.cssClass")
+               "well"
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 19, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|WidgetStyle.titlePosition")
+               --> titlePosition @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 19, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|WidgetStyle.titlePosition")
+               _BOTTOM
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 21, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "3c124046-6eb0-4038-a236-4a9276fba3d7[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 21, "528df8d6-3ad1-421b-809a-490a1a3791b3|Push|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA:gather1_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA:gather1_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 32, "3c124046-6eb0-4038-a236-4a9276fba3d7|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 1, "3c124046-6eb0-4038-a236-4a9276fba3d7|fr[relative-line-number,1,component-id,textGranule]")
+\notEmptyString
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 2, "3c124046-6eb0-4038-a236-4a9276fba3d7|fr[relative-line-number,2,component-id,textGranule]")
+\conseilVeto:granules:progressBar
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 3, "3c124046-6eb0-4038-a236-4a9276fba3d7|fr[relative-line-number,3,component-id,textGranule]")
+
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA:gather1_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 41, "3c124046-6eb0-4038-a236-4a9276fba3d7|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 1, "3c124046-6eb0-4038-a236-4a9276fba3d7|en[relative-line-number,1,component-id,textGranule]")
+\notEmptyString
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 2, "3c124046-6eb0-4038-a236-4a9276fba3d7|en[relative-line-number,2,component-id,textGranule]")
+\conseilVeto:granules:progressBar
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 3, "3c124046-6eb0-4038-a236-4a9276fba3d7|en[relative-line-number,3,component-id,textGranule]")
+
+\);
+                  ;
+               ;);@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 72, "d3485750-ea70-4202-a283-6aabd17a20e9|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> SelectionWidget
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 51, "390f98b7-6544-4973-8287-6421f85323ce")
+               --> setable @pragma source("", 0, "390f98b7-6544-4973-8287-6421f85323ce|currentUsecase.questionUnDeterminationSA")
+               currentUsecase.questionUnDeterminationSA
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 73, "d3485750-ea70-4202-a283-6aabd17a20e9|Selection|SelectionWidget.set")
+               --> set @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 73, "d3485750-ea70-4202-a283-6aabd17a20e9|Selection|SelectionWidget.set")
+               getListeQuestionDSA(1)
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 74, "d3485750-ea70-4202-a283-6aabd17a20e9|Selection|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 74, "d3485750-ea70-4202-a283-6aabd17a20e9|Selection|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA:gather2_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA:gather2_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 101, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 1, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,1,component-id,textGranule]")
+le thème choisi en amont sur le site (dans la pastille) est :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 2, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,2,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 3, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,3,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 4, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,4,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:infobulle(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 5, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,5,component-id,textGranule]")
+	conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:testInfoBulle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 6, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,6,component-id,textGranule]")
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 7, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 8, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,8,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 9, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,9,component-id,textGranule]")
+\value("problème", _OWNER: getAnimal().nomAnimal) est facile à résoudre.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 10, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,10,component-id,textGranule]")
+\thirdPossession(getAnimal(), "prurit", MASCULINE) pourrait être consécutif.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 11, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,11,component-id,textGranule]")
+\endOfLine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 12, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,12,component-id,textGranule]")
+\value("prurit", _OWNER: getAnimal(), MASCULINE) pourrait être consécutif.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 13, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,13,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 14, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,14,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 15, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,15,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 16, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,16,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 17, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,17,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 18, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,18,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 19, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|fr[relative-line-number,19,component-id,textGranule]")
+
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question1_DeterminationSA:gather2_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 108, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 1, "02b7e60d-eb2a-4b66-93a5-533d13b4f6d7|en[relative-line-number,1,component-id,textGranule]")
+your concern :
+\);
+                  ;
+               ;);
+         --> thenDsl " la question 1 de détermination du SA"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question1_DeterminationSA.ydialogrule", 131, "593a1a19-c345-4890-8b27-ee82ac83bdc1[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 2, "5a0d1bb8-d38b-4444-a81a-d32a63936928")
+      Rule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question2_DeterminationSA
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 1, "5a0d1bb8-d38b-4444-a81a-d32a63936928[relative-line-number,1]")
+currentUsecase.questionUnDeterminationSA != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 2, "5a0d1bb8-d38b-4444-a81a-d32a63936928[relative-line-number,2]")
+existeReponseQuestion2() == true) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 25, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> SelectionWidget
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 4, "20b721e2-eaae-4f54-9cd6-ea7bd9a6dd07")
+               --> setable @pragma source("", 0, "20b721e2-eaae-4f54-9cd6-ea7bd9a6dd07|currentUsecase.questionDeuxDeterminationSA")
+               currentUsecase.questionDeuxDeterminationSA
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 26, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Selection|SelectionWidget.set")
+               --> set @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 26, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Selection|SelectionWidget.set")
+               getListeQuestionDSA(2)
+               ;, -> WidgetControl
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 27, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Selection|WidgetControl.mandatory")
+               --> mandatory @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 27, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Selection|WidgetControl.mandatory")
+               true
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 28, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Selection|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "2377950b-f802-4a64-9173-5ac522698aa1[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 28, "3fe1c6dc-fd8e-438d-b437-5a8809500b27|Selection|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question2_DeterminationSA:gather1_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question2_DeterminationSA:gather1_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 37, "2377950b-f802-4a64-9173-5ac522698aa1|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 1, "2377950b-f802-4a64-9173-5ac522698aa1|fr[relative-line-number,1,component-id,textGranule]")
+votre question concerne plus précisément :
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question2_DeterminationSA:gather1_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 44, "2377950b-f802-4a64-9173-5ac522698aa1|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 1, "2377950b-f802-4a64-9173-5ac522698aa1|en[relative-line-number,1,component-id,textGranule]")
+your question concerns:
+\);
+                  ;
+               ;);
+         --> ifDsl "la question 1 de détermination du SA is known and il existe des réponses à la 2ème question de détermination du SA"
+         --> thenDsl "la question 2 de détermination du SA"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question2_DeterminationSA.ydialogrule", 92, "2efd08b3-8367-4394-ba33-58da6a1fe54f[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 2, "8744681e-7d0c-4fc0-8d92-7a2397c8892d")
+      Rule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question3_DeterminationSA
+         if()
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 25, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> SelectionWidget
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 4, "588eda01-57d6-4322-9e02-d360f3f84983")
+               --> setable @pragma source("", 0, "588eda01-57d6-4322-9e02-d360f3f84983|currentUsecase.questionTroisDeterminationSA")
+               currentUsecase.questionTroisDeterminationSA
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 26, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Selection|SelectionWidget.set")
+               --> set @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 26, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Selection|SelectionWidget.set")
+               getListeQuestionDSA(3)
+               ;, -> WidgetControl
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 27, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Selection|WidgetControl.mandatory")
+               --> mandatory @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 27, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Selection|WidgetControl.mandatory")
+               true
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 28, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Selection|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "80c66c95-fd12-4460-84ae-8ab026caa701[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 28, "16d1c26c-25d3-4a98-a720-209afe58e2ba|Selection|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question3_DeterminationSA:gather1_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question3_DeterminationSA:gather1_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 1771, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 1, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,1,component-id,textGranule]")
+//\if(cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle({s}))
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 2, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,2,component-id,textGranule]")
+//\debugValue(cu.questionDeuxDeterminationSA)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 3, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,3,component-id,textGranule]")
+//\debugValue(findItemReponseDSAbyLibelle("les apprentissages"))
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 4, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,4,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème en votre absence")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les transports")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement alimentaire")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("des vomissements")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses selles")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses urines")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement vis-à-vis de l'alimentation")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème locomoteur")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("quelque chose d'anormal")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème d'agressivité")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un changement à venir dans la vie")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les apprentissages")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("autres")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa peau")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("son pelage")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("le choix de l'aliment le plus adapté à")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("une maladie bien précise")), "la réponse à la question 2 est  \"un problème en votre absence\" or la réponse à la question 2 est  \"les transports\" or la réponse à la question 2 est  \"un problème de comportement alimentaire\" or la réponse à la question 2 est  \"des vomissements\" or la réponse à la question 2 est  \"ses selles\" or la réponse à la question 2 est  \"ses urines\" or la réponse à la question 2 est  \"un problème de comportement vis-à-vis de l'alimentation\" or la réponse à la question 2 est  \"un problème locomoteur\" or la réponse à la question 2 est  \"quelque chose d'anormal\" or la réponse à la question 2 est  \"un problème d'agressivité\" or la réponse à la question 2 est  \"un changement à venir dans la vie\" or la réponse à la question 2 est  \"les apprentissages\" or la réponse à la question 2 est  \"autres\" or la réponse à la question 2 est  \"sa peau\" or la réponse à la question 2 est  \"son pelage\" or la réponse à la question 2 est  \"le choix de l'aliment le plus adapté à\" or la réponse à la question 2 est  \"une maladie bien précise\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 5, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,5,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème d'agressivité"), "la réponse à la question 2 est  \"un problème d'agressivité\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 6, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,6,component-id,textGranule]")
+		pour être encore plus précis,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 7, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,7,component-id,textGranule]")
+		ce qui vous préoccupe aujourd'hui
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 8, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,8,component-id,textGranule]")
+		est
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 9, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,9,component-id,textGranule]")
+		 que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 10, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,10,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 11, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,11,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 12, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,12,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 13, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,13,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème en votre absence")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les transports")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement alimentaire")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("des vomissements")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses selles")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses urines")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement vis-à-vis de l'alimentation")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème locomoteur")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("quelque chose d'anormal")), "la réponse à la question 2 est  \"un problème en votre absence\" or la réponse à la question 2 est  \"les transports\" or la réponse à la question 2 est  \"un problème de comportement alimentaire\" or la réponse à la question 2 est  \"des vomissements\" or la réponse à la question 2 est  \"ses selles\" or la réponse à la question 2 est  \"ses urines\" or la réponse à la question 2 est  \"un problème de comportement vis-à-vis de l'alimentation\" or la réponse à la question 2 est  \"un problème locomoteur\" or la réponse à la question 2 est  \"quelque chose d'anormal\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 14, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,14,component-id,textGranule]")
+		plus précisément, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 15, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,15,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 16, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,16,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 17, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,17,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 18, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,18,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un changement à venir dans la vie"), "la réponse à la question 2 est  \"un changement à venir dans la vie\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 19, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,19,component-id,textGranule]")
+		parmi les changements suivants, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 20, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,20,component-id,textGranule]")
+		quel est celui qui vous préoccupe aujourd'hui
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 21, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,21,component-id,textGranule]")
+		?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 22, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,22,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 23, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,23,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les apprentissages"), "la réponse à la question 2 est  \"les apprentissages\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 24, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,24,component-id,textGranule]")
+		vous recherchez des conseils personnalisés pour apprendre à
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 25, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,25,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 26, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,26,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 27, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,27,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 28, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,28,component-id,textGranule]")
+		\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("autres"), "la réponse à la question 2 est  \"autres\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 29, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,29,component-id,textGranule]")
+		votre question concerne le fait
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 30, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,30,component-id,textGranule]")
+		 que 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 31, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,31,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 32, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,32,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 33, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,33,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa peau"), "la réponse à la question 2 est  \"sa peau\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 34, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,34,component-id,textGranule]")
+		plus précisément, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 35, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,35,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 36, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,36,component-id,textGranule]")
+		a :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 37, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,37,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 38, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,38,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("son pelage"), "la réponse à la question 2 est  \"son pelage\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 39, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,39,component-id,textGranule]")
+		plus précisément,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 40, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,40,component-id,textGranule]")
+		vous vous interrogez sur :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 41, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,41,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 42, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,42,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("le choix de l'aliment le plus adapté à"), "la réponse à la question 2 est  \"le choix de l'aliment le plus adapté à\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 43, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,43,component-id,textGranule]")
+		vous vous demandez :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 44, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,44,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 45, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,45,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("une maladie bien précise"), "la réponse à la question 2 est  \"une maladie bien précise\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 46, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,46,component-id,textGranule]")
+		votre interrogation concerne plus précisément : 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 47, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,47,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 48, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,48,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 49, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,49,component-id,textGranule]")
+	de façon plus précise,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 50, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,50,component-id,textGranule]")
+	parmi les sujets suivants,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 51, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,51,component-id,textGranule]")
+	lequel fait l'objet de votre demande d'aujourd'hui
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 52, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,52,component-id,textGranule]")
+	?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 53, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,53,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 54, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,54,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 55, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,55,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 56, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,56,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 57, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,57,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("autre")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les voyages")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les soins à prodiguer à")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les parasites et maladies parasitaires")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa bouche et/ou ses dents")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses yeux")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses oreilles")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa truffe")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses coussinets ou ou ses griffes")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("la propreté")), "la réponse à la question 2 est  \"autre\" or la réponse à la question 2 est  \"les voyages\" or la réponse à la question 2 est  \"les soins à prodiguer à\" or la réponse à la question 2 est  \"les parasites et maladies parasitaires\" or la réponse à la question 2 est  \"sa bouche et/ou ses dents\" or la réponse à la question 2 est  \"ses yeux\" or la réponse à la question 2 est  \"ses oreilles\" or la réponse à la question 2 est  \"sa truffe\" or la réponse à la question 2 est  \"ses coussinets ou ou ses griffes\" or la réponse à la question 2 est  \"la propreté\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 58, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,58,component-id,textGranule]")
+	de façon plus précise,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 59, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,59,component-id,textGranule]")
+	parmi les sujets suivants,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 60, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,60,component-id,textGranule]")
+	lequel fait l'objet de votre demande d'aujourd'hui
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 61, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,61,component-id,textGranule]")
+	?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 62, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,62,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 63, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,63,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 64, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,64,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 65, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,65,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 66, "80c66c95-fd12-4460-84ae-8ab026caa701|fr[relative-line-number,66,component-id,textGranule]")
+	
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:qualificationDemande:question3_DeterminationSA:gather1_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 2881, "80c66c95-fd12-4460-84ae-8ab026caa701|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 1, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,1,component-id,textGranule]")
+//\if(cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle({s}))
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 2, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,2,component-id,textGranule]")
+//\debugValue(cu.questionDeuxDeterminationSA)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 3, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,3,component-id,textGranule]")
+//\debugValue(findItemReponseDSAbyLibelle("les apprentissages"))
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 4, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,4,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème en votre absence")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les transports")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement alimentaire")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("des vomissements")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses selles")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses urines")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement vis-à-vis de l'alimentation")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème locomoteur")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("quelque chose d'anormal")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème d'agressivité")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un changement à venir dans la vie")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les apprentissages")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("autres")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa peau")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("son pelage")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("le choix de l'aliment le plus adapté à")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("une maladie bien précise")), "la réponse à la question 2 est  \"un problème en votre absence\" or la réponse à la question 2 est  \"les transports\" or la réponse à la question 2 est  \"un problème de comportement alimentaire\" or la réponse à la question 2 est  \"des vomissements\" or la réponse à la question 2 est  \"ses selles\" or la réponse à la question 2 est  \"ses urines\" or la réponse à la question 2 est  \"un problème de comportement vis-à-vis de l'alimentation\" or la réponse à la question 2 est  \"un problème locomoteur\" or la réponse à la question 2 est  \"quelque chose d'anormal\" or la réponse à la question 2 est  \"un problème d'agressivité\" or la réponse à la question 2 est  \"un changement à venir dans la vie\" or la réponse à la question 2 est  \"les apprentissages\" or la réponse à la question 2 est  \"autres\" or la réponse à la question 2 est  \"sa peau\" or la réponse à la question 2 est  \"son pelage\" or la réponse à la question 2 est  \"le choix de l'aliment le plus adapté à\" or la réponse à la question 2 est  \"une maladie bien précise\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 5, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,5,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème d'agressivité"), "la réponse à la question 2 est  \"un problème d'agressivité\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 6, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,6,component-id,textGranule]")
+		more precisely, your concern is that
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 7, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,7,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 8, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,8,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 9, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,9,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 10, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,10,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème en votre absence")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement alimentaire")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("des vomissements")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses selles")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses urines")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème de comportement vis-à-vis de l'alimentation")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un problème locomoteur")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("quelque chose d'anormal")), "la réponse à la question 2 est  \"un problème en votre absence\" or la réponse à la question 2 est  \"un problème de comportement alimentaire\" or la réponse à la question 2 est  \"des vomissements\" or la réponse à la question 2 est  \"ses selles\" or la réponse à la question 2 est  \"ses urines\" or la réponse à la question 2 est  \"un problème de comportement vis-à-vis de l'alimentation\" or la réponse à la question 2 est  \"un problème locomoteur\" or la réponse à la question 2 est  \"quelque chose d'anormal\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 11, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,11,component-id,textGranule]")
+		more specifically, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 12, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,12,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 13, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,13,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 14, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,14,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 15, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,15,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les transports"), "la réponse à la question 2 est  \"les transports\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 16, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,16,component-id,textGranule]")
+		more specifically : 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 17, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,17,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 18, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,18,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("un changement à venir dans la vie"), "la réponse à la question 2 est  \"un changement à venir dans la vie\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 19, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,19,component-id,textGranule]")
+		what sort of change
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 20, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,20,component-id,textGranule]")
+		?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 21, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,21,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 22, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,22,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les apprentissages"), "la réponse à la question 2 est  \"les apprentissages\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 23, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,23,component-id,textGranule]")
+		you would like advice on: 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 24, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,24,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 25, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,25,component-id,textGranule]")
+		\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("autres"), "la réponse à la question 2 est  \"autres\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 26, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,26,component-id,textGranule]")
+		your question concerns the fact that
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 27, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,27,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 28, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,28,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 29, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,29,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa peau"), "la réponse à la question 2 est  \"sa peau\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 30, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,30,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 31, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,31,component-id,textGranule]")
+		:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 32, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,32,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 33, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,33,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("son pelage"), "la réponse à la question 2 est  \"son pelage\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 34, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,34,component-id,textGranule]")
+		more specifically,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 35, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,35,component-id,textGranule]")
+		you would like information on :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 36, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,36,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 37, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,37,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("le choix de l'aliment le plus adapté à"), "la réponse à la question 2 est  \"le choix de l'aliment le plus adapté à\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 38, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,38,component-id,textGranule]")
+		you are wondering :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 39, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,39,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 40, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,40,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("une maladie bien précise"), "la réponse à la question 2 est  \"une maladie bien précise\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 41, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,41,component-id,textGranule]")
+		which illness : 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 42, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,42,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 43, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,43,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 44, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,44,component-id,textGranule]")
+	please select the subject of your concern
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 45, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,45,component-id,textGranule]")
+	?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 46, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,46,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 47, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,47,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 48, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,48,component-id,textGranule]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 49, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,49,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 50, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,50,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "80c66c95-fd12-4460-84ae-8ab026caa701[relative-line-number,1]")
+__dsl( (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("autre")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les voyages")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les soins à prodiguer à")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("les parasites et maladies parasitaires")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa bouche et/ou ses dents")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses yeux")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses oreilles")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("sa truffe")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("ses coussinets ou ou ses griffes")) || (cu.questionDeuxDeterminationSA == findItemReponseDSAbyLibelle("la propreté")), "la réponse à la question 2 est  \"autre\" or la réponse à la question 2 est  \"les voyages\" or la réponse à la question 2 est  \"les soins à prodiguer à\" or la réponse à la question 2 est  \"les parasites et maladies parasitaires\" or la réponse à la question 2 est  \"sa bouche et/ou ses dents\" or la réponse à la question 2 est  \"ses yeux\" or la réponse à la question 2 est  \"ses oreilles\" or la réponse à la question 2 est  \"sa truffe\" or la réponse à la question 2 est  \"ses coussinets ou ou ses griffes\" or la réponse à la question 2 est  \"la propreté\"" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 51, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,51,component-id,textGranule]")
+	de façon plus précise,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 52, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,52,component-id,textGranule]")
+	parmi les sujets suivants,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 53, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,53,component-id,textGranule]")
+	lequel fait l'objet de votre demande d'aujourd'hui
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 54, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,54,component-id,textGranule]")
+	?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 55, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,55,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 56, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,56,component-id,textGranule]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 57, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,57,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 58, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,58,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 59, "80c66c95-fd12-4460-84ae-8ab026caa701|en[relative-line-number,59,component-id,textGranule]")
+
+\);
+                  ;
+               ;);
+         --> thenDsl "la question 3 de détermination du SA"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\qualificationDemande\\question3_DeterminationSA.ydialogrule", 2904, "d5375f79-8929-483d-955b-5fe52b47bb66[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

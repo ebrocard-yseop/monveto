@@ -1,0 +1,40 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 2, "74072219-9abd-476c-990a-6572855f9dad")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_ont_diminue(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 101, "74072219-9abd-476c-990a-6572855f9dad[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 1, "74072219-9abd-476c-990a-6572855f9dad[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "41d18682-d072-4fca-92ae-0add1bff3588[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_ont_diminue_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_ont_diminue_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 87, "41d18682-d072-4fca-92ae-0add1bff3588|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 1, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "41d18682-d072-4fca-92ae-0add1bff3588[relative-line-number,1]")
+__dsl( (currentUsecase.mamellesConcernees == PLUSIEURS) || (currentUsecase.nombreDeMassesBuccales == PLUSIEURS), "le nombre de masses mammaires = Plusieurs masses or le nombre de masses buccales = Plusieurs masses" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 2, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,2,component-id,textGranule]")
+	ont
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 3, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 4, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,4,component-id,textGranule]")
+	a
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 5, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 6, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,6,component-id,textGranule]")
+diminué de volume
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 7, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_ont_diminue.ytextfunction", 8, "41d18682-d072-4fca-92ae-0add1bff3588|fr[relative-line-number,8,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

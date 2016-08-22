@@ -1,0 +1,48 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 2, "e7581e68-1b1d-4bf9-a6be-7b7cbb18db38")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:dAilleursSiPasDAppetit(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 111, "e7581e68-1b1d-4bf9-a6be-7b7cbb18db38[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 1, "e7581e68-1b1d-4bf9-a6be-7b7cbb18db38[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "4e30742e-22b7-44a0-aa83-ba2803aeb352[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:dAilleursSiPasDAppetit_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:dAilleursSiPasDAppetit_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 54, "4e30742e-22b7-44a0-aa83-ba2803aeb352|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 1, "4e30742e-22b7-44a0-aa83-ba2803aeb352|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "4e30742e-22b7-44a0-aa83-ba2803aeb352[relative-line-number,1]")
+__dsl( currentUsecase.bonAppetit == NON, "le chien a bon appétit = non" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 2, "4e30742e-22b7-44a0-aa83-ba2803aeb352|fr[relative-line-number,2,component-id,textGranule]")
+	d'ailleurs,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 3, "4e30742e-22b7-44a0-aa83-ba2803aeb352|fr[relative-line-number,3,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 4, "4e30742e-22b7-44a0-aa83-ba2803aeb352|fr[relative-line-number,4,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:dAilleursSiPasDAppetit_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 104, "4e30742e-22b7-44a0-aa83-ba2803aeb352|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 1, "4e30742e-22b7-44a0-aa83-ba2803aeb352|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "4e30742e-22b7-44a0-aa83-ba2803aeb352[relative-line-number,1]")
+__dsl( currentUsecase.bonAppetit == NON, "le chien a bon appétit = non" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 2, "4e30742e-22b7-44a0-aa83-ba2803aeb352|en[relative-line-number,2,component-id,textGranule]")
+	in addition,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 3, "4e30742e-22b7-44a0-aa83-ba2803aeb352|en[relative-line-number,3,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\dAilleursSiPasDAppetit.ytextfunction", 4, "4e30742e-22b7-44a0-aa83-ba2803aeb352|en[relative-line-number,4,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

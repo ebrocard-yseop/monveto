@@ -1,0 +1,155 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles.yruleset", 2, "9640b0ea-b109-4dc1-8a58-73c279f67ZZZ")
+conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 2, "89452583-dba9-48db-b4b7-2766ce06d41d")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:diagnosticsPossibleFromSymptomeDAppel
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 1, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,1]")
+currentUsecase.symptomeDAppel != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 2, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,2]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 3, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,3]")
+?r.symptome == cu.symptomeDAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 4, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,4]")
+?r.associerSA == true) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 1, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 2, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,2]")
+?d.estPossible = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 3, "89452583-dba9-48db-b4b7-2766ce06d41d[relative-line-number,3]")
+}
+         --> ifDsl "le symptome d'appel is known and soit une relation liée à un diagnostic and soit une relation qui a pour symptome le symptome d'appel and soit une relation qui est associée au symptome d'appel"
+         --> thenDsl "le diagnostic devient possible"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\diagnosticsPossibleFromSymptomeDAppel.yrule", 74, "8eb11088-485d-4e1d-89b5-9b3a41cf18f7[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 2, "f11bbe6a-0117-4284-9529-4a680da2e3d4")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:ficheConseilPossibleFromSymptomeDAppel
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 1, "f11bbe6a-0117-4284-9529-4a680da2e3d4[relative-line-number,1]")
+currentUsecase.ficheConseilAppel != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 2, "f11bbe6a-0117-4284-9529-4a680da2e3d4[relative-line-number,2]")
+?rfc.ficheconseil == ?fc,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 3, "f11bbe6a-0117-4284-9529-4a680da2e3d4[relative-line-number,3]")
+?rfc.symptome == cu.symptomeDAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 1, "f11bbe6a-0117-4284-9529-4a680da2e3d4[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 2, "f11bbe6a-0117-4284-9529-4a680da2e3d4[relative-line-number,2]")
+?fc.estPossible = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 3, "f11bbe6a-0117-4284-9529-4a680da2e3d4[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil d'appel is known and soit une relation FC associée a une Fiche Conseil and soit une relation FC associée au Symptome d'appel"
+         --> thenDsl "la fiche conseil devient possible"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 66, "f5b95a68-3f0a-474f-8ea3-f86e574afd4f[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\ficheConseilPossibleFromSymptomeDAppel.yrule", 67, "f5b95a68-3f0a-474f-8ea3-f86e574afd4f[property-field,active,property-type,YML_PROPERTY]")
+         --> active false
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 2, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:valeurParDefautAssocierSA
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 1, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71[relative-line-number,1]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 2, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71[relative-line-number,2]")
+?r.symptome == ?s,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 3, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71[relative-line-number,3]")
+?r.associerSA == null) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 1, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 2, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71[relative-line-number,2]")
+?r.associerSA = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 3, "d4c1d6ca-315a-4525-b70e-dfa0cbc11b71[relative-line-number,3]")
+}
+         --> ifDsl "soit une relation avec un diagnostic non nul and soit une relation avec un symptome non nul and La relation n'a pas d'association au SA (= null)"
+         --> thenDsl "la relation devient associée au symptome d'appel"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\valeurParDefautAssocierSA.yrule", 58, "749c05a5-d68d-4058-b6f6-544cad0033fd[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 2, "fdbb51c5-8bb4-433e-b747-3bff1990e90c")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:majReponseOuiSuiteChoixSymptomeAppel
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 1, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,1]")
+cu.symptomeDAppel != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 2, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,2]")
+cu.questionTroisDeterminationSA != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 3, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,3]")
+cu.questionTroisDeterminationSA.typeItemDSA == TI_SYMPTOME,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 4, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,4]")
+?r.symptome == cu.symptomeDAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 5, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,5]")
+?r._linkedObject == ?objet,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 6, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,6]")
+?r._linkedAttribute == ?attribut,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 7, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,7]")
+?r.scoreOui != null) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 1, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 2, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,2]")
+currentUsecase.?attribut = OUI
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 3, "fdbb51c5-8bb4-433e-b747-3bff1990e90c[relative-line-number,3]")
+}
+         --> ifDsl "le symptome d'appel n'est pas nul and la question 3 de Determination du Symptome d'Appel n'est pas nulle and le type item DSA de la 3ème question = symptome and soit une relation qui a pour symptome le symptome d'appel and soit une relation qui a objet lié non nul and soit une relation qui a attribut lié non nul and soit une relation qui a un ScoreOui non nul"
+         --> thenDsl "l'attribut est mis à OUI"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majReponseOuiSuiteChoixSymptomeAppel.yrule", 111, "80c9da1a-2426-4b7b-b416-9a642167cb79[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 2, "fc7389e4-9ef1-4ff6-9b2d-5d34db2f6877")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:majSAsuiteQuestionsDetermination
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 1, "fc7389e4-9ef1-4ff6-9b2d-5d34db2f6877[relative-line-number,1]")
+currentUsecase.questionTroisDeterminationSA != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 2, "fc7389e4-9ef1-4ff6-9b2d-5d34db2f6877[relative-line-number,2]")
+cu.questionTroisDeterminationSA.typeItemDSA == TI_SYMPTOME) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 1, "fc7389e4-9ef1-4ff6-9b2d-5d34db2f6877[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 2, "fc7389e4-9ef1-4ff6-9b2d-5d34db2f6877[relative-line-number,2]")
+currentUsecase.symptomeDAppel = findSymptome(questionTroisDeterminationSA.symptomeAppelReponseDSA)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 3, "fc7389e4-9ef1-4ff6-9b2d-5d34db2f6877[relative-line-number,3]")
+}
+         --> ifDsl "la question 3 de détermination du SA is known and le type item DSA de la 3ème question = symptome"
+         --> thenDsl "le symptome d'appel est mis à jour avec la réponse à la question 3"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majSAsuiteQuestionsDetermination.yrule", 79, "680523b6-60cf-4d4d-ab5f-a3cbc7e32b73[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 2, "019f3b3d-55c6-4c13-ab3f-8cf7019de9be")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:majFCAsuiteQuestionsDetermination
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 1, "019f3b3d-55c6-4c13-ab3f-8cf7019de9be[relative-line-number,1]")
+currentUsecase.questionTroisDeterminationSA != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 2, "019f3b3d-55c6-4c13-ab3f-8cf7019de9be[relative-line-number,2]")
+cu.questionTroisDeterminationSA.typeItemDSA == TI_FICHECONSEIL) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 1, "019f3b3d-55c6-4c13-ab3f-8cf7019de9be[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 2, "019f3b3d-55c6-4c13-ab3f-8cf7019de9be[relative-line-number,2]")
+currentUsecase.ficheConseilAppel = findFicheConseil(questionTroisDeterminationSA.symptomeAppelReponseDSA)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 3, "019f3b3d-55c6-4c13-ab3f-8cf7019de9be[relative-line-number,3]")
+}
+         --> ifDsl "la question 3 de détermination du SA is known and le type item DSA de la 3ème question = fiche conseil"
+         --> thenDsl "la fiche conseil d'appel est mis à jour avec la réponse à la question 3"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFCAsuiteQuestionsDetermination.yrule", 79, "c15ad132-6590-49f9-a3f0-374d8ab61dee[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFwcc_priorityGranulesDiagnostics.yrule", 2, "792bd30c-051e-49d9-874f-aab217ba69ab")
+      Rule conseilVeto:DiagnosticChien:_businessRules:20_diagnosticsPossibles:majFwcc_priorityGranulesDiagnostics
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFwcc_priorityGranulesDiagnostics.yrule", 1, "792bd30c-051e-49d9-874f-aab217ba69ab[relative-line-number,1]")
+?d.estPossible == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFwcc_priorityGranulesDiagnostics.yrule", 2, "792bd30c-051e-49d9-874f-aab217ba69ab[relative-line-number,2]")
+?d.i18nName_fr == ?libelle,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFwcc_priorityGranulesDiagnostics.yrule", 3, "792bd30c-051e-49d9-874f-aab217ba69ab[relative-line-number,3]")
+?g.diagnosticAssocie == ?libelle) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFwcc_priorityGranulesDiagnostics.yrule", 1, "792bd30c-051e-49d9-874f-aab217ba69ab[relative-line-number,1]")
+?g._fwcc_priority = ?d.pourcentAvancement * 100
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles\\majFwcc_priorityGranulesDiagnostics.yrule", 26, "e8e9efb9-f073-4192-b4cc-4d1d8c6c3a3e[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\20_diagnosticsPossibles.yruleset", 17, "bf062f52-64dc-4894-978e-ff6072944638[property-field,dsl,property-type,YML_PROPERTY]")
+   --> dsl "règles"
+   ;
+@pragma usecase()
+

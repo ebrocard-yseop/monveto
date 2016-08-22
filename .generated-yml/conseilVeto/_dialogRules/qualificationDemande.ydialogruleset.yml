@@ -1,0 +1,9 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\_dialogRules\\qualificationDemande.ydialogruleset", 5, "7389f4ee-45de-43de-bbc0-541ff174620f")
+conseilVeto:_dialogRules:qualificationDemande()
+   ;
+@pragma usecase()
+

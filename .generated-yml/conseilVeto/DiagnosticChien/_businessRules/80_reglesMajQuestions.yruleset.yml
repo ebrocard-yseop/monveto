@@ -1,0 +1,34 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions.yruleset", 2, "4b622c0b-7b5f-4b8e-9973-285299c756f5")
+conseilVeto:DiagnosticChien:_businessRules:80_reglesMajQuestions()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 2, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805")
+      Rule conseilVeto:DiagnosticChien:_businessRules:80_reglesMajQuestions:majQuestionSuiteDiagPossibleNiValideNiElimine
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 1, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,1]")
+?d.estPossible == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 2, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,2]")
+(?d.diagnosticValide != true && ?d.diagnosticElimine != true),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 3, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,3]")
+?r.diagnostic == ?d,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 4, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,4]")
+?r.symptome == ?s,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 5, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,5]")
+?s.constateChezLAnimal == null   ) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 1, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 2, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,2]")
+?s.questionDoitEtrePosee = true
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 3, "fbd17ad0-1a6a-4ea9-b26c-99fc24b2a805[relative-line-number,3]")
+}
+         --> thenDsl "la question associée au symptome devient à poser"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\80_reglesMajQuestions\\majQuestionSuiteDiagPossibleNiValideNiElimine.yrule", 37, "e0acee44-a898-42bc-8fcc-fa0af8e57d16[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

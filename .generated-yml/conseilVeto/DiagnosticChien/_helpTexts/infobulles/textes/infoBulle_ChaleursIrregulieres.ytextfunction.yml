@@ -1,0 +1,43 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 2, "c7aa4aec-ad2c-4f03-bb67-89943efa4e3a")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_ChaleursIrregulieres(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 33, "c7aa4aec-ad2c-4f03-bb67-89943efa4e3a[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 1, "c7aa4aec-ad2c-4f03-bb67-89943efa4e3a[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "aef612a2-22a0-46f9-9ed0-02d39b49414c[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_ChaleursIrregulieres_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_ChaleursIrregulieres_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 15, "aef612a2-22a0-46f9-9ed0-02d39b49414c|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 1, "aef612a2-22a0-46f9-9ed0-02d39b49414c|fr[relative-line-number,1,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 2, "aef612a2-22a0-46f9-9ed0-02d39b49414c|fr[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 3, "aef612a2-22a0-46f9-9ed0-02d39b49414c|fr[relative-line-number,3,component-id,textGranule]")
+en moyenne, une chienne a ses chaleurs 2 fois par an (approximativement tous les 6 mois)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 4, "aef612a2-22a0-46f9-9ed0-02d39b49414c|fr[relative-line-number,4,component-id,textGranule]")
+.'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 5, "aef612a2-22a0-46f9-9ed0-02d39b49414c|fr[relative-line-number,5,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_ChaleursIrregulieres_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 26, "aef612a2-22a0-46f9-9ed0-02d39b49414c|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 1, "aef612a2-22a0-46f9-9ed0-02d39b49414c|en[relative-line-number,1,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 2, "aef612a2-22a0-46f9-9ed0-02d39b49414c|en[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 3, "aef612a2-22a0-46f9-9ed0-02d39b49414c|en[relative-line-number,3,component-id,textGranule]")
+most dogs go in heat
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 4, "aef612a2-22a0-46f9-9ed0-02d39b49414c|en[relative-line-number,4,component-id,textGranule]")
+twice a \noContraction year (about every 6 months)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_ChaleursIrregulieres.ytextfunction", 5, "aef612a2-22a0-46f9-9ed0-02d39b49414c|en[relative-line-number,5,component-id,textGranule]")
+.'
+\);
+      ;
+   ;
+@pragma usecase()
+

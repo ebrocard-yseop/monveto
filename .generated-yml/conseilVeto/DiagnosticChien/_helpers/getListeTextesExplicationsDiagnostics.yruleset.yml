@@ -1,0 +1,189 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 2, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9")
+conseilVeto:DiagnosticChien:_helpers:getListeTextesExplicationsDiagnostics()
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 5, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9")
+   @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 1, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,1]")
+static {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 2, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,2]")
+	function fctCompareTextesDiagSuivantProbabilite(Text t1, Text t2)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 3, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,3]")
+		--> local
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 4, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,4]")
+			Diagnostic d1,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 5, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,5]")
+			Diagnostic d2,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 6, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,6]")
+			Number pt1,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 7, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,7]")
+			Number pt2 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 8, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,8]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 9, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,9]")
+		--> action {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 10, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,10]")
+			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 11, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,11]")
+			pt1 = 0;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 12, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,12]")
+			pt2 = 0;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 13, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,13]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 14, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,14]")
+			foreach(t, t1>>topics){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 15, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,15]")
+				d1 = Diagnostic(t);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 16, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,16]")
+			}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 17, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,17]")
+			foreach(t, t2>>topics){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 18, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,18]")
+				d2 = Diagnostic(t);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 19, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,19]")
+			}	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 20, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,20]")
+			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 21, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,21]")
+			if (d1 == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 22, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,22]")
+				pt1 = 0;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 23, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,23]")
+			} else {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 24, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,24]")
+				//pt1 = d1.probabilite;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 25, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,25]")
+				pt1 = d1.pourcentAvancement;				
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 26, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,26]")
+				if (pt1 == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 27, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,27]")
+					pt1 = 0;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 28, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,28]")
+				} 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 29, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,29]")
+			}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 30, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,30]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 31, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,31]")
+			if (d2 == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 32, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,32]")
+				pt2 = 0;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 33, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,33]")
+			} else {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 34, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,34]")
+				//pt2 = d2.probabilite;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 35, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,35]")
+				pt2 = d2.pourcentAvancement;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 36, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,36]")
+				
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 37, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,37]")
+				if (pt2 == null) {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 38, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,38]")
+					pt2 = 0;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 39, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,39]")
+				} 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 40, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,40]")
+			}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 41, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,41]")
+			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 42, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,42]")
+			logInfo("d1=", d1.identifier);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 43, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,43]")
+			logInfo("d2=", d2.identifier);			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 44, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,44]")
+			logInfo("pt1=", pt1);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 45, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,45]")
+			logInfo("pt2=", pt2);			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 46, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,46]")
+			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 47, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,47]")
+			if(pt1 < pt2){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 48, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,48]")
+				return < ;	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 49, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,49]")
+			} 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 50, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,50]")
+			if(pt1 > pt2){
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 51, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,51]")
+				return > ;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 52, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,52]")
+			} 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 53, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,53]")
+			return == ;		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 54, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,54]")
+		
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 55, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,55]")
+		}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 56, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,56]")
+	;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 57, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,57]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 58, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,58]")
+	SortParameter paramTriTexteDiagSelonProbabilite
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 59, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,59]")
+		--> ascendant 			false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 60, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,60]")
+		--> expressionToValuate	fctCompareTextesDiagSuivantProbabilite
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 61, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,61]")
+		--> order				_CALCULATED_RELATIVE_ORDER
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 62, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,62]")
+	;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 63, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,63]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 64, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,64]")
+}
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 65, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,65]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 66, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,66]")
+--> local 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 67, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,67]")
+	List listeTextesExplicationsDiagnostics
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 68, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,68]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 69, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,69]")
+--> domains Collection
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 70, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,70]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 71, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,71]")
+--> action {
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 72, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,72]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 73, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,73]")
+	listeTextesExplicationsDiagnostics = new(List);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 74, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,74]")
+			
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 75, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,75]")
+	listeTextesExplicationsDiagnostics = 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 76, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,76]")
+		as(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 77, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,77]")
+		?texte, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 78, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,78]")
+		?texte._fwcc_responseSection == ?theme,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 79, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,79]")
+		?theme == explication_diagnostic,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 80, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,80]")
+		?texte.topics != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 81, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,81]")
+		?texte.topics.instanceOf(Diagnostic) == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 82, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,82]")
+		?texte.topics.probabilite != null
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 83, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,83]")
+		).toList();
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 84, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,84]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 85, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,85]")
+	logInfo("", "Tri en cours...")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 86, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,86]")
+	listeTextesExplicationsDiagnostics.sort(paramTriTexteDiagSelonProbabilite);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 87, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,87]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 88, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,88]")
+	return listeTextesExplicationsDiagnostics;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 89, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,89]")
+	
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpers\\getListeTextesExplicationsDiagnostics.yruleset", 90, "670fea7d-2c1c-46e0-89c0-71d0265b2fc9[relative-line-number,90]")
+};
+@pragma usecase()
+

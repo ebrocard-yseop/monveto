@@ -1,0 +1,105 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 2, "44931630-2201-4860-8865-2d44ac04ac84")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:infoBulle_TraitementDirofilariose(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 64, "44931630-2201-4860-8865-2d44ac04ac84[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 1, "44931630-2201-4860-8865-2d44ac04ac84[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:infoBulle_TraitementDirofilariose_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:infoBulle_TraitementDirofilariose_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 31, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 1, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 2, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,2,component-id,textGranule]")
+à titre préventif contre la dirofilariose (= maladie des vers du coeur)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 3, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,3,component-id,textGranule]")
+,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 4, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,4,component-id,textGranule]")
+on utilise principalement 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 5, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,5,component-id,textGranule]")
+\beginStyle(styleImportantFC)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 6, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,6,component-id,textGranule]")
+	la milbémycine et l'ivermectine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 7, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,7,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 8, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,8,component-id,textGranule]")
+, mais il est également possible de recourir à
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 9, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,9,component-id,textGranule]")
+\beginStyle(styleImportantFC)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 10, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,10,component-id,textGranule]")
+	la moxidectine ou à la sélamectine
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 11, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,11,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 12, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,12,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 13, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,13,component-id,textGranule]")
+il s'agit de comprimés à faire avaler ou de pipettes à appliquer à la base du cou
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 14, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,14,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 15, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,15,component-id,textGranule]")
+la plupart de ces médicaments doivent être administrés 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 16, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,16,component-id,textGranule]")
+\beginStyle(styleImportantFC)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 17, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,17,component-id,textGranule]")
+	une fois par mois
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 18, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,18,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 19, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,19,component-id,textGranule]")
+pour
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 20, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,20,component-id,textGranule]")
+prévenir efficacement des vers du coeur
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 21, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|fr[relative-line-number,21,component-id,textGranule]")
+. 
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:infoBulle_TraitementDirofilariose_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 57, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 1, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,1,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 2, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,2,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 3, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,3,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 4, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,4,component-id,textGranule]")
+\beginStyle(styleImportantFC)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 5, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,5,component-id,textGranule]")
+	milbemycin and ivermectin\-based products
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 6, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,6,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 7, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,7,component-id,textGranule]")
+are most often used to prevent heartworm.  it is also possible to use
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 8, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,8,component-id,textGranule]")
+\beginStyle(styleImportantFC)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 9, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,9,component-id,textGranule]")
+	moxidectin or selamectin\-based products
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 10, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,10,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 11, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,11,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 12, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,12,component-id,textGranule]")
+the treatment is either in the form of tablets or topicals
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 13, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,13,component-id,textGranule]")
+ to be applied at the base of the neck (spot\-ons)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 14, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,14,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 15, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,15,component-id,textGranule]")
+most treatments must be given
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 16, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,16,component-id,textGranule]")
+\beginStyle(styleImportantFC)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 17, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,17,component-id,textGranule]")
+	monthly
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 18, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,18,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 19, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,19,component-id,textGranule]")
+to prevent heartworm.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\infoBulle_TraitementDirofilariose.ytextfunction", 20, "53cbbfaf-5ecf-49a9-bd62-a95c9fee732c|en[relative-line-number,20,component-id,textGranule]")
+. '
+\);
+      ;
+   ;
+@pragma usecase()
+

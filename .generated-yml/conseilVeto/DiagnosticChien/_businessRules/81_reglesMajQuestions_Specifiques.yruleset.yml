@@ -1,0 +1,1153 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques.yruleset", 2, "9fea2ac6-fa76-4412-a28b-a6984037e008")
+conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 2, "dfc3b713-4ba3-4084-b7da-f593509ec94e")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionChiotQuiMordille
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 1, "dfc3b713-4ba3-4084-b7da-f593509ec94e[relative-line-number,1]")
+getAnimal().getClasseAgeChien() != CAC_CHIOT,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 2, "dfc3b713-4ba3-4084-b7da-f593509ec94e[relative-line-number,2]")
+findFicheConseil("FC_Infos sur le syndrome HSHA") != cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 1, "dfc3b713-4ba3-4084-b7da-f593509ec94e[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 2, "dfc3b713-4ba3-4084-b7da-f593509ec94e[relative-line-number,2]")
+findSymptome("Chiot qui mordille").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 3, "dfc3b713-4ba3-4084-b7da-f593509ec94e[relative-line-number,3]")
+}
+         --> ifDsl "la classe d'age du chien ? chiot and la fiche conseil \"FC_Infos sur le syndrome HSHA\" n'est pas la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Chiot qui mordille\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChiotQuiMordille.yrule", 99, "80c948d8-941d-48f1-86d9-4d0e210bfc55[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 2, "9f407eb2-e668-4d97-8372-9e00643cce65")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionMalpropreteNocture
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 1, "9f407eb2-e668-4d97-8372-9e00643cce65[relative-line-number,1]")
+getAnimal().getClasseAgeChien() != CAC_CHIOT,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 2, "9f407eb2-e668-4d97-8372-9e00643cce65[relative-line-number,2]")
+findFicheConseil("FC_Apprentissage de la propreté") != cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 1, "9f407eb2-e668-4d97-8372-9e00643cce65[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 2, "9f407eb2-e668-4d97-8372-9e00643cce65[relative-line-number,2]")
+findSymptome("Malpropreté nocturne du chiot").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 3, "9f407eb2-e668-4d97-8372-9e00643cce65[relative-line-number,3]")
+}
+         --> ifDsl "la classe d'age du chien ? chiot and la fiche conseil \"FC_Apprentissage de la propreté\" n'est pas la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Malpropreté nocturne du chiot\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 98, "7e9404c4-2937-4dc0-b7f8-6dea217e9548[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMalpropreteNocture.yrule", 99, "7e9404c4-2937-4dc0-b7f8-6dea217e9548[property-field,active,property-type,YML_PROPERTY]")
+         --> active true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMonteeDeLait.yrule", 2, "56a7beff-bd3b-456e-8be0-38e96e2c51ef")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionMonteeDeLait
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMonteeDeLait.yrule", 1, "56a7beff-bd3b-456e-8be0-38e96e2c51ef[relative-line-number,1]")
+(currentUsecase.sterilisationChien != NON) || (currentUsecase.chienFemelle != OUI)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMonteeDeLait.yrule", 1, "56a7beff-bd3b-456e-8be0-38e96e2c51ef[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMonteeDeLait.yrule", 2, "56a7beff-bd3b-456e-8be0-38e96e2c51ef[relative-line-number,2]")
+findSymptome("Montée de lait").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMonteeDeLait.yrule", 3, "56a7beff-bd3b-456e-8be0-38e96e2c51ef[relative-line-number,3]")
+}
+         --> ifDsl "le chien est stérilisé ? non or le chien est une femelle ? oui"
+         --> thenDsl "le symptome \"Montée de lait\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMonteeDeLait.yrule", 106, "4bb48481-540a-4584-961e-c249192813b5[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 2, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionTransitionAlimentaire
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 1, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,1]")
+findSymptome("Changement d'alimentation").calcule == true && findSymptome("Changement d'alimentation").questionDoitEtrePosee == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 2, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,2]")
+findSymptome("Respect de la transition alimentaire").calcule == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 3, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,3]")
+currentUsecase.changementDAlimentation != null,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 4, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,4]")
+currentUsecase.changementDAlimentation != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 1, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 2, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,2]")
+findSymptome("Respect de la transition alimentaire").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 3, "e696482b-8d44-4b4c-a9e1-8a23aa74bb6b[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Changement d'alimentation\" fait partie des symptomes calculés et la question doit être posée and le symptome \"Respect de la transition alimentaire\" fait partie des symptomes calculés and le chien a changé d'alimentation is known and le chien a changé d'alimentation ? oui"
+         --> thenDsl "le symptome \"Respect de la transition alimentaire\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTransitionAlimentaire.yrule", 134, "82fa1339-74cc-48b7-a4b1-0c3a1feb3b0b[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 2, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiMale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 1, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,1]")
+currentUsecase.chienMale == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 1, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 2, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,2]")
+findSymptome("Chaleurs irrégulières ou rares").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 3, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,3]")
+findSymptome("Chaleurs persistantes").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 4, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,4]")
+findSymptome("Ecoulements vulvaires en dehors des chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 5, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,5]")
+findSymptome("Masses mammaires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 6, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,6]")
+findSymptome("Attaction des mâles en dehors des chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 7, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,7]")
+findSymptome("Lochies et écoulements post-mise-bas").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 8, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,8]")
+findSymptome("Abattement important après la mise-bas").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 9, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,9]")
+findSymptome("Délai depuis les dernières chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 10, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,10]")
+findSymptome("Montée de lait").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 11, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,11]")
+findSymptome("Chienne en chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 12, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,12]")
+findSymptome("Premières chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 13, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,13]")
+findSymptome("Chienne actuellement en chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 14, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,14]")
+findSymptome("Saillie non désirée potentielle").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 15, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,15]")
+findSymptome("Gestation").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 16, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,16]")
+findSymptome("Gestation confirmée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 17, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,17]")
+findSymptome("Délai depuis les dernières chaleurs").questionDoitEtrePosee = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 18, "7b4765c4-3ce1-4088-a48f-19f7c6ab715a[relative-line-number,18]")
+}
+         --> ifDsl "le chien est un male = oui"
+         --> thenDsl "le symptome \"Chaleurs irrégulières ou rares\" sort du périmètre des symptômes calculés then le symptome \"Chaleurs persistantes\" sort du périmètre des symptômes calculés then le symptome \"Ecoulements vulvaires en dehors des chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Masses mammaires\" sort du périmètre des symptômes calculés then le symptome \"Attaction des mâles en dehors des chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Lochies et écoulements post-mise-bas\" sort du périmètre des symptômes calculés then le symptome \"Abattement important après la mise-bas\" sort du périmètre des symptômes calculés then le symptome \"Délai depuis les dernières chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Montée de lait\" sort du périmètre des symptômes calculés then le symptome \"Chienne en chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Premières chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Chienne actuellement en chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Saillie non désirée potentielle\" sort du périmètre des symptômes calculés then le symptome \"Gestation\" sort du périmètre des symptômes calculés then le symptome \"Gestation confirmée\" sort du périmètre des symptômes calculés then la question associée au symptome Délai depuis les dernières chaleurs ne doit plus être posée"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiMale.yrule", 391, "238cc244-db39-466d-925f-d953419a9d19[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 2, "85e197ac-43d0-4dbc-b0b7-0b036eac6a01")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiFemelle
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 1, "85e197ac-43d0-4dbc-b0b7-0b036eac6a01[relative-line-number,1]")
+currentUsecase.chienFemelle == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 1, "85e197ac-43d0-4dbc-b0b7-0b036eac6a01[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 2, "85e197ac-43d0-4dbc-b0b7-0b036eac6a01[relative-line-number,2]")
+findSymptome("Testicules non présents dans le scrotum").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 3, "85e197ac-43d0-4dbc-b0b7-0b036eac6a01[relative-line-number,3]")
+findSymptome("Ecoulement pénien").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 4, "85e197ac-43d0-4dbc-b0b7-0b036eac6a01[relative-line-number,4]")
+}
+         --> ifDsl "le chien est une femelle = oui"
+         --> thenDsl "le symptome \"Testicules non présents dans le scrotum\" sort du périmètre des symptômes calculés then le symptome \"Ecoulement pénien\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiFemelle.yrule", 97, "407f2092-c786-436a-b4de-4139634bae90[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 2, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiSterilise
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 1, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,1]")
+currentUsecase.sterilisationChien == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 1, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 2, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,2]")
+findSymptome("Chaleurs irrégulières ou rares").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 3, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,3]")
+findSymptome("Chaleurs persistantes").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 4, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,4]")
+findSymptome("Lochies et écoulements post-mise-bas").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 5, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,5]")
+findSymptome("Abattement important après la mise-bas").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 6, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,6]")
+findSymptome("Testicules non présents dans le scrotum").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 7, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,7]")
+findSymptome("Délai depuis les dernières chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 8, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,8]")
+findSymptome("Chienne en chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 9, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,9]")
+findSymptome("Délai depuis les dernières chaleurs").questionDoitEtrePosee = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 10, "943c65f3-8e02-49d4-9b7d-1b2fe01c2ff0[relative-line-number,10]")
+}
+         --> ifDsl "le chien est stérilisé = oui"
+         --> thenDsl "le symptome \"Chaleurs irrégulières ou rares\" sort du périmètre des symptômes calculés then le symptome \"Chaleurs persistantes\" sort du périmètre des symptômes calculés then le symptome \"Lochies et écoulements post-mise-bas\" sort du périmètre des symptômes calculés then le symptome \"Abattement important après la mise-bas\" sort du périmètre des symptômes calculés then le symptome \"Testicules non présents dans le scrotum\" sort du périmètre des symptômes calculés then le symptome \"Délai depuis les dernières chaleurs\" sort du périmètre des symptômes calculés then le symptome \"Chienne en chaleurs\" sort du périmètre des symptômes calculés then la question associée au symptome Délai depuis les dernières chaleurs ne doit plus être posée"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiSterilise.yrule", 223, "cfa7c828-1b48-4a31-948b-e367b41f9254[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 2, "71d749dc-0257-4665-a353-1494785fb18a")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:majQuestionOrigineExcrementsSiSAAutreQueCoprophagie
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 1, "71d749dc-0257-4665-a353-1494785fb18a[relative-line-number,1]")
+cu.symptomeDAppel != findSymptome("Coprophagie"),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 2, "71d749dc-0257-4665-a353-1494785fb18a[relative-line-number,2]")
+findFicheConseil("FC_Se roule dans les crottes et les charognes") != cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 1, "71d749dc-0257-4665-a353-1494785fb18a[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 2, "71d749dc-0257-4665-a353-1494785fb18a[relative-line-number,2]")
+findSymptome("Origine des excréments ingérés").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 3, "71d749dc-0257-4665-a353-1494785fb18a[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Coprophagie\" n'est pas le symptome d'appel and la fiche conseil \"FC_Se roule dans les crottes et les charognes\" n'est pas la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Origine des excréments ingérés\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\majQuestionOrigineExcrementsSiSAAutreQueCoprophagie.yrule", 89, "e30ce41c-6f9e-4d7e-8800-16084f4131e9[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseBoule.yrule", 2, "ff3b217f-e202-4e9e-b73e-5ce582c5ab32")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionMasseBoule
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseBoule.yrule", 1, "ff3b217f-e202-4e9e-b73e-5ce582c5ab32[relative-line-number,1]")
+(findSymptome("Masses buccales").calcule == true && findSymptome("Masses buccales").questionDoitEtrePosee == true) || (findSymptome("Masses mammaires").calcule == true && findSymptome("Masses mammaires").questionDoitEtrePosee == true) || (findSymptome("Masse sur le bord d'une paupière").calcule == true && findSymptome("Masse sur le bord d'une paupière").questionDoitEtrePosee == true)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseBoule.yrule", 1, "ff3b217f-e202-4e9e-b73e-5ce582c5ab32[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseBoule.yrule", 2, "ff3b217f-e202-4e9e-b73e-5ce582c5ab32[relative-line-number,2]")
+findSymptome("Masse/boule").questionDoitEtrePosee = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseBoule.yrule", 3, "ff3b217f-e202-4e9e-b73e-5ce582c5ab32[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Masses buccales\" fait partie des symptomes calculés et la question doit être posée or le symptome \"Masses mammaires\" fait partie des symptomes calculés et la question doit être posée or le symptome \"Masse sur le bord d'une paupière\" fait partie des symptomes calculés et la question doit être posée"
+         --> thenDsl "la question associée au symptome Masse/boule ne doit plus être posée"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseBoule.yrule", 110, "8f251707-03f2-473d-8f9a-fd836d5b88ea[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiNomDuChatInconnu.yrule", 2, "57b84c13-7f75-49d0-93e0-d7476d3d3a8f")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiNomDuChatInconnu
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiNomDuChatInconnu.yrule", 1, "57b84c13-7f75-49d0-93e0-d7476d3d3a8f[relative-line-number,1]")
+currentUsecase.leNomDuChatEsrConnu == NON) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiNomDuChatInconnu.yrule", 1, "57b84c13-7f75-49d0-93e0-d7476d3d3a8f[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiNomDuChatInconnu.yrule", 2, "57b84c13-7f75-49d0-93e0-d7476d3d3a8f[relative-line-number,2]")
+findSymptome("Nom du chat").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiNomDuChatInconnu.yrule", 3, "57b84c13-7f75-49d0-93e0-d7476d3d3a8f[relative-line-number,3]")
+}
+         --> ifDsl "le nom du chat est connu = non"
+         --> thenDsl "le symptome \"Nom du chat\" sort du périmètre des symptômes calculés"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiNomDuChatInconnu.yrule", 76, "e7460344-d3ec-40b7-ac54-40a139dcecf7[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionApparitionAllergieSiAgeInfA18Mois.yrule", 2, "3a4e99be-1c83-4180-bc1d-512c4c0cdb26")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionApparitionAllergieSiAgeInfA18Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionApparitionAllergieSiAgeInfA18Mois.yrule", 1, "3a4e99be-1c83-4180-bc1d-512c4c0cdb26[relative-line-number,1]")
+getAnimal().moisAnimal < 17) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionApparitionAllergieSiAgeInfA18Mois.yrule", 1, "3a4e99be-1c83-4180-bc1d-512c4c0cdb26[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionApparitionAllergieSiAgeInfA18Mois.yrule", 2, "3a4e99be-1c83-4180-bc1d-512c4c0cdb26[relative-line-number,2]")
+findSymptome("Apparition de l'allergie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionApparitionAllergieSiAgeInfA18Mois.yrule", 3, "3a4e99be-1c83-4180-bc1d-512c4c0cdb26[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois < 17"
+         --> thenDsl "le symptome \"Apparition de l'allergie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiAlimMenagere.yrule", 2, "33b94e98-a64d-40aa-b809-715cbbaaa222")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiAlimMenagere
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiAlimMenagere.yrule", 1, "33b94e98-a64d-40aa-b809-715cbbaaa222[relative-line-number,1]")
+currentUsecase.alimentationMenagereOuIndustrielle == ALIM_MENAGERE) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiAlimMenagere.yrule", 1, "33b94e98-a64d-40aa-b809-715cbbaaa222[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiAlimMenagere.yrule", 2, "33b94e98-a64d-40aa-b809-715cbbaaa222[relative-line-number,2]")
+findSymptome("Alimentation Premium ou sandard").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiAlimMenagere.yrule", 3, "33b94e98-a64d-40aa-b809-715cbbaaa222[relative-line-number,3]")
+findSymptome("Croquettes ou boîtes").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiAlimMenagere.yrule", 4, "33b94e98-a64d-40aa-b809-715cbbaaa222[relative-line-number,4]")
+}
+         --> ifDsl "le chien a une alimentation ménagère ou industrielle = Une alimentation faite maison"
+         --> thenDsl "le symptome \"Alimentation Premium ou sandard\" sort du périmètre des symptômes calculés then le symptome \"Croquettes ou boîtes\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleNonOuNSP.yrule", 2, "72b81aec-5022-4113-a0ad-fd1d7942270a")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiSailliePotentielleNonOuNSP
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleNonOuNSP.yrule", 1, "72b81aec-5022-4113-a0ad-fd1d7942270a[relative-line-number,1]")
+(currentUsecase.saillieNonDesireePotentielle == NON) || (currentUsecase.saillieNonDesireePotentielle == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleNonOuNSP.yrule", 1, "72b81aec-5022-4113-a0ad-fd1d7942270a[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleNonOuNSP.yrule", 2, "72b81aec-5022-4113-a0ad-fd1d7942270a[relative-line-number,2]")
+findSymptome("Saillie non désirée certaine").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleNonOuNSP.yrule", 3, "72b81aec-5022-4113-a0ad-fd1d7942270a[relative-line-number,3]")
+}
+         --> ifDsl "la chienne a été potentiellement saillie = non or la chienne a été potentiellement saillie = je ne sais pas"
+         --> thenDsl "le symptome \"Saillie non désirée certaine\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleOuConfirmeeNon.yrule", 2, "63141304-c8d7-41c1-bff4-449eaf622248")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiSailliePotentielleOuConfirmeeNon
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleOuConfirmeeNon.yrule", 1, "63141304-c8d7-41c1-bff4-449eaf622248[relative-line-number,1]")
+(currentUsecase.saillieNonDesireePotentielle == NON) || (currentUsecase.saillieNonDesireeCertaine == NON)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleOuConfirmeeNon.yrule", 1, "63141304-c8d7-41c1-bff4-449eaf622248[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleOuConfirmeeNon.yrule", 2, "63141304-c8d7-41c1-bff4-449eaf622248[relative-line-number,2]")
+findSymptome("Gestation confirmée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSailliePotentielleOuConfirmeeNon.yrule", 3, "63141304-c8d7-41c1-bff4-449eaf622248[relative-line-number,3]")
+}
+         --> ifDsl "la chienne a été potentiellement saillie = non or la chienne a été saillie avec certitude = non"
+         --> thenDsl "le symptome \"Gestation confirmée\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDeDentsDeLaitSiAgeSuperieurA10Mois.yrule", 2, "63de0755-7da0-4152-9b1f-a1b07ee4c400")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionPerteDeDentsDeLaitSiAgeSuperieurA10Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDeDentsDeLaitSiAgeSuperieurA10Mois.yrule", 1, "63de0755-7da0-4152-9b1f-a1b07ee4c400[relative-line-number,1]")
+getAnimal().moisAnimal > 10) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDeDentsDeLaitSiAgeSuperieurA10Mois.yrule", 1, "63de0755-7da0-4152-9b1f-a1b07ee4c400[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDeDentsDeLaitSiAgeSuperieurA10Mois.yrule", 2, "63de0755-7da0-4152-9b1f-a1b07ee4c400[relative-line-number,2]")
+findSymptome("Perte des dents de lait").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDeDentsDeLaitSiAgeSuperieurA10Mois.yrule", 3, "63de0755-7da0-4152-9b1f-a1b07ee4c400[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois > 10"
+         --> thenDsl "le symptome \"Perte des dents de lait\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentition.yrule", 2, "900f8d96-5762-4f8f-afb7-a67f8a104c60")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionDoubleDentition
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentition.yrule", 1, "900f8d96-5762-4f8f-afb7-a67f8a104c60[relative-line-number,1]")
+getAnimal().ansAnimal >= 2,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentition.yrule", 2, "900f8d96-5762-4f8f-afb7-a67f8a104c60[relative-line-number,2]")
+(findFicheConseil("FC_L'hygiène bucco-dentaire") == cu.ficheConseilAppel) || (findFicheConseil("FC_tartre") == cu.ficheConseilAppel)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentition.yrule", 1, "900f8d96-5762-4f8f-afb7-a67f8a104c60[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentition.yrule", 2, "900f8d96-5762-4f8f-afb7-a67f8a104c60[relative-line-number,2]")
+findSymptome("Double dentition").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentition.yrule", 3, "900f8d96-5762-4f8f-afb7-a67f8a104c60[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en années ? 2 and (la fiche conseil \"FC_L'hygiène bucco-dentaire\" est la fiche conseil d'appel or la fiche conseil \"FC_tartre\" est la fiche conseil d'appel)"
+         --> thenDsl "le symptome \"Double dentition\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChuteDeDents.yrule", 2, "7021c28f-063f-41f2-8a2e-98520109eaad")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionChuteDeDents
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChuteDeDents.yrule", 1, "7021c28f-063f-41f2-8a2e-98520109eaad[relative-line-number,1]")
+findFicheConseil("FC_L'hygiène bucco-dentaire") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChuteDeDents.yrule", 2, "7021c28f-063f-41f2-8a2e-98520109eaad[relative-line-number,2]")
+getAnimal().getClasseAgeChien() != CAC_SENIOR) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChuteDeDents.yrule", 1, "7021c28f-063f-41f2-8a2e-98520109eaad[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChuteDeDents.yrule", 2, "7021c28f-063f-41f2-8a2e-98520109eaad[relative-line-number,2]")
+findSymptome("Chute de dents").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChuteDeDents.yrule", 3, "7021c28f-063f-41f2-8a2e-98520109eaad[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_L'hygiène bucco-dentaire\" est la fiche conseil d'appel and la classe d'age du chien ? sénior"
+         --> thenDsl "le symptome \"Chute de dents\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionProblemeRespiSiPasDePiqure.yrule", 2, "58083580-2939-4314-84e0-11f25dfb3c11")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionProblemeRespiSiPasDePiqure
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionProblemeRespiSiPasDePiqure.yrule", 1, "58083580-2939-4314-84e0-11f25dfb3c11[relative-line-number,1]")
+currentUsecase.piqureDInsecte != OUI,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionProblemeRespiSiPasDePiqure.yrule", 2, "58083580-2939-4314-84e0-11f25dfb3c11[relative-line-number,2]")
+findFicheConseil("FC_Les piqûres d'hyménoptères") == cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionProblemeRespiSiPasDePiqure.yrule", 1, "58083580-2939-4314-84e0-11f25dfb3c11[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionProblemeRespiSiPasDePiqure.yrule", 2, "58083580-2939-4314-84e0-11f25dfb3c11[relative-line-number,2]")
+findSymptome("Problèmes respiratoires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionProblemeRespiSiPasDePiqure.yrule", 3, "58083580-2939-4314-84e0-11f25dfb3c11[relative-line-number,3]")
+}
+         --> ifDsl "le chien s'est fait piquer par un insecte ? oui and la fiche conseil \"FC_Les piqûres d'hyménoptères\" est la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Problèmes respiratoires\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentititionSiAgeInfA4Mois.yrule", 2, "47b32390-27ef-440a-908b-14c267cb16dc")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionDoubleDentititionSiAgeInfA4Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentititionSiAgeInfA4Mois.yrule", 1, "47b32390-27ef-440a-908b-14c267cb16dc[relative-line-number,1]")
+getAnimal().moisAnimal < 6,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentititionSiAgeInfA4Mois.yrule", 2, "47b32390-27ef-440a-908b-14c267cb16dc[relative-line-number,2]")
+findFicheConseil("FC_Dents de lait et dents définitives") == cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentititionSiAgeInfA4Mois.yrule", 1, "47b32390-27ef-440a-908b-14c267cb16dc[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentititionSiAgeInfA4Mois.yrule", 2, "47b32390-27ef-440a-908b-14c267cb16dc[relative-line-number,2]")
+findSymptome("Double dentition").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDoubleDentititionSiAgeInfA4Mois.yrule", 3, "47b32390-27ef-440a-908b-14c267cb16dc[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois < 6 and la fiche conseil \"FC_Dents de lait et dents définitives\" est la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Double dentition\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSurpoidsDuChienBrachycephale.yrule", 2, "12a4856b-584c-4f97-80c7-0851d646727b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSurpoidsDuChienBrachycephale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSurpoidsDuChienBrachycephale.yrule", 1, "12a4856b-584c-4f97-80c7-0851d646727b[relative-line-number,1]")
+findFicheConseil("FC_Le syndrome brachycéphale") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSurpoidsDuChienBrachycephale.yrule", 2, "12a4856b-584c-4f97-80c7-0851d646727b[relative-line-number,2]")
+currentUsecase.estRaceBrachycephale == NON) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSurpoidsDuChienBrachycephale.yrule", 1, "12a4856b-584c-4f97-80c7-0851d646727b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSurpoidsDuChienBrachycephale.yrule", 2, "12a4856b-584c-4f97-80c7-0851d646727b[relative-line-number,2]")
+findSymptome("Obésité").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSurpoidsDuChienBrachycephale.yrule", 3, "12a4856b-584c-4f97-80c7-0851d646727b[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_Le syndrome brachycéphale\" est la fiche conseil d'appel and le chien est brachycéphale = non"
+         --> thenDsl "le symptome \"Obésité\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee.yrule", 2, "1bbb601d-fdaf-4534-af5d-57e352b19d55")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee.yrule", 1, "1bbb601d-fdaf-4534-af5d-57e352b19d55[relative-line-number,1]")
+currentUsecase.motivationDeLaQuestion != MQ_SOUFFRE_DE_CE_PB,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee.yrule", 2, "1bbb601d-fdaf-4534-af5d-57e352b19d55[relative-line-number,2]")
+(findFicheConseil("FC_L'ehrlichiose") == cu.ficheConseilAppel) || (findFicheConseil("FC_La maladie de Lyme") == cu.ficheConseilAppel) || (findFicheConseil("FC_Le lymphome") == cu.ficheConseilAppel) || (findFicheConseil("FC_Le mastocytome") == cu.ficheConseilAppel) || (findFicheConseil("FC_La maladie d'Addison") == cu.ficheConseilAppel) || (findFicheConseil("FC_dirofilariose") == cu.ficheConseilAppel)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee.yrule", 1, "1bbb601d-fdaf-4534-af5d-57e352b19d55[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee.yrule", 2, "1bbb601d-fdaf-4534-af5d-57e352b19d55[relative-line-number,2]")
+findSymptome("Traitement en cours pour cette maladie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTraitementEnCoursSiMaladieNonDiagnostiquee.yrule", 3, "1bbb601d-fdaf-4534-af5d-57e352b19d55[relative-line-number,3]")
+}
+         --> ifDsl "la motivation de la question ? Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal and (la fiche conseil \"FC_L'ehrlichiose\" est la fiche conseil d'appel or la fiche conseil \"FC_La maladie de Lyme\" est la fiche conseil d'appel or la fiche conseil \"FC_Le lymphome\" est la fiche conseil d'appel or la fiche conseil \"FC_Le mastocytome\" est la fiche conseil d'appel or la fiche conseil \"FC_La maladie d'Addison\" est la fiche conseil d'appel or la fiche conseil \"FC_dirofilariose\" est la fiche conseil d'appel)"
+         --> thenDsl "le symptome \"Traitement en cours pour cette maladie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionVieEnExterieurSiVieEnAppart.yrule", 2, "a17f6f45-c6d6-4554-8cff-96a708c03e32")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionVieEnExterieurSiVieEnAppart
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionVieEnExterieurSiVieEnAppart.yrule", 1, "a17f6f45-c6d6-4554-8cff-96a708c03e32[relative-line-number,1]")
+currentUsecase.lieuDeVie == APPARTEMENT) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionVieEnExterieurSiVieEnAppart.yrule", 1, "a17f6f45-c6d6-4554-8cff-96a708c03e32[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionVieEnExterieurSiVieEnAppart.yrule", 2, "a17f6f45-c6d6-4554-8cff-96a708c03e32[relative-line-number,2]")
+findSymptome("Vie en intérieur ou extérieur").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionVieEnExterieurSiVieEnAppart.yrule", 3, "a17f6f45-c6d6-4554-8cff-96a708c03e32[relative-line-number,3]")
+}
+         --> ifDsl "le lieu de vie est = En appartement"
+         --> thenDsl "le symptome \"Vie en intérieur ou extérieur\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiPasDAutresAnimaux.yrule", 2, "f9e827a2-946a-4c3a-914b-3b4a94db22d3")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiPasDAutresAnimaux
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiPasDAutresAnimaux.yrule", 1, "f9e827a2-946a-4c3a-914b-3b4a94db22d3[relative-line-number,1]")
+(currentUsecase.autresAnimaux == NON) || (currentUsecase.autresAnimaux == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiPasDAutresAnimaux.yrule", 1, "f9e827a2-946a-4c3a-914b-3b4a94db22d3[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiPasDAutresAnimaux.yrule", 2, "f9e827a2-946a-4c3a-914b-3b4a94db22d3[relative-line-number,2]")
+findSymptome("Présence de chats dans le foyer").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiPasDAutresAnimaux.yrule", 3, "f9e827a2-946a-4c3a-914b-3b4a94db22d3[relative-line-number,3]")
+findSymptome("Présence d'autres chiens").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiPasDAutresAnimaux.yrule", 4, "f9e827a2-946a-4c3a-914b-3b4a94db22d3[relative-line-number,4]")
+}
+         --> ifDsl "d'autres animaux partagent le foyer = non or d'autres animaux partagent le foyer = je ne sais pas"
+         --> thenDsl "le symptome \"Présence de chats dans le foyer\" sort du périmètre des symptômes calculés then le symptome \"Présence d'autres chiens\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationDateDuDernierVaccinSiNonCorrectementVaccine.yrule", 2, "4a08285a-65c0-4d05-87c3-3854e715a070")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationDateDuDernierVaccinSiNonCorrectementVaccine
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationDateDuDernierVaccinSiNonCorrectementVaccine.yrule", 1, "4a08285a-65c0-4d05-87c3-3854e715a070[relative-line-number,1]")
+currentUsecase.vaccinationCorrecte != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationDateDuDernierVaccinSiNonCorrectementVaccine.yrule", 1, "4a08285a-65c0-4d05-87c3-3854e715a070[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationDateDuDernierVaccinSiNonCorrectementVaccine.yrule", 2, "4a08285a-65c0-4d05-87c3-3854e715a070[relative-line-number,2]")
+findSymptome("Date du dernier vaccin").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationDateDuDernierVaccinSiNonCorrectementVaccine.yrule", 3, "4a08285a-65c0-4d05-87c3-3854e715a070[relative-line-number,3]")
+}
+         --> ifDsl "le chien est correctement vacciné ? oui"
+         --> thenDsl "le symptome \"Date du dernier vaccin\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAutresAnimauxSiAllergieDigestive.yrule", 2, "6b786e7c-f1f4-4cbc-b7a1-07d51a1b7704")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionAutresAnimauxSiAllergieDigestive
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAutresAnimauxSiAllergieDigestive.yrule", 1, "6b786e7c-f1f4-4cbc-b7a1-07d51a1b7704[relative-line-number,1]")
+currentUsecase.manifestationsDeLallergie == ALLERGIE_DIGESTIVE) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAutresAnimauxSiAllergieDigestive.yrule", 1, "6b786e7c-f1f4-4cbc-b7a1-07d51a1b7704[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAutresAnimauxSiAllergieDigestive.yrule", 2, "6b786e7c-f1f4-4cbc-b7a1-07d51a1b7704[relative-line-number,2]")
+findSymptome("Autres animaux").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAutresAnimauxSiAllergieDigestive.yrule", 3, "6b786e7c-f1f4-4cbc-b7a1-07d51a1b7704[relative-line-number,3]")
+}
+         --> ifDsl "les allergies se manifestent par = Des troubles digestifs (diarrhée, vomissements)"
+         --> thenDsl "le symptome \"Autres animaux\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTartreSelonTypeDAlimentation.yrule", 2, "e08cc527-e3ac-4d2b-9c79-93d2abdd1cd2")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionTartreSelonTypeDAlimentation
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTartreSelonTypeDAlimentation.yrule", 1, "e08cc527-e3ac-4d2b-9c79-93d2abdd1cd2[relative-line-number,1]")
+currentUsecase.croquettesOuBoites == CROQUETTES) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTartreSelonTypeDAlimentation.yrule", 1, "e08cc527-e3ac-4d2b-9c79-93d2abdd1cd2[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTartreSelonTypeDAlimentation.yrule", 2, "e08cc527-e3ac-4d2b-9c79-93d2abdd1cd2[relative-line-number,2]")
+findSymptome("Tartre déjà présent").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTartreSelonTypeDAlimentation.yrule", 3, "e08cc527-e3ac-4d2b-9c79-93d2abdd1cd2[relative-line-number,3]")
+}
+         --> ifDsl "le chien mange des croquettes ou des boites = Des croquettes"
+         --> thenDsl "le symptome \"Tartre déjà présent\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDepressionSiSABoudeSaGamelle.yrule", 2, "8406a5a2-154a-4683-8e4e-7bf16d167315")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionDepressionSiSABoudeSaGamelle
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDepressionSiSABoudeSaGamelle.yrule", 1, "8406a5a2-154a-4683-8e4e-7bf16d167315[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Boude sa gamelle")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDepressionSiSABoudeSaGamelle.yrule", 1, "8406a5a2-154a-4683-8e4e-7bf16d167315[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDepressionSiSABoudeSaGamelle.yrule", 2, "8406a5a2-154a-4683-8e4e-7bf16d167315[relative-line-number,2]")
+findSymptome("Chien triste qui ne joue plus").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDepressionSiSABoudeSaGamelle.yrule", 3, "8406a5a2-154a-4683-8e4e-7bf16d167315[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Boude sa gamelle\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Chien triste qui ne joue plus\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPrimoVaccinationComplete.yrule", 2, "9e38815c-2252-491c-91ff-25e5805aee4a")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionPrimoVaccinationComplete
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPrimoVaccinationComplete.yrule", 1, "9e38815c-2252-491c-91ff-25e5805aee4a[relative-line-number,1]")
+(currentUsecase.premiereInjectionDeVaccinRealisee == NON) || (currentUsecase.premiereInjectionDeVaccinRealisee == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPrimoVaccinationComplete.yrule", 1, "9e38815c-2252-491c-91ff-25e5805aee4a[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPrimoVaccinationComplete.yrule", 2, "9e38815c-2252-491c-91ff-25e5805aee4a[relative-line-number,2]")
+findSymptome("Primovaccintion complète réalisée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPrimoVaccinationComplete.yrule", 3, "9e38815c-2252-491c-91ff-25e5805aee4a[relative-line-number,3]")
+}
+         --> ifDsl "le chien a eu une première injection = non or le chien a eu une première injection = je ne sais pas"
+         --> thenDsl "le symptome \"Primovaccintion complète réalisée\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiMalpropreteNonOuNSP.yrule", 2, "2e94035f-c477-435f-b276-17926a755d8b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionIncontinenceSiMalpropreteNonOuNSP
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiMalpropreteNonOuNSP.yrule", 1, "2e94035f-c477-435f-b276-17926a755d8b[relative-line-number,1]")
+(currentUsecase.malpropreteUrinaire == NON) || (currentUsecase.malpropreteUrinaire == NSP) || (currentUsecase.malpropreteUrinaire == null)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiMalpropreteNonOuNSP.yrule", 1, "2e94035f-c477-435f-b276-17926a755d8b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiMalpropreteNonOuNSP.yrule", 2, "2e94035f-c477-435f-b276-17926a755d8b[relative-line-number,2]")
+findSymptome("Incontinence ou Malpropreté").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiMalpropreteNonOuNSP.yrule", 3, "2e94035f-c477-435f-b276-17926a755d8b[relative-line-number,3]")
+}
+         --> ifDsl "le chien est malpropre, il urine pour marquer son territoire = non or le chien est malpropre, il urine pour marquer son territoire = je ne sais pas or le chien est malpropre, il urine pour marquer son territoire is unknown"
+         --> thenDsl "le symptome \"Incontinence ou Malpropreté\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHancheConcerneeParLaDysplasieSiNonDiagnostiquee.yrule", 2, "1d0237c9-7a5f-4f4c-bd74-acc387a4b8d5")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionHancheConcerneeParLaDysplasieSiNonDiagnostiquee
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHancheConcerneeParLaDysplasieSiNonDiagnostiquee.yrule", 1, "1d0237c9-7a5f-4f4c-bd74-acc387a4b8d5[relative-line-number,1]")
+currentUsecase.motivationDeLaQuestion != MQ_SOUFFRE_DE_CE_PB) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHancheConcerneeParLaDysplasieSiNonDiagnostiquee.yrule", 1, "1d0237c9-7a5f-4f4c-bd74-acc387a4b8d5[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHancheConcerneeParLaDysplasieSiNonDiagnostiquee.yrule", 2, "1d0237c9-7a5f-4f4c-bd74-acc387a4b8d5[relative-line-number,2]")
+findSymptome("Hanche concernée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHancheConcerneeParLaDysplasieSiNonDiagnostiquee.yrule", 3, "1d0237c9-7a5f-4f4c-bd74-acc387a4b8d5[relative-line-number,3]")
+}
+         --> ifDsl "la motivation de la question ? Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         --> thenDsl "le symptome \"Hanche concernée\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 2, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiLaChienneNAPasDeMassesMammaires
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 1, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,1]")
+currentUsecase.presenceDeTumeursMammaires != OUI,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 2, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,2]")
+findFicheConseil("FC_Info sur les tumeurs mammaires") == cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 1, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 2, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,2]")
+findSymptome("Nombre de tumeurs mammaires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 3, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,3]")
+findSymptome("Véto déjà consulté").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 4, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,4]")
+findSymptome("Chirurgie sur tumeurs mammaires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 5, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,5]")
+findSymptome("Récidive depuis chirurgie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 6, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,6]")
+findSymptome("Troubles respiratoires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiLaChienneNAPasDeMassesMammaires.yrule", 7, "1d8b1cc7-06ca-469a-a880-937ca9fe83a1[relative-line-number,7]")
+}
+         --> ifDsl "la chienne a ou a eu des tumeurs mammaires ? oui and la fiche conseil \"FC_Info sur les tumeurs mammaires\" est la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Nombre de tumeurs mammaires\" sort du périmètre des symptômes calculés then le symptome \"Véto déjà consulté\" sort du périmètre des symptômes calculés then le symptome \"Chirurgie sur tumeurs mammaires\" sort du périmètre des symptômes calculés then le symptome \"Récidive depuis chirurgie\" sort du périmètre des symptômes calculés then le symptome \"Troubles respiratoires\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationsQuestionsSiVetoPasConsulte.yrule", 2, "23cedfaf-32c3-4ae1-a138-133920e8a9b4")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationsQuestionsSiVetoPasConsulte
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationsQuestionsSiVetoPasConsulte.yrule", 1, "23cedfaf-32c3-4ae1-a138-133920e8a9b4[relative-line-number,1]")
+currentUsecase.vetoDejaConsulte != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationsQuestionsSiVetoPasConsulte.yrule", 1, "23cedfaf-32c3-4ae1-a138-133920e8a9b4[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationsQuestionsSiVetoPasConsulte.yrule", 2, "23cedfaf-32c3-4ae1-a138-133920e8a9b4[relative-line-number,2]")
+findSymptome("Chirurgie sur tumeurs mammaires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationsQuestionsSiVetoPasConsulte.yrule", 3, "23cedfaf-32c3-4ae1-a138-133920e8a9b4[relative-line-number,3]")
+findSymptome("Récidive depuis chirurgie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationsQuestionsSiVetoPasConsulte.yrule", 4, "23cedfaf-32c3-4ae1-a138-133920e8a9b4[relative-line-number,4]")
+}
+         --> ifDsl "le vétérinaire a déjà été consulté pour cela ? oui"
+         --> thenDsl "le symptome \"Chirurgie sur tumeurs mammaires\" sort du périmètre des symptômes calculés then le symptome \"Récidive depuis chirurgie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionRecidiveSiPasDeChirurgie.yrule", 2, "e23a0b1c-55c9-4b31-aaaa-722c65db4148")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionRecidiveSiPasDeChirurgie
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionRecidiveSiPasDeChirurgie.yrule", 1, "e23a0b1c-55c9-4b31-aaaa-722c65db4148[relative-line-number,1]")
+currentUsecase.chirurgieSurTumeursMammaires != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionRecidiveSiPasDeChirurgie.yrule", 1, "e23a0b1c-55c9-4b31-aaaa-722c65db4148[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionRecidiveSiPasDeChirurgie.yrule", 2, "e23a0b1c-55c9-4b31-aaaa-722c65db4148[relative-line-number,2]")
+findSymptome("Récidive depuis chirurgie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionRecidiveSiPasDeChirurgie.yrule", 3, "e23a0b1c-55c9-4b31-aaaa-722c65db4148[relative-line-number,3]")
+}
+         --> ifDsl "la chienne a déjà été opérée de tumeurs mammaires ? oui"
+         --> thenDsl "le symptome \"Récidive depuis chirurgie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHyperactiviteSiHsHaDiagnostique.yrule", 2, "fe6413b4-9356-49cf-8809-fba9adc9fb2c")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionHyperactiviteSiHsHaDiagnostique
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHyperactiviteSiHsHaDiagnostique.yrule", 1, "fe6413b4-9356-49cf-8809-fba9adc9fb2c[relative-line-number,1]")
+findFicheConseil("FC_Infos sur le syndrome HSHA") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHyperactiviteSiHsHaDiagnostique.yrule", 2, "fe6413b4-9356-49cf-8809-fba9adc9fb2c[relative-line-number,2]")
+currentUsecase.motivationDeLaQuestion == MQ_SOUFFRE_DE_CE_PB) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHyperactiviteSiHsHaDiagnostique.yrule", 1, "fe6413b4-9356-49cf-8809-fba9adc9fb2c[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHyperactiviteSiHsHaDiagnostique.yrule", 2, "fe6413b4-9356-49cf-8809-fba9adc9fb2c[relative-line-number,2]")
+findSymptome("Hyperactivité").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionHyperactiviteSiHsHaDiagnostique.yrule", 3, "fe6413b4-9356-49cf-8809-fba9adc9fb2c[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_Infos sur le syndrome HSHA\" est la fiche conseil d'appel and la motivation de la question = Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         --> thenDsl "le symptome \"Hyperactivité\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTetraparesieSiBoiterieSA.yrule", 2, "543697d7-21e9-4318-9854-a9e55eab4108")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionTetraparesieSiBoiterieSA
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTetraparesieSiBoiterieSA.yrule", 1, "543697d7-21e9-4318-9854-a9e55eab4108[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Boiterie")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTetraparesieSiBoiterieSA.yrule", 1, "543697d7-21e9-4318-9854-a9e55eab4108[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTetraparesieSiBoiterieSA.yrule", 2, "543697d7-21e9-4318-9854-a9e55eab4108[relative-line-number,2]")
+findSymptome("Tétraparésie brusque").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTetraparesieSiBoiterieSA.yrule", 3, "543697d7-21e9-4318-9854-a9e55eab4108[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Boiterie\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Tétraparésie brusque\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSangDansLesUrinesSiSAMalpropreteFecale.yrule", 2, "83dc5096-6436-472f-9804-0b82a82a7b1d")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSangDansLesUrinesSiSAMalpropreteFecale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSangDansLesUrinesSiSAMalpropreteFecale.yrule", 1, "83dc5096-6436-472f-9804-0b82a82a7b1d[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Malpropreté fécale")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSangDansLesUrinesSiSAMalpropreteFecale.yrule", 1, "83dc5096-6436-472f-9804-0b82a82a7b1d[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSangDansLesUrinesSiSAMalpropreteFecale.yrule", 2, "83dc5096-6436-472f-9804-0b82a82a7b1d[relative-line-number,2]")
+findSymptome("Hématurie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSangDansLesUrinesSiSAMalpropreteFecale.yrule", 3, "83dc5096-6436-472f-9804-0b82a82a7b1d[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Malpropreté fécale\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Hématurie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionExcroissanceSiMasseDePlusDe1cm.yrule", 2, "c576d6aa-a39d-4329-82d0-9802e55e7a0b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionExcroissanceSiMasseDePlusDe1cm
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionExcroissanceSiMasseDePlusDe1cm.yrule", 1, "c576d6aa-a39d-4329-82d0-9802e55e7a0b[relative-line-number,1]")
+currentUsecase.tailleDeLaMasse != MOINS_DE_1CM,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionExcroissanceSiMasseDePlusDe1cm.yrule", 2, "c576d6aa-a39d-4329-82d0-9802e55e7a0b[relative-line-number,2]")
+cu.symptomeDAppel != findSymptome("Masse sur le bord d'une paupière")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionExcroissanceSiMasseDePlusDe1cm.yrule", 1, "c576d6aa-a39d-4329-82d0-9802e55e7a0b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionExcroissanceSiMasseDePlusDe1cm.yrule", 2, "c576d6aa-a39d-4329-82d0-9802e55e7a0b[relative-line-number,2]")
+findSymptome("Excroissance ou masse").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionExcroissanceSiMasseDePlusDe1cm.yrule", 3, "c576d6aa-a39d-4329-82d0-9802e55e7a0b[relative-line-number,3]")
+}
+         --> ifDsl "la taille de la masse ? Moins de 1 cm de diamètre and le symptome \"Masse sur le bord d'une paupière\" n'est pas le symptome d'appel"
+         --> thenDsl "le symptome \"Excroissance ou masse\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDateDesDerniersChaleursSiChaleursPersistantesSA.yrule", 2, "cf6a2eb8-efe1-42c3-be3d-5d86015d4990")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionDateDesDerniersChaleursSiChaleursPersistantesSA
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDateDesDerniersChaleursSiChaleursPersistantesSA.yrule", 1, "cf6a2eb8-efe1-42c3-be3d-5d86015d4990[relative-line-number,1]")
+(cu.symptomeDAppel == findSymptome("Chaleurs persistantes")) || (getAnimal().moisAnimal <= 6)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDateDesDerniersChaleursSiChaleursPersistantesSA.yrule", 1, "cf6a2eb8-efe1-42c3-be3d-5d86015d4990[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDateDesDerniersChaleursSiChaleursPersistantesSA.yrule", 2, "cf6a2eb8-efe1-42c3-be3d-5d86015d4990[relative-line-number,2]")
+findSymptome("Délai depuis les dernières chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionDateDesDerniersChaleursSiChaleursPersistantesSA.yrule", 3, "cf6a2eb8-efe1-42c3-be3d-5d86015d4990[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Chaleurs persistantes\" est le symptome d'appel or l'age du chien en mois ? 6"
+         --> thenDsl "le symptome \"Délai depuis les dernières chaleurs\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiSAMalpropreteNocturne.yrule", 2, "cc105ad8-e4c1-406a-a4bd-c02abc3e3c70")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionIncontinenceSiSAMalpropreteNocturne
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiSAMalpropreteNocturne.yrule", 1, "cc105ad8-e4c1-406a-a4bd-c02abc3e3c70[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Malpropreté nocturne du chiot")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiSAMalpropreteNocturne.yrule", 1, "cc105ad8-e4c1-406a-a4bd-c02abc3e3c70[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiSAMalpropreteNocturne.yrule", 2, "cc105ad8-e4c1-406a-a4bd-c02abc3e3c70[relative-line-number,2]")
+findSymptome("Incontinence ou Malpropreté").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionIncontinenceSiSAMalpropreteNocturne.yrule", 3, "cc105ad8-e4c1-406a-a4bd-c02abc3e3c70[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Malpropreté nocturne du chiot\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Incontinence ou Malpropreté\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPartenaireSiSaillieNonEnvisagee.yrule", 2, "69af1676-7de7-419f-b084-152fcf6f5000")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionPartenaireSiSaillieNonEnvisagee
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPartenaireSiSaillieNonEnvisagee.yrule", 1, "69af1676-7de7-419f-b084-152fcf6f5000[relative-line-number,1]")
+currentUsecase.reproductionEnvisagee == NON) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPartenaireSiSaillieNonEnvisagee.yrule", 1, "69af1676-7de7-419f-b084-152fcf6f5000[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPartenaireSiSaillieNonEnvisagee.yrule", 2, "69af1676-7de7-419f-b084-152fcf6f5000[relative-line-number,2]")
+findSymptome("Partenaire déterminé").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPartenaireSiSaillieNonEnvisagee.yrule", 3, "69af1676-7de7-419f-b084-152fcf6f5000[relative-line-number,3]")
+}
+         --> ifDsl "la reproduction est envisagée = non"
+         --> thenDsl "le symptome \"Partenaire déterminé\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSigneDeDouleurDifferentDeOui.yrule", 2, "29d4750f-196a-4e04-8300-b5a5a8e04a05")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiSigneDeDouleurDifferentDeOui
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSigneDeDouleurDifferentDeOui.yrule", 1, "29d4750f-196a-4e04-8300-b5a5a8e04a05[relative-line-number,1]")
+currentUsecase.signesDeDouleur != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSigneDeDouleurDifferentDeOui.yrule", 1, "29d4750f-196a-4e04-8300-b5a5a8e04a05[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSigneDeDouleurDifferentDeOui.yrule", 2, "29d4750f-196a-4e04-8300-b5a5a8e04a05[relative-line-number,2]")
+findSymptome("Score de douleur").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSigneDeDouleurDifferentDeOui.yrule", 3, "29d4750f-196a-4e04-8300-b5a5a8e04a05[relative-line-number,3]")
+}
+         --> ifDsl "le chien a mal ? oui"
+         --> thenDsl "le symptome \"Score de douleur\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSejourRecentEnCollectiviteSiAdoptionRecente.yrule", 2, "c55625fa-f1f8-4c1f-8d6d-8cd4d1fc94b7")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSejourRecentEnCollectiviteSiAdoptionRecente
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSejourRecentEnCollectiviteSiAdoptionRecente.yrule", 1, "c55625fa-f1f8-4c1f-8d6d-8cd4d1fc94b7[relative-line-number,1]")
+currentUsecase.adoptionRecente == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSejourRecentEnCollectiviteSiAdoptionRecente.yrule", 1, "c55625fa-f1f8-4c1f-8d6d-8cd4d1fc94b7[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSejourRecentEnCollectiviteSiAdoptionRecente.yrule", 2, "c55625fa-f1f8-4c1f-8d6d-8cd4d1fc94b7[relative-line-number,2]")
+findSymptome("Séjour récent en collectivité").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSejourRecentEnCollectiviteSiAdoptionRecente.yrule", 3, "c55625fa-f1f8-4c1f-8d6d-8cd4d1fc94b7[relative-line-number,3]")
+}
+         --> ifDsl "le chien a été adopté récemment = oui"
+         --> thenDsl "le symptome \"Séjour récent en collectivité\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionLieuDAdoptionSiPasDAdoptionRecente.yrule", 2, "8096b341-e953-492e-a0e5-636458b26a5a")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionLieuDAdoptionSiPasDAdoptionRecente
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionLieuDAdoptionSiPasDAdoptionRecente.yrule", 1, "8096b341-e953-492e-a0e5-636458b26a5a[relative-line-number,1]")
+currentUsecase.adoptionRecente != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionLieuDAdoptionSiPasDAdoptionRecente.yrule", 1, "8096b341-e953-492e-a0e5-636458b26a5a[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionLieuDAdoptionSiPasDAdoptionRecente.yrule", 2, "8096b341-e953-492e-a0e5-636458b26a5a[relative-line-number,2]")
+findSymptome("Lieu d'adoption").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionLieuDAdoptionSiPasDAdoptionRecente.yrule", 3, "8096b341-e953-492e-a0e5-636458b26a5a[relative-line-number,3]")
+}
+         --> ifDsl "le chien a été adopté récemment ? oui"
+         --> thenDsl "le symptome \"Lieu d'adoption\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChienMaleOuSterilise.yrule", 2, "2ee91bd4-ea46-4a59-82f6-aece823e507c")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiChienMaleOuSterilise
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChienMaleOuSterilise.yrule", 1, "2ee91bd4-ea46-4a59-82f6-aece823e507c[relative-line-number,1]")
+(currentUsecase.chienMale == OUI) || (currentUsecase.sterilisationChien == OUI)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChienMaleOuSterilise.yrule", 1, "2ee91bd4-ea46-4a59-82f6-aece823e507c[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChienMaleOuSterilise.yrule", 2, "2ee91bd4-ea46-4a59-82f6-aece823e507c[relative-line-number,2]")
+findSymptome("Chaleurs irrégulières ou rares").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChienMaleOuSterilise.yrule", 3, "2ee91bd4-ea46-4a59-82f6-aece823e507c[relative-line-number,3]")
+}
+         --> ifDsl "le chien est un male = oui or le chien est stérilisé = oui"
+         --> thenDsl "le symptome \"Chaleurs irrégulières ou rares\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionOeilConcerne.yrule", 2, "f3faded1-2193-4762-899a-1d6064587f60")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionOeilConcerne
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionOeilConcerne.yrule", 1, "f3faded1-2193-4762-899a-1d6064587f60[relative-line-number,1]")
+findFicheConseil("FC_cataracte") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionOeilConcerne.yrule", 2, "f3faded1-2193-4762-899a-1d6064587f60[relative-line-number,2]")
+(currentUsecase.motivationDeLaQuestion == MQ_AUTRE) || (currentUsecase.motivationDeLaQuestion == MQ_HYPOTHESE_EVOQUEE_PAR_VETO)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionOeilConcerne.yrule", 1, "f3faded1-2193-4762-899a-1d6064587f60[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionOeilConcerne.yrule", 2, "f3faded1-2193-4762-899a-1d6064587f60[relative-line-number,2]")
+findSymptome("oeil concerné").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionOeilConcerne.yrule", 3, "f3faded1-2193-4762-899a-1d6064587f60[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_cataracte\" est la fiche conseil d'appel and (la motivation de la question = Pour une autre raison, ou juste pour savoir or la motivation de la question = Cette hypothèse a été évoquée par votre vétérinaire)"
+         --> thenDsl "le symptome \"oeil concerné\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 2, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiBoiterieDifferentDeOui
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 1, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8[relative-line-number,1]")
+currentUsecase.boiterie != OUI,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 2, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8[relative-line-number,2]")
+currentUsecase.boiteriePosterieur != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 1, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 2, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8[relative-line-number,2]")
+findSymptome("Chronicité de la boiterie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 3, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8[relative-line-number,3]")
+findSymptome("Suppression d'appui totale").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiBoiterieDifferentDeOui.yrule", 4, "4d1040ab-8af1-4d93-a007-edf7b10dc0d8[relative-line-number,4]")
+}
+         --> ifDsl "le chien boite ? oui and le chien boite d'une patte arrière ? oui"
+         --> thenDsl "le symptome \"Chronicité de la boiterie\" sort du périmètre des symptômes calculés then le symptome \"Suppression d'appui totale\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeChir.yrule", 2, "de7d600d-3eba-4170-95c5-ae018f81f185")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiPasDeChir
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeChir.yrule", 1, "de7d600d-3eba-4170-95c5-ae018f81f185[relative-line-number,1]")
+currentUsecase.chirurgieLuxationDeRotule != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeChir.yrule", 1, "de7d600d-3eba-4170-95c5-ae018f81f185[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeChir.yrule", 2, "de7d600d-3eba-4170-95c5-ae018f81f185[relative-line-number,2]")
+findSymptome("Date de la chirurgie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeChir.yrule", 3, "de7d600d-3eba-4170-95c5-ae018f81f185[relative-line-number,3]")
+}
+         --> ifDsl "le chien a été opéré d'une luxation de rotule ? oui"
+         --> thenDsl "le symptome \"Date de la chirurgie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\regleEliminationSiMaladieNonDiagnostiquee.yrule", 2, "feae29a3-30bd-45b4-92f3-41ed8b02f6c1")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:regleEliminationSiMaladieNonDiagnostiquee
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\regleEliminationSiMaladieNonDiagnostiquee.yrule", 1, "feae29a3-30bd-45b4-92f3-41ed8b02f6c1[relative-line-number,1]")
+currentUsecase.motivationDeLaQuestion != MQ_SOUFFRE_DE_CE_PB) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\regleEliminationSiMaladieNonDiagnostiquee.yrule", 1, "feae29a3-30bd-45b4-92f3-41ed8b02f6c1[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\regleEliminationSiMaladieNonDiagnostiquee.yrule", 2, "feae29a3-30bd-45b4-92f3-41ed8b02f6c1[relative-line-number,2]")
+findSymptome("Chirurgie luxation de rotule").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\regleEliminationSiMaladieNonDiagnostiquee.yrule", 3, "feae29a3-30bd-45b4-92f3-41ed8b02f6c1[relative-line-number,3]")
+findSymptome("Rotules concernées").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\regleEliminationSiMaladieNonDiagnostiquee.yrule", 4, "feae29a3-30bd-45b4-92f3-41ed8b02f6c1[relative-line-number,4]")
+}
+         --> ifDsl "la motivation de la question ? Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         --> thenDsl "le symptome \"Chirurgie luxation de rotule\" sort du périmètre des symptômes calculés then le symptome \"Rotules concernées\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationBoiterieSporadiqueSiSuppressionDAppuiTotale.yrule", 2, "ca356e69-0fd7-409c-abfc-3f38755c7340")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationBoiterieSporadiqueSiSuppressionDAppuiTotale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationBoiterieSporadiqueSiSuppressionDAppuiTotale.yrule", 1, "ca356e69-0fd7-409c-abfc-3f38755c7340[relative-line-number,1]")
+currentUsecase.suppressionDAppuiTotale == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationBoiterieSporadiqueSiSuppressionDAppuiTotale.yrule", 1, "ca356e69-0fd7-409c-abfc-3f38755c7340[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationBoiterieSporadiqueSiSuppressionDAppuiTotale.yrule", 2, "ca356e69-0fd7-409c-abfc-3f38755c7340[relative-line-number,2]")
+findSymptome("Suppression d'appui partielle").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationBoiterieSporadiqueSiSuppressionDAppuiTotale.yrule", 3, "ca356e69-0fd7-409c-abfc-3f38755c7340[relative-line-number,3]")
+}
+         --> ifDsl "le chien présente une suppression d'appui totale = oui"
+         --> thenDsl "le symptome \"Suppression d'appui partielle\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieChroniqueAuparavant.yrule", 2, "54049785-05a6-47ad-92be-5d7212c2a9c7")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionBoiterieChroniqueAuparavant
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieChroniqueAuparavant.yrule", 1, "54049785-05a6-47ad-92be-5d7212c2a9c7[relative-line-number,1]")
+currentUsecase.apparitionDeLaBoiterie == NON) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieChroniqueAuparavant.yrule", 1, "54049785-05a6-47ad-92be-5d7212c2a9c7[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieChroniqueAuparavant.yrule", 2, "54049785-05a6-47ad-92be-5d7212c2a9c7[relative-line-number,2]")
+findSymptome("Chronicité de la boiterie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieChroniqueAuparavant.yrule", 3, "54049785-05a6-47ad-92be-5d7212c2a9c7[relative-line-number,3]")
+findSymptome("Boiterie régulière").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieChroniqueAuparavant.yrule", 4, "54049785-05a6-47ad-92be-5d7212c2a9c7[relative-line-number,4]")
+}
+         --> ifDsl "la boiterie est apparue soudainement = non"
+         --> thenDsl "le symptome \"Chronicité de la boiterie\" sort du périmètre des symptômes calculés then le symptome \"Boiterie régulière\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieSoudaine.yrule", 2, "88cba448-8100-4d77-bd8d-17d4cef2259d")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionBoiterieSoudaine
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieSoudaine.yrule", 1, "88cba448-8100-4d77-bd8d-17d4cef2259d[relative-line-number,1]")
+(currentUsecase.boiteriePosterieur == NON) || (currentUsecase.boiteriePosterieur == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieSoudaine.yrule", 1, "88cba448-8100-4d77-bd8d-17d4cef2259d[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieSoudaine.yrule", 2, "88cba448-8100-4d77-bd8d-17d4cef2259d[relative-line-number,2]")
+findSymptome("Apparition de la boiterie").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionBoiterieSoudaine.yrule", 3, "88cba448-8100-4d77-bd8d-17d4cef2259d[relative-line-number,3]")
+}
+         --> ifDsl "le chien boite d'une patte arrière = non or le chien boite d'une patte arrière = je ne sais pas"
+         --> thenDsl "le symptome \"Apparition de la boiterie\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAbattementSiTristeNeJouePlus.yrule", 2, "1553119e-0ba7-4805-b69e-40bcd6a71647")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionAbattementSiTristeNeJouePlus
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAbattementSiTristeNeJouePlus.yrule", 1, "1553119e-0ba7-4805-b69e-40bcd6a71647[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Chien triste qui ne joue plus")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAbattementSiTristeNeJouePlus.yrule", 1, "1553119e-0ba7-4805-b69e-40bcd6a71647[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAbattementSiTristeNeJouePlus.yrule", 2, "1553119e-0ba7-4805-b69e-40bcd6a71647[relative-line-number,2]")
+findSymptome("Prostration/abattement").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAbattementSiTristeNeJouePlus.yrule", 3, "1553119e-0ba7-4805-b69e-40bcd6a71647[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Chien triste qui ne joue plus\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Prostration/abattement\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienTristeSiAbattementSA.yrule", 2, "183d1a14-28bc-4f4b-82c5-6a8ef8dc9870")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionChienTristeSiAbattementSA
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienTristeSiAbattementSA.yrule", 1, "183d1a14-28bc-4f4b-82c5-6a8ef8dc9870[relative-line-number,1]")
+cu.symptomeDAppel == findSymptome("Prostration/abattement")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienTristeSiAbattementSA.yrule", 1, "183d1a14-28bc-4f4b-82c5-6a8ef8dc9870[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienTristeSiAbattementSA.yrule", 2, "183d1a14-28bc-4f4b-82c5-6a8ef8dc9870[relative-line-number,2]")
+findSymptome("Chien triste qui ne joue plus").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienTristeSiAbattementSA.yrule", 3, "183d1a14-28bc-4f4b-82c5-6a8ef8dc9870[relative-line-number,3]")
+}
+         --> ifDsl "le symptome \"Prostration/abattement\" est le symptome d'appel"
+         --> thenDsl "le symptome \"Chien triste qui ne joue plus\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseSiChienDeMoinsDe8ans.yrule", 2, "f194681f-9eea-4c3d-b075-a6ac7b47c2f9")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionArthroseSiChienDeMoinsDe8ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseSiChienDeMoinsDe8ans.yrule", 1, "f194681f-9eea-4c3d-b075-a6ac7b47c2f9[relative-line-number,1]")
+(cu.symptomeDAppel == findSymptome("Agressivité intra-spécifique intra-meute")) || (cu.symptomeDAppel == findSymptome("Agressivité envers l'homme")),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseSiChienDeMoinsDe8ans.yrule", 2, "f194681f-9eea-4c3d-b075-a6ac7b47c2f9[relative-line-number,2]")
+getAnimal().ansAnimal < 8) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseSiChienDeMoinsDe8ans.yrule", 1, "f194681f-9eea-4c3d-b075-a6ac7b47c2f9[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseSiChienDeMoinsDe8ans.yrule", 2, "f194681f-9eea-4c3d-b075-a6ac7b47c2f9[relative-line-number,2]")
+findSymptome("Chien arthrosique").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseSiChienDeMoinsDe8ans.yrule", 3, "f194681f-9eea-4c3d-b075-a6ac7b47c2f9[relative-line-number,3]")
+}
+         --> ifDsl "(le symptome \"Agressivité intra-spécifique intra-meute\" est le symptome d'appel or le symptome \"Agressivité envers l'homme\" est le symptome d'appel) and l'age du chien en années < 8"
+         --> thenDsl "le symptome \"Chien arthrosique\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienAgiteQuandAbattu.yrule", 2, "b11f1a60-453d-4a7d-973e-7c7002111534")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionChienAgiteQuandAbattu
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienAgiteQuandAbattu.yrule", 1, "b11f1a60-453d-4a7d-973e-7c7002111534[relative-line-number,1]")
+currentUsecase.prostrationAbattement == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienAgiteQuandAbattu.yrule", 1, "b11f1a60-453d-4a7d-973e-7c7002111534[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienAgiteQuandAbattu.yrule", 2, "b11f1a60-453d-4a7d-973e-7c7002111534[relative-line-number,2]")
+findSymptome("Chien agité").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionChienAgiteQuandAbattu.yrule", 3, "b11f1a60-453d-4a7d-973e-7c7002111534[relative-line-number,3]")
+}
+         --> ifDsl "le chien est prostré, abattu = oui"
+         --> thenDsl "le symptome \"Chien agité\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 2, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSiRationNonMenagere
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 1, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4[relative-line-number,1]")
+currentUsecase.alimentationMenagereOuIndustrielle != ALIM_MENAGERE,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 2, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4[relative-line-number,2]")
+(findFicheConseil("FC_Quel type d'alimentation choisir") == cu.ficheConseilAppel) || (findFicheConseil("FC_Pourquoi choisir un aliment premium") == cu.ficheConseilAppel) || (findFicheConseil("FC_Alimentation du chiot en croissance") == cu.ficheConseilAppel) || (findFicheConseil("FC_Alimentation du chien senior") == cu.ficheConseilAppel)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 1, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 2, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4[relative-line-number,2]")
+findSymptome("Obésité").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 3, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4[relative-line-number,3]")
+findSymptome("Complément minéral et vitamines").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSiRationNonMenagere.yrule", 4, "9265ce9b-abdb-4ba9-ba9c-6ad45d9725e4[relative-line-number,4]")
+}
+         --> ifDsl "le chien a une alimentation ménagère ou industrielle ? Une alimentation faite maison and (la fiche conseil \"FC_Quel type d'alimentation choisir\" est la fiche conseil d'appel or la fiche conseil \"FC_Pourquoi choisir un aliment premium\" est la fiche conseil d'appel or la fiche conseil \"FC_Alimentation du chiot en croissance\" est la fiche conseil d'appel or la fiche conseil \"FC_Alimentation du chien senior\" est la fiche conseil d'appel)"
+         --> thenDsl "le symptome \"Obésité\" sort du périmètre des symptômes calculés then le symptome \"Complément minéral et vitamines\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 2, "e3234cec-9825-4b3d-ba19-847bc59b32ef")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiSejourEnCollectivite
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 1, "e3234cec-9825-4b3d-ba19-847bc59b32ef[relative-line-number,1]")
+currentUsecase.sejourRecentEnCollectivite == OUI,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 2, "e3234cec-9825-4b3d-ba19-847bc59b32ef[relative-line-number,2]")
+cu.symptomeDAppel == findSymptome("Toux")) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 1, "e3234cec-9825-4b3d-ba19-847bc59b32ef[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 2, "e3234cec-9825-4b3d-ba19-847bc59b32ef[relative-line-number,2]")
+findSymptome("Contact potentiel avec d'autres chiens").afficheRecap = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 3, "e3234cec-9825-4b3d-ba19-847bc59b32ef[relative-line-number,3]")
+currentUsecase.contactPotentielAvecDAutresChiens = OUI;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiSejourEnCollectivite.yrule", 4, "e3234cec-9825-4b3d-ba19-847bc59b32ef[relative-line-number,4]")
+}
+         --> ifDsl "le chien a séjourné en collectivité = oui and le symptome \"Toux\" est le symptome d'appel"
+         --> thenDsl "la question associée au symptome Contact potentiel avec d'autres chiens ne doit pas apparaitre dans le récap then le chien a été en contact avec d'autres chiens becomes oui"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDePremieresChaleurs.yrule", 2, "5131b894-152c-48f7-98c8-bc51bc7b6681")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiPasDePremieresChaleurs
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDePremieresChaleurs.yrule", 1, "5131b894-152c-48f7-98c8-bc51bc7b6681[relative-line-number,1]")
+(currentUsecase.premieresChaleurs == NON) || (currentUsecase.premieresChaleurs == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDePremieresChaleurs.yrule", 1, "5131b894-152c-48f7-98c8-bc51bc7b6681[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDePremieresChaleurs.yrule", 2, "5131b894-152c-48f7-98c8-bc51bc7b6681[relative-line-number,2]")
+findSymptome("Portée passée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDePremieresChaleurs.yrule", 3, "5131b894-152c-48f7-98c8-bc51bc7b6681[relative-line-number,3]")
+findSymptome("Délai depuis les dernières chaleurs").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDePremieresChaleurs.yrule", 4, "5131b894-152c-48f7-98c8-bc51bc7b6681[relative-line-number,4]")
+}
+         --> ifDsl "la chienne a eu ses premières chaleurs = non or la chienne a eu ses premières chaleurs = je ne sais pas"
+         --> thenDsl "le symptome \"Portée passée\" sort du périmètre des symptômes calculés then le symptome \"Délai depuis les dernières chaleurs\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSailliePotentielle.yrule", 2, "c0197f47-5309-4839-82c7-043c6bd565ae")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSailliePotentielle
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSailliePotentielle.yrule", 1, "c0197f47-5309-4839-82c7-043c6bd565ae[relative-line-number,1]")
+(currentUsecase.delaiDepuisLesDernieresChaleurs == PLUS_DE_6_MOIS) || (currentUsecase.delaiDepuisLesDernieresChaleurs == PLUS_DE_2_MOIS) || (currentUsecase.premieresChaleurs == NON) || (currentUsecase.premieresChaleurs == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSailliePotentielle.yrule", 1, "c0197f47-5309-4839-82c7-043c6bd565ae[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSailliePotentielle.yrule", 2, "c0197f47-5309-4839-82c7-043c6bd565ae[relative-line-number,2]")
+findSymptome("Saillie non désirée potentielle").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSailliePotentielle.yrule", 3, "c0197f47-5309-4839-82c7-043c6bd565ae[relative-line-number,3]")
+}
+         --> ifDsl "les dernières chaleurs de la chienne datent de :  = Plus de 6 mois or les dernières chaleurs de la chienne datent de :  = Plus de 2 mois or la chienne a eu ses premières chaleurs = non or la chienne a eu ses premières chaleurs = je ne sais pas"
+         --> thenDsl "le symptome \"Saillie non désirée potentielle\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePassee.yrule", 2, "5ade7d0f-0b46-46e1-b142-f68407cd27b2")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionPorteePassee
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePassee.yrule", 1, "5ade7d0f-0b46-46e1-b142-f68407cd27b2[relative-line-number,1]")
+getAnimal().moisAnimal < 15,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePassee.yrule", 2, "5ade7d0f-0b46-46e1-b142-f68407cd27b2[relative-line-number,2]")
+(currentUsecase.delaiDepuisLesDernieresChaleurs == MOINS_DE_2_MOIS) || (currentUsecase.delaiDepuisLesDernieresChaleurs == MOINS_DE_15_JOURS)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePassee.yrule", 1, "5ade7d0f-0b46-46e1-b142-f68407cd27b2[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePassee.yrule", 2, "5ade7d0f-0b46-46e1-b142-f68407cd27b2[relative-line-number,2]")
+findSymptome("Portée passée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePassee.yrule", 3, "5ade7d0f-0b46-46e1-b142-f68407cd27b2[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois < 15 and (les dernières chaleurs de la chienne datent de :  = Moins de 2 mois or les dernières chaleurs de la chienne datent de :  = Moins de 15 jours)"
+         --> thenDsl "le symptome \"Portée passée\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePasseeSiJeuneChienne.yrule", 2, "09584b05-3e24-4aca-aadf-eeab64e57b57")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionPorteePasseeSiJeuneChienne
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePasseeSiJeuneChienne.yrule", 1, "09584b05-3e24-4aca-aadf-eeab64e57b57[relative-line-number,1]")
+getAnimal().moisAnimal <= 12,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePasseeSiJeuneChienne.yrule", 2, "09584b05-3e24-4aca-aadf-eeab64e57b57[relative-line-number,2]")
+findFicheConseil("FC_La gestation") == cu.ficheConseilAppel) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePasseeSiJeuneChienne.yrule", 1, "09584b05-3e24-4aca-aadf-eeab64e57b57[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePasseeSiJeuneChienne.yrule", 2, "09584b05-3e24-4aca-aadf-eeab64e57b57[relative-line-number,2]")
+findSymptome("Portée passée").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPorteePasseeSiJeuneChienne.yrule", 3, "09584b05-3e24-4aca-aadf-eeab64e57b57[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois ? 12 and la fiche conseil \"FC_La gestation\" est la fiche conseil d'appel"
+         --> thenDsl "le symptome \"Portée passée\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseSiMastocytomeDiagnostique.yrule", 2, "1ffeee8d-0f44-4a85-9616-ffd000d67480")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionMasseSiMastocytomeDiagnostique
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseSiMastocytomeDiagnostique.yrule", 1, "1ffeee8d-0f44-4a85-9616-ffd000d67480[relative-line-number,1]")
+findFicheConseil("FC_Le mastocytome") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseSiMastocytomeDiagnostique.yrule", 2, "1ffeee8d-0f44-4a85-9616-ffd000d67480[relative-line-number,2]")
+currentUsecase.motivationDeLaQuestion == MQ_SOUFFRE_DE_CE_PB) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseSiMastocytomeDiagnostique.yrule", 1, "1ffeee8d-0f44-4a85-9616-ffd000d67480[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseSiMastocytomeDiagnostique.yrule", 2, "1ffeee8d-0f44-4a85-9616-ffd000d67480[relative-line-number,2]")
+findSymptome("Masse/boule").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionMasseSiMastocytomeDiagnostique.yrule", 3, "1ffeee8d-0f44-4a85-9616-ffd000d67480[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_Le mastocytome\" est la fiche conseil d'appel and la motivation de la question = Votre vétérinaire l'a diagnostiqué chez \\conseilVeto:DiagnosticChien:_helpTexts:lanimal"
+         --> thenDsl "le symptome \"Masse/boule\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 2, "e19d1912-c04d-406e-b4b4-5b3bb9edb150")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiPasDeMasse
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 1, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,1]")
+findFicheConseil("FC_Le mastocytome") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 2, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,2]")
+currentUsecase.masseBoule != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 1, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 2, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,2]")
+findSymptome("Taille de la masse").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 3, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,3]")
+findSymptome("Localisation de la masse").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 4, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,4]")
+findSymptome("Date d'apparition de la masse").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 5, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,5]")
+findSymptome("Evolution de la masse").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiPasDeMasse.yrule", 6, "e19d1912-c04d-406e-b4b4-5b3bb9edb150[relative-line-number,6]")
+}
+         --> ifDsl "la fiche conseil \"FC_Le mastocytome\" est la fiche conseil d'appel and le chien a une boule ? oui"
+         --> thenDsl "le symptome \"Taille de la masse\" sort du périmètre des symptômes calculés then le symptome \"Localisation de la masse\" sort du périmètre des symptômes calculés then le symptome \"Date d'apparition de la masse\" sort du périmètre des symptômes calculés then le symptome \"Evolution de la masse\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChiot.yrule", 2, "387c7228-71f0-4fc4-9d62-19a8ef51248b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionSiChiot
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChiot.yrule", 1, "387c7228-71f0-4fc4-9d62-19a8ef51248b[relative-line-number,1]")
+currentUsecase.classeDAge == CAC_CHIOT) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChiot.yrule", 1, "387c7228-71f0-4fc4-9d62-19a8ef51248b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChiot.yrule", 2, "387c7228-71f0-4fc4-9d62-19a8ef51248b[relative-line-number,2]")
+findSymptome("Chaleurs irrégulières ou rares").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionSiChiot.yrule", 3, "387c7228-71f0-4fc4-9d62-19a8ef51248b[relative-line-number,3]")
+}
+         --> ifDsl "classe d'age du chien = chiot"
+         --> thenDsl "le symptome \"Chaleurs irrégulières ou rares\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 2, "a98162c5-f121-428d-8f1a-f3b00779be0c")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsMalproprete
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 1, "a98162c5-f121-428d-8f1a-f3b00779be0c[relative-line-number,1]")
+findFicheConseil("FC_apprendre à son chien à rester seul") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 2, "a98162c5-f121-428d-8f1a-f3b00779be0c[relative-line-number,2]")
+currentUsecase.malpropreteEnLAbsenceDesProprietaires != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 1, "a98162c5-f121-428d-8f1a-f3b00779be0c[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 2, "a98162c5-f121-428d-8f1a-f3b00779be0c[relative-line-number,2]")
+findSymptome("Malpropreté / Marquage urinaire").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 3, "a98162c5-f121-428d-8f1a-f3b00779be0c[relative-line-number,3]")
+findSymptome("Malpropreté fécale").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsMalproprete.yrule", 4, "a98162c5-f121-428d-8f1a-f3b00779be0c[relative-line-number,4]")
+}
+         --> ifDsl "la fiche conseil \"FC_apprendre à son chien à rester seul\" est la fiche conseil d'appel and le chien est malpropre en l'absence des propriétaires ? oui"
+         --> thenDsl "le symptome \"Malpropreté / Marquage urinaire\" sort du périmètre des symptômes calculés then le symptome \"Malpropreté fécale\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAnxieteAccrue.yrule", 2, "1e960ebe-f795-462c-a0ae-697660e9f5fd")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionAnxieteAccrue
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAnxieteAccrue.yrule", 1, "1e960ebe-f795-462c-a0ae-697660e9f5fd[relative-line-number,1]")
+findFicheConseil("FC_Mon chien a peur de tout") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAnxieteAccrue.yrule", 2, "1e960ebe-f795-462c-a0ae-697660e9f5fd[relative-line-number,2]")
+(currentUsecase.adoptionRecente == OUI) || (currentUsecase.anxieteRecente == OUI) || (currentUsecase.anxieteRecente == NSP)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAnxieteAccrue.yrule", 1, "1e960ebe-f795-462c-a0ae-697660e9f5fd[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAnxieteAccrue.yrule", 2, "1e960ebe-f795-462c-a0ae-697660e9f5fd[relative-line-number,2]")
+findSymptome("Anxieté accrue").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionAnxieteAccrue.yrule", 3, "1e960ebe-f795-462c-a0ae-697660e9f5fd[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_Mon chien a peur de tout\" est la fiche conseil d'appel and (le chien a été adopté récemment = oui or l'anxiété est récente = oui or l'anxiété est récente = je ne sais pas)"
+         --> thenDsl "le symptome \"Anxieté accrue\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseJeuneChien.yrule", 2, "f25b2f84-32ea-4234-9b61-2fcfba2491a1")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionArthroseJeuneChien
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseJeuneChien.yrule", 1, "f25b2f84-32ea-4234-9b61-2fcfba2491a1[relative-line-number,1]")
+findFicheConseil("FC_mon chien est-il trop gros") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseJeuneChien.yrule", 2, "f25b2f84-32ea-4234-9b61-2fcfba2491a1[relative-line-number,2]")
+getAnimal().ansAnimal < 5) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseJeuneChien.yrule", 1, "f25b2f84-32ea-4234-9b61-2fcfba2491a1[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseJeuneChien.yrule", 2, "f25b2f84-32ea-4234-9b61-2fcfba2491a1[relative-line-number,2]")
+findSymptome("Chien arthrosique").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionArthroseJeuneChien.yrule", 3, "f25b2f84-32ea-4234-9b61-2fcfba2491a1[relative-line-number,3]")
+}
+         --> ifDsl "la fiche conseil \"FC_mon chien est-il trop gros\" est la fiche conseil d'appel and l'age du chien en années < 5"
+         --> thenDsl "le symptome \"Chien arthrosique\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDesApprentissages.yrule", 2, "a325054f-a705-4dcd-aaed-99257426028b")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionPerteDesApprentissages
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDesApprentissages.yrule", 1, "a325054f-a705-4dcd-aaed-99257426028b[relative-line-number,1]")
+currentUsecase.adoptionRecente == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDesApprentissages.yrule", 1, "a325054f-a705-4dcd-aaed-99257426028b[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDesApprentissages.yrule", 2, "a325054f-a705-4dcd-aaed-99257426028b[relative-line-number,2]")
+findSymptome("Perte des apprentissages élémentaires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionPerteDesApprentissages.yrule", 3, "a325054f-a705-4dcd-aaed-99257426028b[relative-line-number,3]")
+}
+         --> ifDsl "le chien a été adopté récemment = oui"
+         --> thenDsl "le symptome \"Perte des apprentissages élémentaires\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTttSurLeLongTermeSiPasDeTtt.yrule", 2, "0197331a-d668-457e-9b09-cec457427735")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionTttSurLeLongTermeSiPasDeTtt
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTttSurLeLongTermeSiPasDeTtt.yrule", 1, "0197331a-d668-457e-9b09-cec457427735[relative-line-number,1]")
+currentUsecase.traitementsEnCours != OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTttSurLeLongTermeSiPasDeTtt.yrule", 1, "0197331a-d668-457e-9b09-cec457427735[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTttSurLeLongTermeSiPasDeTtt.yrule", 2, "0197331a-d668-457e-9b09-cec457427735[relative-line-number,2]")
+findSymptome("Traitements sur le long terme").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionTttSurLeLongTermeSiPasDeTtt.yrule", 3, "0197331a-d668-457e-9b09-cec457427735[relative-line-number,3]")
+}
+         --> ifDsl "le chien a un quelconque traitement ? oui"
+         --> thenDsl "le symptome \"Traitements sur le long terme\" sort du périmètre des symptômes calculés"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 2, "194ba1be-9eb0-45b6-92f6-b4de404e9a37")
+      Rule conseilVeto:DiagnosticChien:_businessRules:81_reglesMajQuestions_Specifiques:eliminationQuestionsSeniliteSiChienNonSenior
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 1, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,1]")
+findFicheConseil("FC_Mon chien a peur de tout") == cu.ficheConseilAppel,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 2, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,2]")
+currentUsecase.classeDAge != CAC_SENIOR) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 1, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 2, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,2]")
+findSymptome("Désorientation spatio-temporelle").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 3, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,3]")
+findSymptome("Notion du temps perdue").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 4, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,4]")
+findSymptome("Perte des apprentissages élémentaires").calcule = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\81_reglesMajQuestions_Specifiques\\eliminationQuestionsSeniliteSiChienNonSenior.yrule", 5, "194ba1be-9eb0-45b6-92f6-b4de404e9a37[relative-line-number,5]")
+}
+         --> ifDsl "la fiche conseil \"FC_Mon chien a peur de tout\" est la fiche conseil d'appel and classe d'age du chien ? sénior"
+         --> thenDsl "le symptome \"Désorientation spatio-temporelle\" sort du périmètre des symptômes calculés then le symptome \"Notion du temps perdue\" sort du périmètre des symptômes calculés then le symptome \"Perte des apprentissages élémentaires\" sort du périmètre des symptômes calculés"
+         ;
+     }
+   ;
+@pragma usecase()
+

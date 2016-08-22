@@ -1,0 +1,96 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 2, "466c2b57-dcb0-4859-90a3-d8d3d3a40e2e")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:facteursDeRisqueChienAgressif(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 223, "466c2b57-dcb0-4859-90a3-d8d3d3a40e2e[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 1, "466c2b57-dcb0-4859-90a3-d8d3d3a40e2e[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "788ce66b-6163-4b90-bde9-170778a96a43[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:facteursDeRisqueChienAgressif_text
+      --> condition @pragma source("", 1, "788ce66b-6163-4b90-bde9-170778a96a43[relative-line-number,1]")
+__dsl( cu.symptomeDAppel == findSymptome("Agressivité envers l'homme"), "le symptome \"Agressivité envers l'homme\" est le symptome d'appel" )
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:facteursDeRisqueChienAgressif_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 95, "788ce66b-6163-4b90-bde9-170778a96a43|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 1, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,1,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 2, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,2,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 3, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,3,component-id,textGranule]")
+\beginStyle(styleHighLight)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 4, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,4,component-id,textGranule]")
+	nous attirons votre attention sur le fait que la présence de jeunes enfants, de personnes âgées ou handicapées
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 5, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,5,component-id,textGranule]")
+	dans l'entourage d'un chien potentiellement agressif constitue un réel facteur de risque à prendre impérativement en compte
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 6, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,6,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "788ce66b-6163-4b90-bde9-170778a96a43[relative-line-number,1]")
+__dsl( (currentUsecase.tailleDeLaRace == TC_GRANDE) || (currentUsecase.tailleDeLaRace == TC_GEANTE), "taille de la race = grande or taille de la race = géante" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 7, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,7,component-id,textGranule]")
+		, et ce d'autant plus si l'animal est de grand gabarit (comme c'est le cas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 8, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,8,component-id,textGranule]")
+		 de 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 9, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,9,component-id,textGranule]")
+		\value(getAnimal().nomAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 10, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,10,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 11, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,11,component-id,textGranule]")
+	. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 12, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,12,component-id,textGranule]")
+	dans de tels cas, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 13, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,13,component-id,textGranule]")
+	la prise en charge rapide par un comportementaliste s'avère indispensable
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 14, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,14,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 15, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,15,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 16, "788ce66b-6163-4b90-bde9-170778a96a43|fr[relative-line-number,16,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:facteursDeRisqueChienAgressif_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 185, "788ce66b-6163-4b90-bde9-170778a96a43|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 1, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,1,component-id,textGranule]")
+\p
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 2, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,2,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 3, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,3,component-id,textGranule]")
+\beginStyle(styleHighLight)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 4, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,4,component-id,textGranule]")
+	we would like to bring your attention to the fact that 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 5, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,5,component-id,textGranule]")
+	a potentially aggressive dog is a particular risk to young children, old people or handicapped people
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 6, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,6,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "788ce66b-6163-4b90-bde9-170778a96a43[relative-line-number,1]")
+__dsl( (currentUsecase.tailleDeLaRace == TC_GRANDE) || (currentUsecase.tailleDeLaRace == TC_GEANTE), "taille de la race = grande or taille de la race = géante" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 7, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,7,component-id,textGranule]")
+		, and even more so if the animal is big (like
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 8, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,8,component-id,textGranule]")
+		\conseilVeto:DiagnosticChien:_helpTexts:nomAnimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 9, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,9,component-id,textGranule]")
+		) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 10, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,10,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 11, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,11,component-id,textGranule]")
+	. 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 12, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,12,component-id,textGranule]")
+	it is vital to get professional help from a behavior specialist if your dog is displaying aggressive behavior.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 13, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,13,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 14, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,14,component-id,textGranule]")
+\endStyle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facteursDeRisqueChienAgressif.ytextfunction", 15, "788ce66b-6163-4b90-bde9-170778a96a43|en[relative-line-number,15,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

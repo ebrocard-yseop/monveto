@@ -1,0 +1,36 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 2, "34d6a5fc-2ca1-4b35-9a63-a92b99c2c7dd")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_a_ont_grossi(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 99, "34d6a5fc-2ca1-4b35-9a63-a92b99c2c7dd[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 1, "34d6a5fc-2ca1-4b35-9a63-a92b99c2c7dd[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "29a35c00-751f-4489-8447-9b3cd8c8b05c[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_a_ont_grossi_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_a_ont_grossi_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 85, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 1, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "29a35c00-751f-4489-8447-9b3cd8c8b05c[relative-line-number,1]")
+__dsl( (currentUsecase.mamellesConcernees == PLUSIEURS) || (currentUsecase.nombreDeMassesBuccales == PLUSIEURS), "le nombre de masses mammaires = Plusieurs masses or le nombre de masses buccales = Plusieurs masses" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 2, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[relative-line-number,2,component-id,textGranule]")
+	ont
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 3, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 4, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[relative-line-number,4,component-id,textGranule]")
+	a
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 5, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_a_ont_grossi.ytextfunction", 6, "29a35c00-751f-4489-8447-9b3cd8c8b05c|fr[relative-line-number,6,component-id,textGranule]")
+grossi
+\);
+      ;
+   ;
+@pragma usecase()
+

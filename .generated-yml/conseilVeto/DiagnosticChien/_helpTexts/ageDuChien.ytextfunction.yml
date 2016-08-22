@@ -1,0 +1,164 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 2, "90663cff-5c84-4aa6-ad47-7be601cc9da8")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:ageDuChien(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 620, "90663cff-5c84-4aa6-ad47-7be601cc9da8[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 1, "90663cff-5c84-4aa6-ad47-7be601cc9da8[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "492064bb-5757-4c74-8a28-56e9b21fb433[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:ageDuChien_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:ageDuChien_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 229, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 1, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,1,component-id,textGranule]")
+//Si l'age du chien est inférieur ou égal à 18 mois, on retourne un age en mois, sinon en année
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 2, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,2,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().moisAnimal < 1, "l'age du chien en mois < 1" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 3, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,3,component-id,textGranule]")
+	moins 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 4, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,4,component-id,textGranule]")
+	de \noContraction 1 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 5, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,5,component-id,textGranule]")
+	mois
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 6, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,6,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 7, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,7,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().moisAnimal <= 18, "l'age du chien en mois ? 18" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 8, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,8,component-id,textGranule]")
+		\value(getAnimal().moisAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 9, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,9,component-id,textGranule]")
+		mois
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 10, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,10,component-id,textGranule]")
+	\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 11, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,11,component-id,textGranule]")
+		\if(isInteger(getAnimal().ansAnimal) == true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 12, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,12,component-id,textGranule]")
+			\value(getAnimal().ansAnimal) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 13, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,13,component-id,textGranule]")
+			\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().ansAnimal <= 1, "l'age du chien en années ? 1" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 14, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,14,component-id,textGranule]")
+				an
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 15, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,15,component-id,textGranule]")
+			\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 16, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,16,component-id,textGranule]")
+				ans
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 17, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,17,component-id,textGranule]")
+			\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 18, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,18,component-id,textGranule]")
+		\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 19, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,19,component-id,textGranule]")
+			\value(floor(getAnimal().ansAnimal)) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 20, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,20,component-id,textGranule]")
+			\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().ansAnimal <= 1, "l'age du chien en années ? 1" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 21, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,21,component-id,textGranule]")
+				an et demi
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 22, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,22,component-id,textGranule]")
+			\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 23, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,23,component-id,textGranule]")
+				ans et demi
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 24, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,24,component-id,textGranule]")
+			\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 25, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,25,component-id,textGranule]")
+		\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 26, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,26,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 27, "492064bb-5757-4c74-8a28-56e9b21fb433|fr[relative-line-number,27,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:ageDuChien_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 613, "492064bb-5757-4c74-8a28-56e9b21fb433|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 1, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,1,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 2, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,2,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().moisAnimal < 1, "l'age du chien en mois < 1" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 3, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,3,component-id,textGranule]")
+	less than one month old
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 4, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,4,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 5, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,5,component-id,textGranule]")
+	\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().moisAnimal <= 18, "l'age du chien en mois ? 18" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 6, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,6,component-id,textGranule]")
+		\value(getAnimal().moisAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 7, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,7,component-id,textGranule]")
+		\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().moisAnimal == 1, "l'age du chien en mois = 1" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 8, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,8,component-id,textGranule]")
+			month 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 9, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,9,component-id,textGranule]")
+		\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 10, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,10,component-id,textGranule]")
+			months 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 11, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,11,component-id,textGranule]")
+		\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 12, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,12,component-id,textGranule]")
+		old
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 13, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,13,component-id,textGranule]")
+	\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 14, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,14,component-id,textGranule]")
+		\if(isInteger(getAnimal().ansAnimal) == true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 15, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,15,component-id,textGranule]")
+			\value(getAnimal().ansAnimal) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 16, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,16,component-id,textGranule]")
+			\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "492064bb-5757-4c74-8a28-56e9b21fb433[relative-line-number,1]")
+__dsl( getAnimal().ansAnimal <= 1, "l'age du chien en années ? 1" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 17, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,17,component-id,textGranule]")
+				year
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 18, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,18,component-id,textGranule]")
+			\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 19, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,19,component-id,textGranule]")
+				years
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 20, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,20,component-id,textGranule]")
+			\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 21, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,21,component-id,textGranule]")
+			old
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 22, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,22,component-id,textGranule]")
+		\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 23, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,23,component-id,textGranule]")
+			\value(floor(getAnimal().ansAnimal)) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 24, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,24,component-id,textGranule]")
+			and a half years old
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 25, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,25,component-id,textGranule]")
+		\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 26, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,26,component-id,textGranule]")
+	\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\ageDuChien.ytextfunction", 27, "492064bb-5757-4c74-8a28-56e9b21fb433|en[relative-line-number,27,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

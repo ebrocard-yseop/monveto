@@ -1,0 +1,35 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 2, "bd540494-cc20-49e0-aa72-94d4cdcdeca1")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 29, "bd540494-cc20-49e0-aa72-94d4cdcdeca1[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 1, "bd540494-cc20-49e0-aa72-94d4cdcdeca1[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "6052299c-c842-4617-b2c5-72d3be588612[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 13, "6052299c-c842-4617-b2c5-72d3be588612|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 1, "6052299c-c842-4617-b2c5-72d3be588612|fr[relative-line-number,1,component-id,textGranule]")
+//\simpleXmlTag("br", "")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 2, "6052299c-c842-4617-b2c5-72d3be588612|fr[relative-line-number,2,component-id,textGranule]")
+<br>
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 3, "6052299c-c842-4617-b2c5-72d3be588612|fr[relative-line-number,3,component-id,textGranule]")
+\setStartOfSentence(true)
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 22, "6052299c-c842-4617-b2c5-72d3be588612|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 1, "6052299c-c842-4617-b2c5-72d3be588612|en[relative-line-number,1,component-id,textGranule]")
+//\simpleXmlTag("br", "")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 2, "6052299c-c842-4617-b2c5-72d3be588612|en[relative-line-number,2,component-id,textGranule]")
+<br>
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\sautDeLigne.ytextfunction", 3, "6052299c-c842-4617-b2c5-72d3be588612|en[relative-line-number,3,component-id,textGranule]")
+\setStartOfSentence(true)
+\);
+      ;
+   ;
+@pragma usecase()
+

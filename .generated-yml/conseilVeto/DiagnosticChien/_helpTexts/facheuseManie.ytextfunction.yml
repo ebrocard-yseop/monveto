@@ -1,0 +1,46 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 2, "e4be6d3d-0a37-4a7d-b7a3-4fcdea345850")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:facheuseManie(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 34, "e4be6d3d-0a37-4a7d-b7a3-4fcdea345850[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 1, "e4be6d3d-0a37-4a7d-b7a3-4fcdea345850[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "ec08ddf2-1db3-4ff1-85de-3bed1890b289[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:facheuseManie_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:facheuseManie_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 19, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 1, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,1,component-id,textGranule]")
+\beginSynonym
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 2, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,2,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 3, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,3,component-id,textGranule]")
+		fâcheuse
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 4, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,4,component-id,textGranule]")
+		\synonym(["manie", "habitude"])
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 5, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,5,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 6, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,6,component-id,textGranule]")
+		désagréable habitude
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 7, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,7,component-id,textGranule]")
+	\choice
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 8, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,8,component-id,textGranule]")
+		mauvaise habitude
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 9, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|fr[relative-line-number,9,component-id,textGranule]")
+\endSynonym
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:facheuseManie_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 27, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 1, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|en[relative-line-number,1,component-id,textGranule]")
+irritating
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\facheuseManie.ytextfunction", 2, "ec08ddf2-1db3-4ff1-85de-3bed1890b289|en[relative-line-number,2,component-id,textGranule]")
+\synonym(["tendency", "habit"])
+\);
+      ;
+   ;
+@pragma usecase()
+

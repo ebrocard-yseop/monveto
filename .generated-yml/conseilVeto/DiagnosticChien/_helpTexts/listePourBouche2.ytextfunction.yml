@@ -1,0 +1,48 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 2, "b9699c4c-71fa-4219-b641-df763da20775")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:listePourBouche2(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 443, "b9699c4c-71fa-4219-b641-df763da20775[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 1, "b9699c4c-71fa-4219-b641-df763da20775[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:listePourBouche2_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listePourBouche2_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 220, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 1, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7[relative-line-number,1]")
+__dsl( (findSymptome("Chute de dents").calcule == true && findSymptome("Chute de dents").questionDoitEtrePosee == true) && (currentUsecase.chuteDeDents == OUI) && (currentUsecase.tartreDejaPresent != OUI) && (currentUsecase.hypersalivation != OUI) && (currentUsecase.halitose != OUI) && (currentUsecase.douleurALOuvertureDeLaBouche != OUI) && (currentUsecase.geneBuccaleMachonnement != OUI), "le symptome \"Chute de dents\" fait partie des symptomes calculés et la question doit être posée and le chien perd ses dents = oui and du tartre est déjà présent ? oui and le chien bave ? oui and le chien a mauvaise haleine ? oui and le chien présente une douleur à l'ouverture de la bouche ? oui and le chien présente une gêne buccale ? oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 2, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|fr[relative-line-number,2,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 3, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|fr[relative-line-number,3,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 4, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|fr[relative-line-number,4,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listePourBouche2_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 436, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 1, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7[relative-line-number,1]")
+__dsl( (findSymptome("Chute de dents").calcule == true && findSymptome("Chute de dents").questionDoitEtrePosee == true) && (currentUsecase.chuteDeDents == OUI) && (currentUsecase.tartreDejaPresent != OUI) && (currentUsecase.hypersalivation != OUI) && (currentUsecase.halitose != OUI) && (currentUsecase.douleurALOuvertureDeLaBouche != OUI) && (currentUsecase.geneBuccaleMachonnement != OUI), "le symptome \"Chute de dents\" fait partie des symptomes calculés et la question doit être posée and le chien perd ses dents = oui and du tartre est déjà présent ? oui and le chien bave ? oui and le chien a mauvaise haleine ? oui and le chien présente une douleur à l'ouverture de la bouche ? oui and le chien présente une gêne buccale ? oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 2, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|en[relative-line-number,2,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 3, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|en[relative-line-number,3,component-id,textGranule]")
+	\conseilVeto:DiagnosticChien:_helpTexts:lanimal
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listePourBouche2.ytextfunction", 4, "66dec68e-8da0-4e35-bc32-b0a7bc5a1bd7|en[relative-line-number,4,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

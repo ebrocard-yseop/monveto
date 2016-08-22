@@ -1,0 +1,69 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 2, "ea8dc32e-41b4-4657-9215-c9e22a116626")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulleTroublesRespi(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 76, "ea8dc32e-41b4-4657-9215-c9e22a116626[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 1, "ea8dc32e-41b4-4657-9215-c9e22a116626[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "88bd579e-7c70-4370-9724-2439972b603d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulleTroublesRespi_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulleTroublesRespi_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 56, "88bd579e-7c70-4370-9724-2439972b603d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 1, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 2, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,2,component-id,textGranule]")
+les manifestations des difficultés respiratoires
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 3, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,3,component-id,textGranule]")
+chez le chien peuvent être :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 4, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,4,component-id,textGranule]")
+une respiration saccadée et/ou rapide, la présence
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 5, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,5,component-id,textGranule]")
+de bruits 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 6, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,6,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "88bd579e-7c70-4370-9724-2439972b603d[relative-line-number,1]")
+__dsl( findFicheConseil("FC_Le syndrome brachycéphale") == cu.ficheConseilAppel, "la fiche conseil \"FC_Le syndrome brachycéphale\" est la fiche conseil d'appel" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 7, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,7,component-id,textGranule]")
+	inhabituels à l'inspiration
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 8, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,8,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 9, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,9,component-id,textGranule]")
+	respiratoires inhabituels
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 10, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,10,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 11, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,11,component-id,textGranule]")
+, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 12, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,12,component-id,textGranule]")
+une posture spécifique avec le cou tendu, les pattes écartées
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 13, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,13,component-id,textGranule]")
+et/ou la bouche ouverte
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 14, "88bd579e-7c70-4370-9724-2439972b603d|fr[relative-line-number,14,component-id,textGranule]")
+.'
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulleTroublesRespi_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 69, "88bd579e-7c70-4370-9724-2439972b603d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 1, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,1,component-id,textGranule]")
+'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 2, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 3, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,3,component-id,textGranule]")
+symptoms of breathing difficulties 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 4, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,4,component-id,textGranule]")
+in dogs may include
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 5, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,5,component-id,textGranule]")
+short rapid breathing, noisy breathing, a specific
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 6, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,6,component-id,textGranule]")
+posture with the neck held low and out in front of the 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulleTroublesRespi.ytextfunction", 7, "88bd579e-7c70-4370-9724-2439972b603d|en[relative-line-number,7,component-id,textGranule]")
+body, legs spread apart and/or mouth open.'
+\);
+      ;
+   ;
+@pragma usecase()
+

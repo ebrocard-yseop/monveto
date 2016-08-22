@@ -1,0 +1,162 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 2, "e51425f8-8fa2-4e76-b4ea-1a5540acec90")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Leishmaniose(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 148, "e51425f8-8fa2-4e76-b4ea-1a5540acec90[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 1, "e51425f8-8fa2-4e76-b4ea-1a5540acec90[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "a6f52701-64bc-4db7-84a1-ff6099ff3229[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Leishmaniose_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Leishmaniose_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 71, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 1, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,1,component-id,textGranule]")
+// A TESTER
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 2, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,2,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 3, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,3,component-id,textGranule]")
+les régions du monde concernées par cette maladie
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 4, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,4,component-id,textGranule]")
+sont principalement des pays tropicaux et sub\-tropicaux :
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 5, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,5,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 6, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,6,component-id,textGranule]")
+- l'Amérique : du nord de l'Argentine au sud du Texas
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 7, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,7,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 8, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,8,component-id,textGranule]")
+- presque toute l'Asie (sauf le Sud\-est)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 9, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,9,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 10, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,10,component-id,textGranule]")
+- l'Afrique (et plus particulièrement
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 11, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,11,component-id,textGranule]")
+	l'est et le nord du continent)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 12, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,12,component-id,textGranule]")
+\conseilVeto:DiagnosticChien:_helpTexts:infobulles:sautDeLigne
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 13, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,13,component-id,textGranule]")
+- le sud de l'Europe (Espagne, Italie, sud de la France)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 14, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,14,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 15, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,15,component-id,textGranule]")
+/*\beginList(
+// SrcGenerator : 22/08/16 14:32
+-> TextListAssembly
+   --> mode _COMPOSE_BULLETS
+   --> bulletAssembly -> TextListBulletAssembly
+      --> startNewSentenceAfterBullet _NEVER
+      --> lineDefaultSuffix \(\)
+      --> lastLineSuffix \(\)
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> usingThreshold 1
+      ;
+   ;
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 16, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,16,component-id,textGranule]")
+	\nextItem 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 17, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,17,component-id,textGranule]")
+		l'Amérique : du nord de l'Argentine au sud du Texas, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 18, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,18,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 19, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,19,component-id,textGranule]")
+		presque toute l'Asie (sauf le Sud\-est)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 20, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,20,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 21, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,21,component-id,textGranule]")
+		l'Afrique (et plus particulièrement
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 22, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,22,component-id,textGranule]")
+		l'est et le nord du continent)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 23, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,23,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 24, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,24,component-id,textGranule]")
+		le sud de l'Europe (Espagne, Italie, sud de la France)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 25, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,25,component-id,textGranule]")
+	.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 26, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,26,component-id,textGranule]")
+\endList
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 27, "a6f52701-64bc-4db7-84a1-ff6099ff3229|fr[relative-line-number,27,component-id,textGranule]")
+*/	
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Leishmaniose_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 141, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 1, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 2, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,2,component-id,textGranule]")
+the regions of the world affected by this illness
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 3, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,3,component-id,textGranule]")
+are mainly tropical or sub-tropical countries. This includes:
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 4, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,4,component-id,textGranule]")
+the Americas (north of Argentina to the south of Texas), 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 5, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,5,component-id,textGranule]")
+almost all of Asia (except for Southeast Asia), 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 6, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,6,component-id,textGranule]")
+Africa (more specifically the eastern
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 7, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,7,component-id,textGranule]")
+		and northern parts),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 8, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,8,component-id,textGranule]")
+and southern Europe (Spain, Italy, south of France)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 9, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,9,component-id,textGranule]")
+		.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 10, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,10,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 11, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,11,component-id,textGranule]")
+/*\beginList(
+// SrcGenerator : 22/08/16 14:32
+-> TextListAssembly
+   --> mode _COMPOSE_BULLETS
+   --> bulletAssembly -> TextListBulletAssembly
+      --> startNewSentenceAfterBullet _ALWAYS
+      --> lineDefaultSuffix \(\)
+      --> lastLineSuffix \(\)
+      --> listStart  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\(\)
+        }
+      
+      --> listEnd  {
+         _IF_COUNT_OF_ITEMS,0,\(\),\('
+\)
+        }
+      
+      --> usingThreshold 1
+      ;
+   ;
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 12, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,12,component-id,textGranule]")
+	\nextItem 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 13, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,13,component-id,textGranule]")
+		the Americas: north of Argentina to the south of Texas;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 14, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,14,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 15, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,15,component-id,textGranule]")
+		almost all of Asia, except for Southeast Asia;
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 16, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,16,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 17, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,17,component-id,textGranule]")
+		Africa (more specifically the eastern
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 18, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,18,component-id,textGranule]")
+		and northern parts of the continent);
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 19, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,19,component-id,textGranule]")
+	\nextItem
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 20, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,20,component-id,textGranule]")
+		and southern Europe (Spain, Italy, south of France)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 21, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,21,component-id,textGranule]")
+		.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 22, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,22,component-id,textGranule]")
+\endList
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Leishmaniose.ytextfunction", 23, "a6f52701-64bc-4db7-84a1-ff6099ff3229|en[relative-line-number,23,component-id,textGranule]")
+*/
+\);
+      ;
+   ;
+@pragma usecase()
+

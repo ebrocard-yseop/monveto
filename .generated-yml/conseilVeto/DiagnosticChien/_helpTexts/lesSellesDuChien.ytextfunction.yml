@@ -1,0 +1,28 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 2, "7b3c8e12-4977-4104-a8b8-f30bad9db354")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:lesSellesDuChien(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 25, "7b3c8e12-4977-4104-a8b8-f30bad9db354[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 1, "7b3c8e12-4977-4104-a8b8-f30bad9db354[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "9fdea090-909f-4bc2-b700-8f6d841c8fd6[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:lesSellesDuChien_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lesSellesDuChien_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 11, "9fdea090-909f-4bc2-b700-8f6d841c8fd6|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 1, "9fdea090-909f-4bc2-b700-8f6d841c8fd6|fr[relative-line-number,1,component-id,textGranule]")
+\value(LES_SELLES_DU_CHIEN)
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lesSellesDuChien_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 18, "9fdea090-909f-4bc2-b700-8f6d841c8fd6|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lesSellesDuChien.ytextfunction", 1, "9fdea090-909f-4bc2-b700-8f6d841c8fd6|en[relative-line-number,1,component-id,textGranule]")
+\value(LES_SELLES_DU_CHIEN)
+\);
+      ;
+   ;
+@pragma usecase()
+

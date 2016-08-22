@@ -1,0 +1,57 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 2, "4b28c03a-d26f-4b08-bb3b-6b02f1eb36a8")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Hyperactivite(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 40, "4b28c03a-d26f-4b08-bb3b-6b02f1eb36a8[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 1, "4b28c03a-d26f-4b08-bb3b-6b02f1eb36a8[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "82589ebe-0c14-4020-8324-236bc425ab84[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Hyperactivite_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Hyperactivite_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 21, "82589ebe-0c14-4020-8324-236bc425ab84|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 1, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,1,component-id,textGranule]")
+\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 2, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,2,component-id,textGranule]")
+un chien réellement hyperactif est toujours sur le 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 3, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,3,component-id,textGranule]")
+qui\-vive
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 4, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,4,component-id,textGranule]")
+(en hypervigilance),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 5, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,5,component-id,textGranule]")
+nerveux, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 6, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,6,component-id,textGranule]")
+infatigable, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 7, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,7,component-id,textGranule]")
+a du mal à obéir,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 8, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,8,component-id,textGranule]")
+à canaliser son énergie, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 9, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,9,component-id,textGranule]")
+ne sait pas s'arrêter de jouer, d'aboyer,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 10, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,10,component-id,textGranule]")
+etc\...
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 11, "82589ebe-0c14-4020-8324-236bc425ab84|fr[relative-line-number,11,component-id,textGranule]")
+
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_Hyperactivite_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 33, "82589ebe-0c14-4020-8324-236bc425ab84|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 1, "82589ebe-0c14-4020-8324-236bc425ab84|en[relative-line-number,1,component-id,textGranule]")
+'\setStartOfSentence(true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 2, "82589ebe-0c14-4020-8324-236bc425ab84|en[relative-line-number,2,component-id,textGranule]")
+hyperactive dogs are over\-reactive to any stimulus. for example, they
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 3, "82589ebe-0c14-4020-8324-236bc425ab84|en[relative-line-number,3,component-id,textGranule]")
+can be constantly on the look\-out (hypervigilant),
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 4, "82589ebe-0c14-4020-8324-236bc425ab84|en[relative-line-number,4,component-id,textGranule]")
+be highly strung, be extremely energetic, be tireless, may not obey commands, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 5, "82589ebe-0c14-4020-8324-236bc425ab84|en[relative-line-number,5,component-id,textGranule]")
+cannot channel their energy, will not stop playing or barking, etc.'
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_Hyperactivite.ytextfunction", 6, "82589ebe-0c14-4020-8324-236bc425ab84|en[relative-line-number,6,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

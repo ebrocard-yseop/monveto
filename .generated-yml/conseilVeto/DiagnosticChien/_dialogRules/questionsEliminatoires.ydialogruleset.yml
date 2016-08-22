@@ -1,0 +1,83 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires.ydialogruleset", 2, "74871da7-534a-41de-9fb8-1951ea8e3dd0")
+conseilVeto:DiagnosticChien:_dialogRules:questionsEliminatoires()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 2, "f85926b4-c5d5-4813-8779-4d4a3d7ffc41")
+      Rule conseilVeto:DiagnosticChien:_dialogRules:questionsEliminatoires:qeBoulimie_AffectionsAvecPolyphagie
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 1, "f85926b4-c5d5-4813-8779-4d4a3d7ffc41[relative-line-number,1]")
+findSymptome("Boulimie").calcule == true && findSymptome("Boulimie").questionDoitEtrePosee == true,
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 2, "f85926b4-c5d5-4813-8779-4d4a3d7ffc41[relative-line-number,2]")
+findDiagnostic("Affections avec polyphagie").estPossible == true && findDiagnostic("Affections avec polyphagie").diagnosticElimine != true) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 25, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Zone")
+            fwCallCenter:dialogue:zones:interaction:qualificationDemande.gather(-> SelectionWidget
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 4, "c4030598-4a90-4c1d-b905-6e8772506d1b")
+               --> setable @pragma source("", 0, "c4030598-4a90-4c1d-b905-6e8772506d1b|currentUsecase.chienGlouton")
+               currentUsecase.chienGlouton
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 27, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|Widget.reference")
+               --> reference @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 27, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|Widget.reference")
+               questions_cpt_3
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 28, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|Widget.gatheringStore")
+               --> gatheringStore @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 28, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|Widget.gatheringStore")
+               true
+               ;, -> WidgetControl
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 26, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|WidgetControl.mandatory")
+               --> mandatory @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 26, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|WidgetControl.mandatory")
+               true
+               ;, -> WidgetTextualContent
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 29, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|WidgetTextualContent.title")
+               --> title @pragma source("", 0, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970[component-id,textGranule]")
+               @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 29, "c024253c-2e1f-4b14-a61f-d9d044ace47a|Selection|WidgetTextualContent.title")
+               -> MultilingualText conseilVeto:DiagnosticChien:_dialogRules:questionsEliminatoires:qeBoulimie_AffectionsAvecPolyphagie:gather1_title
+                  --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:questionsEliminatoires:qeBoulimie_AffectionsAvecPolyphagie:gather1_title__fr
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 53, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 1, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[relative-line-number,1,component-id,textGranule]")
+\thirdAction(getAnimal(), VERB_FR_ÊTRE, INTERROGATIVE_FORM)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 2, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[relative-line-number,2,component-id,textGranule]")
+\adjective(GLOUTON, _THIRD, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 3, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[relative-line-number,3,component-id,textGranule]")
+(mange très rapidement sa ration, réclame entre les repas \...)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 4, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[relative-line-number,4,component-id,textGranule]")
+?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 5, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[relative-line-number,5,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 6, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|fr[relative-line-number,6,component-id,textGranule]")
+
+\);
+                  --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_dialogRules:questionsEliminatoires:qeBoulimie_AffectionsAvecPolyphagie:gather1_title__en
+                     @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 68, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[component-id,textGranule]")
+                     \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 1, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,1,component-id,textGranule]")
+does
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 2, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,2,component-id,textGranule]")
+\value(getAnimal().nomAnimal)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 3, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,3,component-id,textGranule]")
+eat voraciously
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 4, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,4,component-id,textGranule]")
+?
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 5, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,5,component-id,textGranule]")
+(eats 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 6, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,6,component-id,textGranule]")
+\determiner(POSSESSIVE_DETERMINER, _OWNER, getAnimal())
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 7, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,7,component-id,textGranule]")
+portion of food very quickly, asks for more between meals, 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 8, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,8,component-id,textGranule]")
+etc.)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 9, "1f56b66e-0b3f-4f93-8e17-f9d3d2215970|en[relative-line-number,9,component-id,textGranule]")
+
+\);
+                  ;
+               ;);
+         --> ifDsl "le symptome \"Boulimie\" fait partie des symptomes calculés et la question doit être posée and le diagnostic \"Affections avec polyphagie\" est un diagnostic possible et non éliminé"
+         --> thenDsl "le chien est glouton"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_dialogRules\\questionsEliminatoires\\qeBoulimie_AffectionsAvecPolyphagie.ydialogrule", 134, "73db8935-1d91-4246-b214-ee9eaa7a1590[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

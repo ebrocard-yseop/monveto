@@ -1,0 +1,411 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel.yruleset", 2, "9b1b643e-f2e3-49f4-96ad-ba6cffc13a0a")
+conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 2, "302751b7-02ad-4ead-a8d9-f842888157c0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienneAllaitante
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 1, "302751b7-02ad-4ead-a8d9-f842888157c0[relative-line-number,1]")
+(currentUsecase.chienMale == OUI) || (currentUsecase.sterilisationChien == OUI) || (getAnimal().moisAnimal <= 5)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 1, "302751b7-02ad-4ead-a8d9-f842888157c0[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 2, "302751b7-02ad-4ead-a8d9-f842888157c0[relative-line-number,2]")
+findItemReponseDSA("VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 3, "302751b7-02ad-4ead-a8d9-f842888157c0[relative-line-number,3]")
+findItemReponseDSA("ChienneTresAbattueApresMiseBas").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 4, "302751b7-02ad-4ead-a8d9-f842888157c0[relative-line-number,4]")
+findItemReponseDSA("VotreChienneFaitUneGrossesseNerveuse").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 5, "302751b7-02ad-4ead-a8d9-f842888157c0[relative-line-number,5]")
+}
+         --> ifDsl "le chien est un male = oui or le chien est stérilisé = oui or l'age du chien en mois ? 5"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale\" devient false then la visibilité de l'item de réponse DSA \"ChienneTresAbattueApresMiseBas\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneFaitUneGrossesseNerveuse\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienneAllaitante.yrule", 202, "196c1d90-5c3a-4987-a665-6125a8cbb59e[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 2, "c46702dc-245b-4215-9cab-299d26313ee9")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienFemelle
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 1, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,1]")
+currentUsecase.chienFemelle == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 1, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 2, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,2]")
+findItemReponseDSA("VotreChienPresenteDesEcoulementsAuNiveauDuPenisautresQueDeLurine").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 3, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,3]")
+findItemReponseDSA("LesTesticulesDeVotreChienNeSontPasALeurPlaceDansLeScrotum").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 4, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,4]")
+findItemReponseDSA("VotreChienATendanceASeMasturbersurDesObjetsDesHommesDautresAnimaux").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 5, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,5]")
+findItemReponseDSA("VotreChienLeveLaPatteDansLaMaison").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 6, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,6]")
+findItemReponseDSA("LaCastrationDuChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 7, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,7]")
+findItemReponseDSA("VotreChienPresenteDesSecretionsAuNiveauDuPenis").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 8, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,8]")
+findItemReponseDSA("LaSterilisationDuChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 9, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,9]")
+findItemReponseDSA("RenseignementsSurLaCryptorchidieChezLeChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 10, "c46702dc-245b-4215-9cab-299d26313ee9[relative-line-number,10]")
+}
+         --> ifDsl "le chien est une femelle = oui"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienPresenteDesEcoulementsAuNiveauDuPenisautresQueDeLurine\" devient false then la visibilité de l'item de réponse DSA \"LesTesticulesDeVotreChienNeSontPasALeurPlaceDansLeScrotum\" devient false then la visibilité de l'item de réponse DSA \"VotreChienATendanceASeMasturbersurDesObjetsDesHommesDautresAnimaux\" devient false then la visibilité de l'item de réponse DSA \"VotreChienLeveLaPatteDansLaMaison\" devient false then la visibilité de l'item de réponse DSA \"LaCastrationDuChien\" devient false then la visibilité de l'item de réponse DSA \"VotreChienPresenteDesSecretionsAuNiveauDuPenis\" devient false then la visibilité de l'item de réponse DSA \"LaSterilisationDuChien\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLaCryptorchidieChezLeChien\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienFemelle.yrule", 303, "cffea471-0f88-402c-8bc1-3e19a363fb42[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 2, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienMale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 1, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,1]")
+currentUsecase.chienMale == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 1, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 2, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,2]")
+findItemReponseDSA("VotreChienneADesChaleursIrregulieresOuRares").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 3, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,3]")
+findItemReponseDSA("LesChaleursDeVotreChiennePersistentDepuisPlusDe3Semaines").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 4, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,4]")
+findItemReponseDSA("VotreChiennePresenteDesEcoulementsVulvairesAlorsQuelleNestPasEnChaleurs").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 5, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,5]")
+findItemReponseDSA("VotreChiennePresenteUndesMassesAuNiveauDesMamelles").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 6, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,6]")
+findItemReponseDSA("VotreChienneAttireLesMalesAlorsQuelleNestPasEnChaleursOuQuelleEstSterilisee").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 7, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,7]")
+findItemReponseDSA("VotreChienneQuiARecemmentMisBasEstTresAbattue").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 8, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,8]")
+findItemReponseDSA("VotreChienneARecemmentMisBasEtPresenteDesPertes").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 9, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,9]")
+findItemReponseDSA("VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 10, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,10]")
+findItemReponseDSA("LesMamellesDeVotreChienneProduisentDuLaitAlorsQuelleNestPasGestante").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 11, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,11]")
+findItemReponseDSA("LesChaleursChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 12, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,12]")
+findItemReponseDSA("LaSterilisationDeLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 13, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,13]")
+findItemReponseDSA("LaGestationChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 14, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,14]")
+findItemReponseDSA("LAvortementMedicalChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 15, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,15]")
+findItemReponseDSA("VotreChienneAttireLesMalesEnDehorsDesChaleurs").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 16, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,16]")
+findItemReponseDSA("CommentFaireAvorterUneChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 17, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,17]")
+findItemReponseDSA("LOvarioDeLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 18, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,18]")
+findItemReponseDSA("RenseignementsSurLesGrossessesNerveuses").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 19, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,19]")
+findItemReponseDSA("LesGrossessesNerveuses").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 20, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,20]")
+findItemReponseDSA("RenseignementsSurLesTumeursMammaires").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 21, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,21]")
+findItemReponseDSA("InformationsSurLesTumeursMammaires").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 22, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,22]")
+findItemReponseDSA("RenseignementsSurLePyometre").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 23, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,23]")
+findItemReponseDSA("LaPresenceDuneMasseouDePlusieursAuNiveauDesMamelles").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 24, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,24]")
+findItemReponseDSA("LaMiseBasChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 25, "0b701581-7c4e-4a34-a9ed-91c525cbe5a0[relative-line-number,25]")
+}
+         --> ifDsl "le chien est un male = oui"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienneADesChaleursIrregulieresOuRares\" devient false then la visibilité de l'item de réponse DSA \"LesChaleursDeVotreChiennePersistentDepuisPlusDe3Semaines\" devient false then la visibilité de l'item de réponse DSA \"VotreChiennePresenteDesEcoulementsVulvairesAlorsQuelleNestPasEnChaleurs\" devient false then la visibilité de l'item de réponse DSA \"VotreChiennePresenteUndesMassesAuNiveauDesMamelles\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneAttireLesMalesAlorsQuelleNestPasEnChaleursOuQuelleEstSterilisee\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneQuiARecemmentMisBasEstTresAbattue\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneARecemmentMisBasEtPresenteDesPertes\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale\" devient false then la visibilité de l'item de réponse DSA \"LesMamellesDeVotreChienneProduisentDuLaitAlorsQuelleNestPasGestante\" devient false then la visibilité de l'item de réponse DSA \"LesChaleursChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LaSterilisationDeLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LaGestationChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LAvortementMedicalChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneAttireLesMalesEnDehorsDesChaleurs\" devient false then la visibilité de l'item de réponse DSA \"CommentFaireAvorterUneChienne\" devient false then la visibilité de l'item de réponse DSA \"LOvarioDeLaChienne\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLesGrossessesNerveuses\" devient false then la visibilité de l'item de réponse DSA \"LesGrossessesNerveuses\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLesTumeursMammaires\" devient false then la visibilité de l'item de réponse DSA \"InformationsSurLesTumeursMammaires\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLePyometre\" devient false then la visibilité de l'item de réponse DSA \"LaPresenceDuneMasseouDePlusieursAuNiveauDesMamelles\" devient false then la visibilité de l'item de réponse DSA \"LaMiseBasChezLaChienne\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMale.yrule", 769, "dc4ed4db-ba7d-4401-baa6-127d1b924665[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 2, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienNonChiot
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 1, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,1]")
+getAnimal().getClasseAgeChien() != CAC_CHIOT) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 1, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 2, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,2]")
+findItemReponseDSA("VotreJeuneChienNestPasEncorePropreLaNuit").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 3, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,3]")
+findItemReponseDSA("VotreChiotATendanceAMordiller").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 4, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,4]")
+findItemReponseDSA("CommentApprendreLaPropreteAUnChiot").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 5, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,5]")
+findItemReponseDSA("QuelAlimentDonnerAUnChienEnCroissance").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 6, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,6]")
+findItemReponseDSA("CommentApprendreLaPropreteAvotreChiot").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 7, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,7]")
+findItemReponseDSA("VotreChienNEstPasEncorePropreLaNuit").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 8, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,8]")
+findItemReponseDSA("CommentApprendreLaPropreteAUnChiot").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 9, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,9]")
+findItemReponseDSA("CommentApprendreAuChiotADevenirPropre").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 10, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,10]")
+findItemReponseDSA("VotreChienATendanceAMordiller").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 11, "0bd82d5d-42f2-4f92-ad48-fe4b81b7c4c2[relative-line-number,11]")
+}
+         --> ifDsl "la classe d'age du chien ? chiot"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreJeuneChienNestPasEncorePropreLaNuit\" devient false then la visibilité de l'item de réponse DSA \"VotreChiotATendanceAMordiller\" devient false then la visibilité de l'item de réponse DSA \"CommentApprendreLaPropreteAUnChiot\" devient false then la visibilité de l'item de réponse DSA \"QuelAlimentDonnerAUnChienEnCroissance\" devient false then la visibilité de l'item de réponse DSA \"CommentApprendreLaPropreteAvotreChiot\" devient false then la visibilité de l'item de réponse DSA \"VotreChienNEstPasEncorePropreLaNuit\" devient false then la visibilité de l'item de réponse DSA \"CommentApprendreLaPropreteAUnChiot\" devient false then la visibilité de l'item de réponse DSA \"CommentApprendreAuChiotADevenirPropre\" devient false then la visibilité de l'item de réponse DSA \"VotreChienATendanceAMordiller\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonChiot.yrule", 334, "31f47c5a-62fa-4aa5-b342-50d64cae8da3[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 2, "78a16bed-8748-4428-b04b-38c1092dc0be")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienSterilise
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 1, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,1]")
+currentUsecase.sterilisationChien == OUI) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 1, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 2, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,2]")
+findItemReponseDSA("VotreChienneADesChaleursIrregulieresOuRares").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 3, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,3]")
+findItemReponseDSA("LesChaleursDeVotreChiennePersistentDepuisPlusDe3Semaines").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 4, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,4]")
+findItemReponseDSA("VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 5, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,5]")
+findItemReponseDSA("VotreChienneARecemmentMisBasEtPresenteDesPertes").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 6, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,6]")
+findItemReponseDSA("VotreChienneQuiARecemmentMisBasEstTresAbattue").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 7, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,7]")
+findItemReponseDSA("LesMamellesDeVotreChienneProduisentDuLaitAlorsQuelleNestPasGestante").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 8, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,8]")
+findItemReponseDSA("LAvortementMedicalChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 9, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,9]")
+findItemReponseDSA("LaGestationChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 10, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,10]")
+findItemReponseDSA("LaCastrationDuChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 11, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,11]")
+findItemReponseDSA("LaSterilisationDeLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 12, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,12]")
+findItemReponseDSA("LaSaillieChezLeChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 13, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,13]")
+findItemReponseDSA("LesChaleursChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 14, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,14]")
+findItemReponseDSA("LesTesticulesDeVotreChienNeSontPasALeurPlaceDansLeScrotum").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 15, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,15]")
+findItemReponseDSA("CommentFaireAvorterUneChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 16, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,16]")
+findItemReponseDSA("LaSterilisationDuChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 17, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,17]")
+findItemReponseDSA("LOvarioDeLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 18, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,18]")
+findItemReponseDSA("LesGrossessesNerveuses").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 19, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,19]")
+findItemReponseDSA("RenseignementsSurLesGrossessesNerveuses").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 20, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,20]")
+findItemReponseDSA("RenseignementsSurLePyometre").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 21, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,21]")
+findItemReponseDSA("LaMiseBasChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 22, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,22]")
+findItemReponseDSA("RenseignementsSurLaCryptorchidieChezLeChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 23, "78a16bed-8748-4428-b04b-38c1092dc0be[relative-line-number,23]")
+}
+         --> ifDsl "le chien est stérilisé = oui"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienneADesChaleursIrregulieresOuRares\" devient false then la visibilité de l'item de réponse DSA \"LesChaleursDeVotreChiennePersistentDepuisPlusDe3Semaines\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneARecemmentMisBasEtPresenteDesPertes\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneQuiARecemmentMisBasEstTresAbattue\" devient false then la visibilité de l'item de réponse DSA \"LesMamellesDeVotreChienneProduisentDuLaitAlorsQuelleNestPasGestante\" devient false then la visibilité de l'item de réponse DSA \"LAvortementMedicalChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LaGestationChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LaCastrationDuChien\" devient false then la visibilité de l'item de réponse DSA \"LaSterilisationDeLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LaSaillieChezLeChien\" devient false then la visibilité de l'item de réponse DSA \"LesChaleursChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LesTesticulesDeVotreChienNeSontPasALeurPlaceDansLeScrotum\" devient false then la visibilité de l'item de réponse DSA \"CommentFaireAvorterUneChienne\" devient false then la visibilité de l'item de réponse DSA \"LaSterilisationDuChien\" devient false then la visibilité de l'item de réponse DSA \"LOvarioDeLaChienne\" devient false then la visibilité de l'item de réponse DSA \"LesGrossessesNerveuses\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLesGrossessesNerveuses\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLePyometre\" devient false then la visibilité de l'item de réponse DSA \"LaMiseBasChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"RenseignementsSurLaCryptorchidieChezLeChien\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienSterilise.yrule", 709, "c92861ad-0c7b-4f66-b40e-38b786e06857[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 2, "b8de2fd0-5f88-4489-9fb4-c7e159508c60")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienChiot
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 1, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,1]")
+getAnimal().getClasseAgeChien() == CAC_CHIOT) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 1, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 2, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,2]")
+findItemReponseDSA("VotreChienSembleNePlusVoirConvenablement").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 3, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,3]")
+findItemReponseDSA("CommentFaireMaigrirUnChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 4, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,4]")
+findItemReponseDSA("LeSyndromeDeCushing").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 5, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,5]")
+findItemReponseDSA("VotreChienPerdUnedesDents").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 6, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,6]")
+findItemReponseDSA("LaMiseBasChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 7, "b8de2fd0-5f88-4489-9fb4-c7e159508c60[relative-line-number,7]")
+}
+         --> ifDsl "la classe d'age du chien = chiot"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienSembleNePlusVoirConvenablement\" devient false then la visibilité de l'item de réponse DSA \"CommentFaireMaigrirUnChien\" devient false then la visibilité de l'item de réponse DSA \"LeSyndromeDeCushing\" devient false then la visibilité de l'item de réponse DSA \"VotreChienPerdUnedesDents\" devient false then la visibilité de l'item de réponse DSA \"LaMiseBasChezLaChienne\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienChiot.yrule", 210, "77b9708e-8b54-4a33-a106-40169767407d[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 2, "96938b23-5524-4c47-bf44-1e0d4def8920")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienNonSenior
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 1, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,1]")
+getAnimal().getClasseAgeChien() != CAC_SENIOR) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 1, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 2, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,2]")
+findItemReponseDSA("VotreVieuxChienSemblePerduDansSonEnvironnement").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 3, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,3]")
+findItemReponseDSA("VotreVieuxChienSembleNePlusAvoirDeNotionDeTemps").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 4, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,4]")
+findItemReponseDSA("VotreVieuxChienSembleAvoirOublieCertainsApprentissagesQueVousLuiAviezInculquesordresDeBasProprete").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 5, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,5]")
+findItemReponseDSA("VousSuspectezUnAVCOuUnTroubleSimilaireChezVotreChien").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 6, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,6]")
+findItemReponseDSA("QuelAlimentDonnerAUnChienSenior").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 7, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,7]")
+findItemReponseDSA("VousSuspectezUnAVCOuAutre").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 8, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,8]")
+findItemReponseDSA("CommentAiderMonChienABienVieillir").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 9, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,9]")
+findItemReponseDSA("CommentPrendreSoinDUnChienAge").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 10, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,10]")
+findItemReponseDSA("QuandPrendreLaDecisionDEutha").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 11, "96938b23-5524-4c47-bf44-1e0d4def8920[relative-line-number,11]")
+}
+         --> ifDsl "la classe d'age du chien ? sénior"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreVieuxChienSemblePerduDansSonEnvironnement\" devient false then la visibilité de l'item de réponse DSA \"VotreVieuxChienSembleNePlusAvoirDeNotionDeTemps\" devient false then la visibilité de l'item de réponse DSA \"VotreVieuxChienSembleAvoirOublieCertainsApprentissagesQueVousLuiAviezInculquesordresDeBasProprete\" devient false then la visibilité de l'item de réponse DSA \"VousSuspectezUnAVCOuUnTroubleSimilaireChezVotreChien\" devient false then la visibilité de l'item de réponse DSA \"QuelAlimentDonnerAUnChienSenior\" devient false then la visibilité de l'item de réponse DSA \"VousSuspectezUnAVCOuAutre\" devient false then la visibilité de l'item de réponse DSA \"CommentAiderMonChienABienVieillir\" devient false then la visibilité de l'item de réponse DSA \"CommentPrendreSoinDUnChienAge\" devient false then la visibilité de l'item de réponse DSA \"QuandPrendreLaDecisionDEutha\" devient false"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonSenior.yrule", 335, "940713da-2eeb-4b80-b411-590684935629[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonAdulte.yrule", 2, "3af0e850-f60b-44c4-8997-7e1951b2efb1")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienNonAdulte
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonAdulte.yrule", 1, "3af0e850-f60b-44c4-8997-7e1951b2efb1[relative-line-number,1]")
+getAnimal().getClasseAgeChien() != CAC_ADULTE) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonAdulte.yrule", 1, "3af0e850-f60b-44c4-8997-7e1951b2efb1[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonAdulte.yrule", 2, "3af0e850-f60b-44c4-8997-7e1951b2efb1[relative-line-number,2]")
+findItemReponseDSA("QuelAlimentChoisir").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonAdulte.yrule", 3, "3af0e850-f60b-44c4-8997-7e1951b2efb1[relative-line-number,3]")
+}
+         --> ifDsl "la classe d'age du chien ? adulte"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"QuelAlimentChoisir\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 2, "3fae7176-713f-44e4-96a7-032b48b2a242")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienMoinsDe5Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 1, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,1]")
+getAnimal().moisAnimal < 5) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 1, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 2, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,2]")
+findItemReponseDSA("VotreChienneADesChaleursIrregulieresOuRares").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 3, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,3]")
+findItemReponseDSA("LesChaleursDeVotreChiennePersistentDepuisPlusDe3Semaines").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 4, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,4]")
+findItemReponseDSA("VotreChienneQuiARecemmentMisBasEstTresAbattue").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 5, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,5]")
+findItemReponseDSA("VotreChienneARecemmentMisBasEtPresenteDesPertes").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 6, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,6]")
+findItemReponseDSA("VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 7, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,7]")
+findItemReponseDSA("LesMamellesDeVotreChienneProduisentDuLaitAlorsQuelleNestPasGestante").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 8, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,8]")
+findItemReponseDSA("LAvortementMedicalChezLaChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 9, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,9]")
+findItemReponseDSA("CommentFaireAvorterUneChienne").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe5Mois.yrule", 10, "3fae7176-713f-44e4-96a7-032b48b2a242[relative-line-number,10]")
+}
+         --> ifDsl "l'age du chien en mois < 5"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienneADesChaleursIrregulieresOuRares\" devient false then la visibilité de l'item de réponse DSA \"LesChaleursDeVotreChiennePersistentDepuisPlusDe3Semaines\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneQuiARecemmentMisBasEstTresAbattue\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneARecemmentMisBasEtPresenteDesPertes\" devient false then la visibilité de l'item de réponse DSA \"VotreChienneSeComporteCommeSiElleEtaitGestanteouAllaitanteAlorsQuelleNaPasEuDeContactAvecUnMale\" devient false then la visibilité de l'item de réponse DSA \"LesMamellesDeVotreChienneProduisentDuLaitAlorsQuelleNestPasGestante\" devient false then la visibilité de l'item de réponse DSA \"LAvortementMedicalChezLaChienne\" devient false then la visibilité de l'item de réponse DSA \"CommentFaireAvorterUneChienne\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe5Mois.yrule", 2, "363960be-a5fd-4f72-8005-b1f30144480f")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienPlusDe5Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe5Mois.yrule", 1, "363960be-a5fd-4f72-8005-b1f30144480f[relative-line-number,1]")
+getAnimal().moisAnimal > 5) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe5Mois.yrule", 1, "363960be-a5fd-4f72-8005-b1f30144480f[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe5Mois.yrule", 2, "363960be-a5fd-4f72-8005-b1f30144480f[relative-line-number,2]")
+findItemReponseDSA("AgeDeLaPremiereVisiteChezLeVeterinaire").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe5Mois.yrule", 3, "363960be-a5fd-4f72-8005-b1f30144480f[relative-line-number,3]")
+findItemReponseDSA("AgeDeLaPremiereVisiteChezLeVeto").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe5Mois.yrule", 4, "363960be-a5fd-4f72-8005-b1f30144480f[relative-line-number,4]")
+}
+         --> ifDsl "l'age du chien en mois > 5"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"AgeDeLaPremiereVisiteChezLeVeterinaire\" devient false then la visibilité de l'item de réponse DSA \"AgeDeLaPremiereVisiteChezLeVeto\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe2Ans.yrule", 2, "200a37a1-0bc8-4e91-9899-7ed84c500ca6")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienPlusDe2Ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe2Ans.yrule", 1, "200a37a1-0bc8-4e91-9899-7ed84c500ca6[relative-line-number,1]")
+getAnimal().ansAnimal > 2) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe2Ans.yrule", 1, "200a37a1-0bc8-4e91-9899-7ed84c500ca6[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe2Ans.yrule", 2, "200a37a1-0bc8-4e91-9899-7ed84c500ca6[relative-line-number,2]")
+findItemReponseDSA("VousAvezDesQuestionsSurLesDentsDeLaitEtLesDentsDefinitives").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienPlusDe2Ans.yrule", 3, "200a37a1-0bc8-4e91-9899-7ed84c500ca6[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en années > 2"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VousAvezDesQuestionsSurLesDentsDeLaitEtLesDentsDefinitives\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonBrachycephale.yrule", 2, "4ffd1e4e-3433-422b-b434-ff7b7df58ffc")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienNonBrachycephale
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonBrachycephale.yrule", 1, "4ffd1e4e-3433-422b-b434-ff7b7df58ffc[relative-line-number,1]")
+currentUsecase.estRaceBrachycephale == NON) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonBrachycephale.yrule", 1, "4ffd1e4e-3433-422b-b434-ff7b7df58ffc[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonBrachycephale.yrule", 2, "4ffd1e4e-3433-422b-b434-ff7b7df58ffc[relative-line-number,2]")
+findItemReponseDSA("VousVousInterrogezSurLeSyndromeBrachycephale").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonBrachycephale.yrule", 3, "4ffd1e4e-3433-422b-b434-ff7b7df58ffc[relative-line-number,3]")
+findItemReponseDSA("VousVousInterrogezAuSujetDuSyndromeBrachycephale").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienNonBrachycephale.yrule", 4, "4ffd1e4e-3433-422b-b434-ff7b7df58ffc[relative-line-number,4]")
+}
+         --> ifDsl "le chien est brachycéphale = non"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VousVousInterrogezSurLeSyndromeBrachycephale\" devient false then la visibilité de l'item de réponse DSA \"VousVousInterrogezAuSujetDuSyndromeBrachycephale\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe3ans.yrule", 2, "7cbd002f-87d7-4a49-ad23-fcd421abedf2")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienMoinsDe3ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe3ans.yrule", 1, "7cbd002f-87d7-4a49-ad23-fcd421abedf2[relative-line-number,1]")
+getAnimal().moisAnimal < 36) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe3ans.yrule", 1, "7cbd002f-87d7-4a49-ad23-fcd421abedf2[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe3ans.yrule", 2, "7cbd002f-87d7-4a49-ad23-fcd421abedf2[relative-line-number,2]")
+findItemReponseDSA("LeDiabete").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe3ans.yrule", 3, "7cbd002f-87d7-4a49-ad23-fcd421abedf2[relative-line-number,3]")
+findItemReponseDSA("LeLymphome").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe3ans.yrule", 4, "7cbd002f-87d7-4a49-ad23-fcd421abedf2[relative-line-number,4]")
+}
+         --> ifDsl "l'age du chien en mois < 36"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"LeDiabete\" devient false then la visibilité de l'item de réponse DSA \"LeLymphome\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe18Mois.yrule", 2, "9f5c03f5-d143-41c5-8ef5-1f9e7d60d093")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienMoinsDe18Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe18Mois.yrule", 1, "9f5c03f5-d143-41c5-8ef5-1f9e7d60d093[relative-line-number,1]")
+(((currentUsecase.tailleDeLaRace == TC_GRANDE) || (currentUsecase.tailleDeLaRace == TC_GEANTE)) && (getAnimal().moisAnimal <= 18)) || (((currentUsecase.tailleDeLaRace == TC_PETITE) || (currentUsecase.tailleDeLaRace == TC_MOYENNE)) && (getAnimal().moisAnimal < 15))) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe18Mois.yrule", 1, "9f5c03f5-d143-41c5-8ef5-1f9e7d60d093[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe18Mois.yrule", 2, "9f5c03f5-d143-41c5-8ef5-1f9e7d60d093[relative-line-number,2]")
+findItemReponseDSA("VotreChienneADesChaleursIrregulieresOuRares").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe18Mois.yrule", 3, "9f5c03f5-d143-41c5-8ef5-1f9e7d60d093[relative-line-number,3]")
+}
+         --> ifDsl "((taille de la race = grande or taille de la race = géante) and l'age du chien en mois ? 18) or ((taille de la race = petite or taille de la race = moyenne) and l'age du chien en mois < 15)"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"VotreChienneADesChaleursIrregulieresOuRares\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chiotPlusDe4Mois.yrule", 2, "7dbab513-16a6-4e18-a3de-9e28994e4d39")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chiotPlusDe4Mois
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chiotPlusDe4Mois.yrule", 1, "7dbab513-16a6-4e18-a3de-9e28994e4d39[relative-line-number,1]")
+(getAnimal().moisAnimal > 4) || (getAnimal().moisAnimal < 2)) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chiotPlusDe4Mois.yrule", 1, "7dbab513-16a6-4e18-a3de-9e28994e4d39[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chiotPlusDe4Mois.yrule", 2, "7dbab513-16a6-4e18-a3de-9e28994e4d39[relative-line-number,2]")
+findItemReponseDSA("PeutOnSortirUnChiotNonVaccine").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chiotPlusDe4Mois.yrule", 3, "7dbab513-16a6-4e18-a3de-9e28994e4d39[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en mois > 4 or l'age du chien en mois < 2"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"PeutOnSortirUnChiotNonVaccine\" devient false"
+         ;
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe6Ans.yrule", 2, "0149b7c4-af03-484b-8543-190d64cb76fc")
+      Rule conseilVeto:DiagnosticChien:_businessRules:85_reglesSpecifiquesDeterminationSymptomeDAppel:chienMoinsDe6Ans
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe6Ans.yrule", 1, "0149b7c4-af03-484b-8543-190d64cb76fc[relative-line-number,1]")
+getAnimal().ansAnimal <= 5) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe6Ans.yrule", 1, "0149b7c4-af03-484b-8543-190d64cb76fc[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe6Ans.yrule", 2, "0149b7c4-af03-484b-8543-190d64cb76fc[relative-line-number,2]")
+findItemReponseDSA("MonChienEstVieux").visibiliteDSA = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\85_reglesSpecifiquesDeterminationSymptomeDAppel\\chienMoinsDe6Ans.yrule", 3, "0149b7c4-af03-484b-8543-190d64cb76fc[relative-line-number,3]")
+}
+         --> ifDsl "l'age du chien en années ? 5"
+         --> thenDsl "la visibilité de l'item de réponse DSA \"MonChienEstVieux\" devient false"
+         ;
+     }
+   ;
+@pragma usecase()
+

@@ -1,0 +1,40 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 2, "22585378-e555-41b1-b527-e926b1412779")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_n_ont_pas_evolue(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 101, "22585378-e555-41b1-b527-e926b1412779[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 1, "22585378-e555-41b1-b527-e926b1412779[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "ae918dba-c95d-4eb8-9517-00fa12ff98ff[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_n_ont_pas_evolue_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:la_les_masses_n_ont_pas_evolue_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 87, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 1, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "ae918dba-c95d-4eb8-9517-00fa12ff98ff[relative-line-number,1]")
+__dsl( (currentUsecase.mamellesConcernees == PLUSIEURS) || (currentUsecase.nombreDeMassesBuccales == PLUSIEURS), "le nombre de masses mammaires = Plusieurs masses or le nombre de masses buccales = Plusieurs masses" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 2, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,2,component-id,textGranule]")
+	n'ont
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 3, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 4, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,4,component-id,textGranule]")
+	n'a
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 5, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 6, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,6,component-id,textGranule]")
+pas évolué
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 7, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,7,component-id,textGranule]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\la_les_masses_n_ont_pas_evolue.ytextfunction", 8, "ae918dba-c95d-4eb8-9517-00fa12ff98ff|fr[relative-line-number,8,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

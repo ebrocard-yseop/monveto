@@ -1,0 +1,62 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+Function @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions.yruleset", 2, "39d6c6fa-ec09-4b92-afe3-76e05a979c03")
+conseilVeto:DiagnosticChien:_businessRules:78_reglesEliminationQuestions()
+   ruleset  {
+      @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 2, "b523cf2d-a273-4af0-a142-e7dddb4254e9")
+      Rule conseilVeto:DiagnosticChien:_businessRules:78_reglesEliminationQuestions:eliminationQuestionSuiteDiagValideOuElimine
+         if (@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 1, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,1]")
+/*
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 2, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,2]")
+mpiolat / 23/11/2012 : on peut toutes les mettre à false, car on les réactive en _80
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 3, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,3]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 4, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,4]")
+AVANT
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 5, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,5]")
+?relations.symptome == ?s
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 6, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,6]")
+?relations.diagnostic == ?d
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 7, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,7]")
+(?d.diagnosticValide == true || ?d.diagnosticElimine == true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 8, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,8]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 9, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,9]")
+APRES
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 10, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,10]")
+?s.questionDoitEtrePosee == ?x
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 11, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,11]")
+*/
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 12, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,12]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 13, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,13]")
+?d.isDiagnostic == ?dummy
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 14, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,14]")
+(?d.diagnosticValide == true || ?d.diagnosticElimine == true)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 15, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,15]")
+?relations.diagnostic == ?d
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 16, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,16]")
+?relations.symptome == ?s
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 17, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,17]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 18, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,18]")
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 19, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,19]")
+) 
+         then 
+            @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 1, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,1]")
+{
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 2, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,2]")
+?s.questionDoitEtrePosee = false
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 3, "b523cf2d-a273-4af0-a142-e7dddb4254e9[relative-line-number,3]")
+}
+         --> thenDsl "la question associée au symptome ne doit pas être posée"
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_businessRules\\78_reglesEliminationQuestions\\eliminationQuestionSuiteDiagValideOuElimine.yrule", 51, "6b6bc6c5-47a6-413a-987b-03d9b3590094[property-field,fireOnlyOnce,property-type,YML_PROPERTY]")
+         --> fireOnlyOnce true
+         ;
+     }
+   ;
+@pragma usecase()
+

@@ -1,0 +1,52 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 2, "cba2d84b-fc3a-48ae-a2be-20b81c414634")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 113, "cba2d84b-fc3a-48ae-a2be-20b81c414634[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 1, "cba2d84b-fc3a-48ae-a2be-20b81c414634[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 55, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 1, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d[relative-line-number,1]")
+__dsl( currentUsecase.chienFemelle == OUI, "le chien est une femelle = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 2, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|fr[relative-line-number,2,component-id,textGranule]")
+	elle
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 3, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 4, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|fr[relative-line-number,4,component-id,textGranule]")
+	il
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 5, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:lanimalAnaphor_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 106, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 1, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|en[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d[relative-line-number,1]")
+__dsl( currentUsecase.chienFemelle == OUI, "le chien est une femelle = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 2, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|en[relative-line-number,2,component-id,textGranule]")
+	she
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 3, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|en[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 4, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|en[relative-line-number,4,component-id,textGranule]")
+	he
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\lanimalAnaphor.ytextfunction", 5, "d5d1967b-cdc2-4f82-b5b7-859642a32a9d|en[relative-line-number,5,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+

@@ -1,0 +1,47 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 2, "20143732-29bc-4260-8d4c-425b0003db6b")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_CriseEpileptiforme(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 35, "20143732-29bc-4260-8d4c-425b0003db6b[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 1, "20143732-29bc-4260-8d4c-425b0003db6b[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "b37a7ee2-c010-4805-a753-d9ff3e656e6f[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_CriseEpileptiforme_text
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_CriseEpileptiforme_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 17, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 1, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,1,component-id,textGranule]")
+une crise épileptiforme peut se traduire par des
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 2, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,2,component-id,textGranule]")
+mouvements involontaires et non coordonnés (tremblements, pédalage, convulsions), 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 3, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,3,component-id,textGranule]")
+l'émission de selles ou d'urine, de l'hypersalivation (= le chien bave) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 4, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,4,component-id,textGranule]")
+et/ou une altération voire une perte totale de la conscience
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 5, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,5,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 6, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,6,component-id,textGranule]")
+seul un ou plusieurs de ces symptômes peuvent être présents
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 7, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|fr[relative-line-number,7,component-id,textGranule]")
+.
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:infobulles:textes:infoBulle_CriseEpileptiforme_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 28, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 1, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|en[relative-line-number,1,component-id,textGranule]")
+an epileptic seizure is shown by a dog having sudden, uncontrolled movements (trembling, paddling movements, convulsions), 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 2, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|en[relative-line-number,2,component-id,textGranule]")
+it may urinate, defecate, salivate (= drool) 
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 3, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|en[relative-line-number,3,component-id,textGranule]")
+and/or may lose consciousness
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 4, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|en[relative-line-number,4,component-id,textGranule]")
+.
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\infobulles\\textes\\infoBulle_CriseEpileptiforme.ytextfunction", 5, "b37a7ee2-c010-4805-a753-d9ff3e656e6f|en[relative-line-number,5,component-id,textGranule]")
+one or several of these symptoms may occur
+\);
+      ;
+   ;
+@pragma usecase()
+

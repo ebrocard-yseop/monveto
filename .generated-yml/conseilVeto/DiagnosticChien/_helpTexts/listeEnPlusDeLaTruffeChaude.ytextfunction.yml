@@ -1,0 +1,36 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 2, "a6e827bf-28e4-4cef-8d0a-d2f73e0d9468")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:listeEnPlusDeLaTruffeChaude(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 70, "a6e827bf-28e4-4cef-8d0a-d2f73e0d9468[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 1, "a6e827bf-28e4-4cef-8d0a-d2f73e0d9468[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "78076947-ecf5-4654-84f3-a6ed42e47e85[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:listeEnPlusDeLaTruffeChaude_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:listeEnPlusDeLaTruffeChaude_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 56, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 1, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[relative-line-number,1,component-id,textGranule]")
+\if(
+// SrcGenerator : 22/08/16 14:32
+@pragma source("", 1, "78076947-ecf5-4654-84f3-a6ed42e47e85[relative-line-number,1]")
+__dsl( currentUsecase.vomissements == OUI, "le chien vomit = oui" )
+)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 2, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[relative-line-number,2,component-id,textGranule]")
+	inciteraient
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 3, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[relative-line-number,3,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 4, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[relative-line-number,4,component-id,textGranule]")
+	inciterait
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 5, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[relative-line-number,5,component-id,textGranule]")
+\endIf
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\listeEnPlusDeLaTruffeChaude.ytextfunction", 6, "78076947-ecf5-4654-84f3-a6ed42e47e85|fr[relative-line-number,6,component-id,textGranule]")
+
+\);
+      ;
+   ;
+@pragma usecase()
+

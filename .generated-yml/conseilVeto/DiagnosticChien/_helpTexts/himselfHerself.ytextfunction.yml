@@ -1,0 +1,38 @@
+// SrcGenerator : 22/08/16 14:32
+// 
+@pragma usecase(conseilVeto:DiagnosticChien:_usecase)
+
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 2, "1242aa8c-73f2-4f3d-8e5a-2a1670b4d0af")
+TextFunction conseilVeto:DiagnosticChien:_helpTexts:himselfHerself(@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 30, "1242aa8c-73f2-4f3d-8e5a-2a1670b4d0af[component-id,ymlParameters]")
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 1, "1242aa8c-73f2-4f3d-8e5a-2a1670b4d0af[relative-line-number,1,component-id,ymlParameters]")
+
+)
+   --> text @pragma source("", 0, "94871e2d-cb29-4c37-bdf4-66770e19e2d4[component-id,textGranule]")
+   -> MultilingualText conseilVeto:DiagnosticChien:_helpTexts:himselfHerself_text
+      --> usecaseClass conseilVeto:DiagnosticChien:_usecase
+      --> i18nName_fr -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:himselfHerself_text__fr
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 11, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|fr[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 1, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|fr[relative-line-number,1,component-id,textGranule]")
+//no need
+\);
+      --> i18nName_en -> TextGranule conseilVeto:DiagnosticChien:_helpTexts:himselfHerself_text__en
+         @pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 23, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[component-id,textGranule]")
+         \(
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 1, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[relative-line-number,1,component-id,textGranule]")
+// Commentaire : en attente de dév par la R&D
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 2, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[relative-line-number,2,component-id,textGranule]")
+\if(getAnimal().getGender() == MASCULINE)
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 3, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[relative-line-number,3,component-id,textGranule]")
+	himself
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 4, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[relative-line-number,4,component-id,textGranule]")
+\else
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 5, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[relative-line-number,5,component-id,textGranule]")
+	herself
+@pragma source("C:\\yseop\\projects\\monveto\\src\\conseilVeto\\DiagnosticChien\\_helpTexts\\himselfHerself.ytextfunction", 6, "94871e2d-cb29-4c37-bdf4-66770e19e2d4|en[relative-line-number,6,component-id,textGranule]")
+\endIf
+\);
+      ;
+   ;
+@pragma usecase()
+
